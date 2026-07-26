@@ -1,0 +1,734 @@
+{
+  "contentPaths": [
+    {
+      "locale": "en",
+      "contentType": "guides",
+      "slug": "base-defense-guide",
+      "segments": [
+        "base-defense-guide"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Base-Defense-Guide",
+      "title": "Build a Base and Steal Base Defense Guide - Best Layout & Protection"
+    },
+    {
+      "locale": "ja",
+      "contentType": "guides",
+      "slug": "base-defense-guide",
+      "segments": [
+        "base-defense-guide"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Base-Defense-Guide",
+      "title": "Build a Base and Steal Base Defense Guide - Best Layout & Protection"
+    },
+    {
+      "locale": "en",
+      "contentType": "guides",
+      "slug": "beginner-guide",
+      "segments": [
+        "beginner-guide"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Beginner-Guide",
+      "title": "Build a Base and Steal Beginner Guide - Start Your Journey"
+    },
+    {
+      "locale": "ja",
+      "contentType": "guides",
+      "slug": "beginner-guide",
+      "segments": [
+        "beginner-guide"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Beginner-Guide",
+      "title": "Build a Base and Steal Beginner Guide - Start Your Journey"
+    },
+    {
+      "locale": "en",
+      "contentType": "guides",
+      "slug": "best-pets-guide",
+      "segments": [
+        "best-pets-guide"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Best-Pets-Guide",
+      "title": "Build a Base and Steal Best Pets Guide - Top Tier List 2026"
+    },
+    {
+      "locale": "ja",
+      "contentType": "guides",
+      "slug": "best-pets-guide",
+      "segments": [
+        "best-pets-guide"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Best-Pets-Guide",
+      "title": "Build a Base and Steal Best Pets Guide - Top Tier List 2026"
+    },
+    {
+      "locale": "en",
+      "contentType": "guides",
+      "slug": "codes-guide",
+      "segments": [
+        "codes-guide"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Codes-Guide",
+      "title": "Build a Base and Steal Codes Guide - All Active Working Codes (July 2026)"
+    },
+    {
+      "locale": "ja",
+      "contentType": "guides",
+      "slug": "codes-guide",
+      "segments": [
+        "codes-guide"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Codes-Guide",
+      "title": "Build a Base and Steal Codes Guide - All Active Working Codes (July 2026)"
+    },
+    {
+      "locale": "en",
+      "contentType": "guides",
+      "slug": "farming-guide",
+      "segments": [
+        "farming-guide"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Farming-Guide",
+      "title": "Build a Base and Steal Farming Guide - Efficient Resource Generation"
+    },
+    {
+      "locale": "ja",
+      "contentType": "guides",
+      "slug": "farming-guide",
+      "segments": [
+        "farming-guide"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Farming-Guide",
+      "title": "Build a Base and Steal Farming Guide - Efficient Resource Generation"
+    },
+    {
+      "locale": "en",
+      "contentType": "guides",
+      "slug": "pet-rolling-guide",
+      "segments": [
+        "pet-rolling-guide"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Pet-Rolling-Guide",
+      "title": "Build a Base and Steal Pet Rolling Guide - Drop Rates & Strategy"
+    },
+    {
+      "locale": "ja",
+      "contentType": "guides",
+      "slug": "pet-rolling-guide",
+      "segments": [
+        "pet-rolling-guide"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Pet-Rolling-Guide",
+      "title": "Build a Base and Steal Pet Rolling Guide - Drop Rates & Strategy"
+    },
+    {
+      "locale": "en",
+      "contentType": "guides",
+      "slug": "progression-guide",
+      "segments": [
+        "progression-guide"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Progression-Guide",
+      "title": "Build a Base and Steal Progression Guide - Level Up Fast 2026"
+    },
+    {
+      "locale": "ja",
+      "contentType": "guides",
+      "slug": "progression-guide",
+      "segments": [
+        "progression-guide"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Progression-Guide",
+      "title": "Build a Base and Steal Progression Guide - Level Up Fast 2026"
+    },
+    {
+      "locale": "en",
+      "contentType": "guides",
+      "slug": "raid-guide",
+      "segments": [
+        "raid-guide"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Raid-Guide",
+      "title": "Build a Base and Steal Raid Guide - Complete Raiding Strategy"
+    },
+    {
+      "locale": "ja",
+      "contentType": "guides",
+      "slug": "raid-guide",
+      "segments": [
+        "raid-guide"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Raid-Guide",
+      "title": "Build a Base and Steal Raid Guide - Complete Raiding Strategy"
+    },
+    {
+      "locale": "en",
+      "contentType": "guides",
+      "slug": "stealing-guide",
+      "segments": [
+        "stealing-guide"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Stealing-Guide",
+      "title": "Build a Base and Steal Stealing Guide - Advanced Pet Theft Strategies"
+    },
+    {
+      "locale": "ja",
+      "contentType": "guides",
+      "slug": "stealing-guide",
+      "segments": [
+        "stealing-guide"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Stealing-Guide",
+      "title": "Build a Base and Steal Stealing Guide - Advanced Pet Theft Strategies"
+    }
+  ],
+  "tocMap": {
+    "guides:en:base-defense-guide": [
+      {
+        "id": "understanding-base-defense-fundamentals",
+        "text": "Understanding Base Defense Fundamentals"
+      },
+      {
+        "id": "core-defense-components",
+        "text": "Core Defense Components"
+      },
+      {
+        "id": "advanced-defensive-strategies",
+        "text": "Advanced Defensive Strategies"
+      },
+      {
+        "id": "meta-defense-and-psychological-warfare",
+        "text": "Meta-Defense and Psychological Warfare"
+      },
+      {
+        "id": "advanced-base-layout-patterns",
+        "text": "Advanced Base Layout Patterns"
+      }
+    ],
+    "guides:en:beginner-guide": [
+      {
+        "id": "getting-started-in-build-a-base-and-steal",
+        "text": "Getting Started in Build a Base and Steal"
+      },
+      {
+        "id": "pet-rolling-mechanics",
+        "text": "Pet Rolling Mechanics"
+      },
+      {
+        "id": "base-building-fundamentals",
+        "text": "Base Building Fundamentals"
+      },
+      {
+        "id": "earning-passive-income",
+        "text": "Earning Passive Income"
+      },
+      {
+        "id": "protection-and-defense",
+        "text": "Protection and Defense"
+      },
+      {
+        "id": "advanced-beginner-tips",
+        "text": "Advanced Beginner Tips"
+      },
+      {
+        "id": "frequently-asked-questions",
+        "text": "Frequently Asked Questions"
+      }
+    ],
+    "guides:en:best-pets-guide": [
+      {
+        "id": "pet-rarity-system-explained",
+        "text": "Pet Rarity System Explained"
+      },
+      {
+        "id": "s-tier-legendary-pets",
+        "text": "S-Tier: Legendary Pets"
+      },
+      {
+        "id": "a-tier-epic-pets",
+        "text": "A-Tier: Epic Pets"
+      },
+      {
+        "id": "b-tier-rare-pets",
+        "text": "B-Tier: Rare Pets"
+      },
+      {
+        "id": "c-tier-uncommon-pets",
+        "text": "C-Tier: Uncommon Pets"
+      },
+      {
+        "id": "d-tier-common-pets",
+        "text": "D-Tier: Common Pets"
+      },
+      {
+        "id": "pet-synergy-and-team-composition",
+        "text": "Pet Synergy and Team Composition"
+      },
+      {
+        "id": "pet-investment-priorities",
+        "text": "Pet Investment Priorities"
+      },
+      {
+        "id": "conclusion",
+        "text": "Conclusion"
+      }
+    ],
+    "guides:en:codes-guide": [
+      {
+        "id": "current-active-codes-july-2026",
+        "text": "Current Active Codes (July 2026)"
+      },
+      {
+        "id": "how-to-redeem-codes",
+        "text": "How to Redeem Codes"
+      },
+      {
+        "id": "code-rewards-breakdown",
+        "text": "Code Rewards Breakdown"
+      },
+      {
+        "id": "code-types-and-categories",
+        "text": "Code Types and Categories"
+      },
+      {
+        "id": "tips-for-maximizing-code-value",
+        "text": "Tips for Maximizing Code Value"
+      },
+      {
+        "id": "code-community-and-sharing",
+        "text": "Code Community and Sharing"
+      },
+      {
+        "id": "troubleshooting-code-issues",
+        "text": "Troubleshooting Code Issues"
+      },
+      {
+        "id": "future-code-predictions",
+        "text": "Future Code Predictions"
+      },
+      {
+        "id": "advanced-code-strategies",
+        "text": "Advanced Code Strategies"
+      },
+      {
+        "id": "technical-code-implementation",
+        "text": "Technical Code Implementation"
+      },
+      {
+        "id": "code-related-game-features",
+        "text": "Code-Related Game Features"
+      },
+      {
+        "id": "conclusion",
+        "text": "Conclusion"
+      }
+    ],
+    "guides:en:farming-guide": [
+      {
+        "id": "understanding-resource-generation-systems",
+        "text": "Understanding Resource Generation Systems"
+      },
+      {
+        "id": "core-farming-buildings",
+        "text": "Core Farming Buildings"
+      },
+      {
+        "id": "optimal-base-layout-strategies",
+        "text": "Optimal Base Layout Strategies"
+      },
+      {
+        "id": "advanced-farming-techniques",
+        "text": "Advanced Farming Techniques"
+      },
+      {
+        "id": "resource-conversion-and-value-enhancement",
+        "text": "Resource Conversion and Value Enhancement"
+      },
+      {
+        "id": "efficiency-metrics-and-performance-tracking",
+        "text": "Efficiency Metrics and Performance Tracking"
+      },
+      {
+        "id": "advanced-strategies-and-meta-considerations",
+        "text": "Advanced Strategies and Meta Considerations"
+      }
+    ],
+    "guides:en:pet-rolling-guide": [
+      {
+        "id": "understanding-pet-rolling-mechanics",
+        "text": "Understanding Pet Rolling Mechanics"
+      },
+      {
+        "id": "budget-planning-for-optimal-rolling",
+        "text": "Budget Planning for Optimal Rolling"
+      },
+      {
+        "id": "advanced-rolling-strategies",
+        "text": "Advanced Rolling Strategies"
+      },
+      {
+        "id": "rarity-chase-strategies",
+        "text": "Rarity Chase Strategies"
+      },
+      {
+        "id": "rolling-session-management",
+        "text": "Rolling Session Management"
+      },
+      {
+        "id": "common-rolling-mistakes-to-avoid",
+        "text": "Common Rolling Mistakes to Avoid"
+      },
+      {
+        "id": "frequently-asked-questions",
+        "text": "Frequently Asked Questions"
+      }
+    ],
+    "guides:en:progression-guide": [
+      {
+        "id": "early-game-foundation-building-levels-1-20",
+        "text": "Early Game: Foundation Building (Levels 1-20)"
+      },
+      {
+        "id": "mid-game-strategic-development-levels-21-50",
+        "text": "Mid Game: Strategic Development (Levels 21-50)"
+      },
+      {
+        "id": "late-game-mastery-and-optimization-levels-51",
+        "text": "Late Game: Mastery and Optimization (Levels 51+)"
+      },
+      {
+        "id": "progression-acceleration-strategies",
+        "text": "Progression Acceleration Strategies"
+      },
+      {
+        "id": "common-progression-mistakes-to-avoid",
+        "text": "Common Progression Mistakes to Avoid"
+      },
+      {
+        "id": "conclusion",
+        "text": "Conclusion"
+      }
+    ],
+    "guides:en:raid-guide": [
+      {
+        "id": "raid-fundamentals-and-mechanics",
+        "text": "Raid Fundamentals and Mechanics"
+      },
+      {
+        "id": "pre-raid-intelligence-gathering",
+        "text": "Pre-Raid Intelligence Gathering"
+      },
+      {
+        "id": "raid-composition-and-planning",
+        "text": "Raid Composition and Planning"
+      },
+      {
+        "id": "tactical-execution-strategies",
+        "text": "Tactical Execution Strategies"
+      },
+      {
+        "id": "advanced-raiding-techniques",
+        "text": "Advanced Raiding Techniques"
+      },
+      {
+        "id": "post-raid-management",
+        "text": "Post-Raid Management"
+      }
+    ],
+    "guides:en:stealing-guide": [
+      {
+        "id": "understanding-the-stealing-mechanics",
+        "text": "Understanding the Stealing Mechanics"
+      },
+      {
+        "id": "preparation-and-equipment",
+        "text": "Preparation and Equipment"
+      },
+      {
+        "id": "target-selection-and-intelligence",
+        "text": "Target Selection and Intelligence"
+      },
+      {
+        "id": "advanced-raiding-techniques",
+        "text": "Advanced Raiding Techniques"
+      },
+      {
+        "id": "post-raid-management",
+        "text": "Post-Raid Management"
+      }
+    ],
+    "guides:ja:base-defense-guide": [
+      {
+        "id": "understanding-base-defense-fundamentals",
+        "text": "Understanding Base Defense Fundamentals"
+      },
+      {
+        "id": "core-defense-components",
+        "text": "Core Defense Components"
+      },
+      {
+        "id": "advanced-defensive-strategies",
+        "text": "Advanced Defensive Strategies"
+      },
+      {
+        "id": "meta-defense-and-psychological-warfare",
+        "text": "Meta-Defense and Psychological Warfare"
+      },
+      {
+        "id": "advanced-base-layout-patterns",
+        "text": "Advanced Base Layout Patterns"
+      }
+    ],
+    "guides:ja:beginner-guide": [
+      {
+        "id": "getting-started-in-build-a-base-and-steal",
+        "text": "Getting Started in Build a Base and Steal"
+      },
+      {
+        "id": "pet-rolling-mechanics",
+        "text": "Pet Rolling Mechanics"
+      },
+      {
+        "id": "base-building-fundamentals",
+        "text": "Base Building Fundamentals"
+      },
+      {
+        "id": "earning-passive-income",
+        "text": "Earning Passive Income"
+      },
+      {
+        "id": "protection-and-defense",
+        "text": "Protection and Defense"
+      },
+      {
+        "id": "advanced-beginner-tips",
+        "text": "Advanced Beginner Tips"
+      },
+      {
+        "id": "frequently-asked-questions",
+        "text": "Frequently Asked Questions"
+      }
+    ],
+    "guides:ja:best-pets-guide": [
+      {
+        "id": "pet-rarity-system-explained",
+        "text": "Pet Rarity System Explained"
+      },
+      {
+        "id": "s-tier-legendary-pets",
+        "text": "S-Tier: Legendary Pets"
+      },
+      {
+        "id": "a-tier-epic-pets",
+        "text": "A-Tier: Epic Pets"
+      },
+      {
+        "id": "b-tier-rare-pets",
+        "text": "B-Tier: Rare Pets"
+      },
+      {
+        "id": "c-tier-uncommon-pets",
+        "text": "C-Tier: Uncommon Pets"
+      },
+      {
+        "id": "d-tier-common-pets",
+        "text": "D-Tier: Common Pets"
+      },
+      {
+        "id": "pet-synergy-and-team-composition",
+        "text": "Pet Synergy and Team Composition"
+      },
+      {
+        "id": "pet-investment-priorities",
+        "text": "Pet Investment Priorities"
+      },
+      {
+        "id": "conclusion",
+        "text": "Conclusion"
+      }
+    ],
+    "guides:ja:codes-guide": [
+      {
+        "id": "current-active-codes-july-2026",
+        "text": "Current Active Codes (July 2026)"
+      },
+      {
+        "id": "how-to-redeem-codes",
+        "text": "How to Redeem Codes"
+      },
+      {
+        "id": "code-rewards-breakdown",
+        "text": "Code Rewards Breakdown"
+      },
+      {
+        "id": "code-types-and-categories",
+        "text": "Code Types and Categories"
+      },
+      {
+        "id": "tips-for-maximizing-code-value",
+        "text": "Tips for Maximizing Code Value"
+      },
+      {
+        "id": "code-community-and-sharing",
+        "text": "Code Community and Sharing"
+      },
+      {
+        "id": "troubleshooting-code-issues",
+        "text": "Troubleshooting Code Issues"
+      },
+      {
+        "id": "future-code-predictions",
+        "text": "Future Code Predictions"
+      },
+      {
+        "id": "advanced-code-strategies",
+        "text": "Advanced Code Strategies"
+      },
+      {
+        "id": "technical-code-implementation",
+        "text": "Technical Code Implementation"
+      },
+      {
+        "id": "code-related-game-features",
+        "text": "Code-Related Game Features"
+      },
+      {
+        "id": "conclusion",
+        "text": "Conclusion"
+      }
+    ],
+    "guides:ja:farming-guide": [
+      {
+        "id": "understanding-resource-generation-systems",
+        "text": "Understanding Resource Generation Systems"
+      },
+      {
+        "id": "core-farming-buildings",
+        "text": "Core Farming Buildings"
+      },
+      {
+        "id": "optimal-base-layout-strategies",
+        "text": "Optimal Base Layout Strategies"
+      },
+      {
+        "id": "advanced-farming-techniques",
+        "text": "Advanced Farming Techniques"
+      },
+      {
+        "id": "resource-conversion-and-value-enhancement",
+        "text": "Resource Conversion and Value Enhancement"
+      },
+      {
+        "id": "efficiency-metrics-and-performance-tracking",
+        "text": "Efficiency Metrics and Performance Tracking"
+      },
+      {
+        "id": "advanced-strategies-and-meta-considerations",
+        "text": "Advanced Strategies and Meta Considerations"
+      }
+    ],
+    "guides:ja:pet-rolling-guide": [
+      {
+        "id": "understanding-pet-rolling-mechanics",
+        "text": "Understanding Pet Rolling Mechanics"
+      },
+      {
+        "id": "budget-planning-for-optimal-rolling",
+        "text": "Budget Planning for Optimal Rolling"
+      },
+      {
+        "id": "advanced-rolling-strategies",
+        "text": "Advanced Rolling Strategies"
+      },
+      {
+        "id": "rarity-chase-strategies",
+        "text": "Rarity Chase Strategies"
+      },
+      {
+        "id": "rolling-session-management",
+        "text": "Rolling Session Management"
+      },
+      {
+        "id": "common-rolling-mistakes-to-avoid",
+        "text": "Common Rolling Mistakes to Avoid"
+      },
+      {
+        "id": "frequently-asked-questions",
+        "text": "Frequently Asked Questions"
+      }
+    ],
+    "guides:ja:progression-guide": [
+      {
+        "id": "early-game-foundation-building-levels-1-20",
+        "text": "Early Game: Foundation Building (Levels 1-20)"
+      },
+      {
+        "id": "mid-game-strategic-development-levels-21-50",
+        "text": "Mid Game: Strategic Development (Levels 21-50)"
+      },
+      {
+        "id": "late-game-mastery-and-optimization-levels-51",
+        "text": "Late Game: Mastery and Optimization (Levels 51+)"
+      },
+      {
+        "id": "progression-acceleration-strategies",
+        "text": "Progression Acceleration Strategies"
+      },
+      {
+        "id": "common-progression-mistakes-to-avoid",
+        "text": "Common Progression Mistakes to Avoid"
+      },
+      {
+        "id": "conclusion",
+        "text": "Conclusion"
+      }
+    ],
+    "guides:ja:raid-guide": [
+      {
+        "id": "raid-fundamentals-and-mechanics",
+        "text": "Raid Fundamentals and Mechanics"
+      },
+      {
+        "id": "pre-raid-intelligence-gathering",
+        "text": "Pre-Raid Intelligence Gathering"
+      },
+      {
+        "id": "raid-composition-and-planning",
+        "text": "Raid Composition and Planning"
+      },
+      {
+        "id": "tactical-execution-strategies",
+        "text": "Tactical Execution Strategies"
+      },
+      {
+        "id": "advanced-raiding-techniques",
+        "text": "Advanced Raiding Techniques"
+      },
+      {
+        "id": "post-raid-management",
+        "text": "Post-Raid Management"
+      }
+    ],
+    "guides:ja:stealing-guide": [
+      {
+        "id": "understanding-the-stealing-mechanics",
+        "text": "Understanding the Stealing Mechanics"
+      },
+      {
+        "id": "preparation-and-equipment",
+        "text": "Preparation and Equipment"
+      },
+      {
+        "id": "target-selection-and-intelligence",
+        "text": "Target Selection and Intelligence"
+      },
+      {
+        "id": "advanced-raiding-techniques",
+        "text": "Advanced Raiding Techniques"
+      },
+      {
+        "id": "post-raid-management",
+        "text": "Post-Raid Management"
+      }
+    ]
+  }
+}

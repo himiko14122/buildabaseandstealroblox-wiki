@@ -1,0 +1,13 @@
+{
+  "name": "DragonSword: Awakening Wiki",
+  "short_name": "DSA Wiki",
+  "description": "Complete wiki for DragonSword: Awakening — all 19 Heroes, tag combo guides, tier lists, exploration tips and builds for the anime open-world action RPG.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0d1b2a",
+  "theme_color": "#e8b44c",
+  "icons": [
+    { "src": "/favicon-96x96.png", "sizes": "96x96", "type": "image/png" },
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
