@@ -786,6 +786,26 @@
     box-shadow: 0 8px 32px rgba(232, 180, 76, 0.12);
     border-color: var(--color-accent);
   }
+  .category-card {
+    position: relative;
+    overflow: hidden;
+  }
+  .category-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 3px;
+    background: linear-gradient(180deg, var(--color-accent), var(--color-accent-secondary));
+    opacity: 0.6;
+    transition: opacity 0.3s, width 0.3s;
+    border-radius: 0 2px 2px 0;
+  }
+  .category-card:hover::before {
+    opacity: 1;
+    width: 4px;
+  }
 
   [data-theme="light"] .badge-s { border-color: rgba(232, 180, 76, 0.25); }
   [data-theme="light"] .badge-a { border-color: rgba(21, 128, 61, 0.25); }

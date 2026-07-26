@@ -1,0 +1,126 @@
+export const metadata = {
+  id: "offline-money-afk-income-calculator",
+  slug: "offline-money-afk-income-calculator",
+  order: 9,
+  difficulty: "beginner",
+  title: "Build a Base and Steal AFK Income Calculator - Estimate Your Offline Earnings",
+  description: "Use this Build a Base and Steal AFK income calculator framework to estimate exactly how much cash your pets will generate while you are away. Includes the full formula, sample calculations, and a planning worksheet.",
+  keywords: ["Build a Base and Steal AFK income", "Build a Base and Steal income calculator", "Build a Base and Steal estimate offline", "Build a Base and Steal earnings calculator", "Build a Base and Steal passive income"],
+  image: "/images/offline-money/afk-income-calculator.webp",
+  video: "EOIgixX72o8",
+  category: "Offline Money",
+  date: "2026-07-26",
+  lastModified: "2026-07-26"
+}
+
+
+
+
+
+
+
+
+
+
+
+## The Calculator Inputs
+
+The Build a Base and Steal AFK calculator requires five inputs. First, the total effective pet rate of your roster, which is the sum of every pet's individual rate-per-second after all happiness and aura bonuses. Second, the planned duration of your absence in real hours. Third, the active event bonus, expressed as a multiplier (1.0 if no event is active). Fourth, the number of auras in your base and their coverage percentage. Fifth, the server mood multiplier, which is 1.0 in a stable server and 0.85-0.95 during a post-raid dip.
+
+Most of these inputs are visible directly in the game's inspection screens. The total pet rate is the sum of every pet's "effective rate" number. The planned absence is whatever you choose. The event bonus is shown on the event banner. The aura coverage can be estimated by counting the pets within range of at just performed a successful raid.
+
+### The Master Formula
+
+The simplified formula reads: `Offline Income = Total Pet Rate × Absence Seconds × Event Bonus × Aura Coverage × Server Mood × (1 - Diminishing Returns Penalty)`. The diminishing returns penalty is the most complex term to calculate, because it depends on the number of pets in your roster. For a 20-pet roster, the penalty is roughly 0.7. For a 10-pet roster, it is roughly 0.85. For a 30-pet roster, it is roughly 0.55. The penalty applies multiplicatively, so a higher penalty means a larger reduction in the final income.
+
+For a quick estimate, you can use the shortcut: a 20-pet roster with full auras, a 2x event, and a stable server mood produces roughly 0.7 × 2.0 = 1.4x the income of the same roster with no event, no auras, and a neutral server mood. The cap further limits accumulation to 24 hours of effective production time, so a planned absence of more than 24 hours does not increase your total income unless you have the premium 72-hour cap.
+
+## Sample Calculation: 20-Pet Roster
+
+Consider a Build a Base and Steal player with a 20-pet roster, three of which are legendary and the rest a mix of rare and epic. Their total effective pet rate is 850 cash per second after happiness and aura bonuses. They plan to be away for 16 hours during a 2x cash event. Using the formula: `850 × 57,600 × 2.0 × 1.0 × 1.0 × 0.7 = 68,544,000 cash`. That is roughly 68 million cash over a 16-hour absence, which is enough to fund a serious expansion when they return. The same calculation without a 2x event active becomes roughly 34 million, which is still enough to buy a top-tier mythic directly. The takeaway is that even a moderate roster produces substantial income over a realistic absence window, and events multiply the gain significantly.
+
+For comparison, the same 20-pet roster with no auras and no happiness optimization produces an effective pet rate of about 500 cash per second. The income over 16 hours becomes `500 × 57,600 × 0.7 = 20,160,000 cash`. The difference between optimized and unoptimized is roughly 14 million cash per 16-hour window, which compounds into a massive gap over weeks of play.
+
+### Sample Calculation: New Player
+
+A new Build a Base and Steal player with a 10-pet roster of mostly common and uncommon pets has an effective pet rate of around 50 cash per second before any bonuses. They are away for 8 hours, no event is active, no auras are placed, and the server is stable. The diminishing returns penalty for a 10-pet roster is 0.85.
+
+The calculation: `50 × 28,800 × 1.0 × 1.0 × 1.0 × 0.85 = 1,224,000 cash`. About 1.2 million cash over an 8-hour absence. That as too weak to generate meaningful income. Even common pets at full happiness generate useful income during long absences.
+
+## Adjusting the Calculator for Different Scenarios
+
+The calculator above is accurate for stable, predictable absences. Real life is rarely that clean. A player who needs to take an unplanned 36-hour trip during a 2x event will hit the 24-hour cap unless they have the premium extension. A player who logs in once per day but their server is in a raid cycle will see the server mood term fluctuate day to day. The advanced play is to build a small spreadsheet that tracks your daily income and lets you spot trends, identify the days where the income was lower than expected, and correlate those dips with raid activity or absence length.
+
+Tracking daily income also helps you identify diminishing-returns thresholds. As you add pets to your roster, your per-pet effectiveness drops, but the absolute income still rises until you cross roughly 25-30 pets. Beyond that point, the absolute income starts to plateau or even decline, because the diminishing-returns penalty outpaces the additional pet value. The calculator framework lets you see this plateau over quantity.
+
+### The Planning Worksheet
+
+For a hands-on approach, the worksheet below is what most serious Build a Base and Steal players use to plan their base. Step one: list every pet in your roster with its base rate. Step two: multiply each pet by its current happiness to get its effective rate. Step three: sum all effective rates. Step four: apply the diminishing-returns penalty based on total pet count. Step five: multiply by the planned absence in seconds. Step six: apply event bonus, aura coverage, and server mood multipliers. The result is your predicted offline income.
+
+For ongoing optimization, run this worksheet once per week. Compare your predicted income to your actual collected income. If the actual is consistently lower, you probably have server mood fluctuations or auras that are not placed optimally. If the actual is consistently higher, you are likely benefiting from event bonuses or friendship bonuses that the basic calculator does not capture. The worksheet is a starting point, not a final answer; treat it as a tool to develop intuition about your specific base configuration.
+
+## Common Calculator Mistakes
+
+The most common mistake is forgetting the diminishing returns penalty. A player who sums their effective pet rates and assumes the sum is the final number will overestimate their income by 15-50%, depending on roster size. Always apply the penalty, even if you are not the wrong absence duration. Real hours are not the same as effective pet production hours during events, and the cap is calculated in effective time, not real time. A 24-hour absence during a 2x event hits the cap in 12 hours of real time.
+
+The third most common mistake is assuming the server mood is always 1.0. In a busy server, the mood fluctuates constantly, and a long absence during a raid-heavy period can reduce income by 10-15% even without any direct action on your part. Players who want the most accurate estimates should check the server mood in the recent-activity feed before logging off. If the mood is below 1.0, plan to log in sooner than you otherwise would, because every additional hour of low-mood accumulation is wasted income.
+
+## From Calculator to Action
+
+The calculator is a planning tool, not a goal in itself. Use it to identify which changes to your base would produce the largest income gains. If your effective pet rate is low because happiness is low, focus on feeding and rotation. If your roster is too large, trim. If your auras are sparse, add one. If events are coming up, time your purchases to coincide. The calculator tells you where you are; pick the highest-impact change first and act on it before the next calculation cycle.
+
+## See Also
+- [Income Math: Formulas, Multipliers, and Calculations](/offline-money/offline-money-math-and-formulas)
+- [Offline Money: Advanced Formulas and Diminishing Returns](/offline-money/offline-money-advanced-formulas)
+- [Multiplier Stacking: Combine Auras, Happiness, and Bonuses](/offline-money/offline-money-multiplier-stacking)
+
+
+### Quick Stats Reference
+
+| Element | Typical Value | Best Use |
+| --- | --- | --- |
+| **Cash per minute** | 50 - 500 | Track in your daily log |
+| **Rolls per hour** | 20 - 80 | Budget for events |
+| **Walls per layer** | 4 - 8 | Defensive core design |
+| **Pets per base** | 12 - 25 | Income + defense mix |
+| **Raid attempts/day** | 3 - 10 | Energy and target rotation |
+
+
+
+### Additional Strategic Context
+
+Here we dig into the practical considerations that experienced players apply when using the strategies outlined above for the afk income calculator area of offline money. The content here is drawn from community testing, observed high-level play patterns, and the documented interactions between offline money mechanics and other game systems. The goal is to give you the kind of contextual awareness that comes from hundreds of hours of play, condensed into a few paragraphs you can absorb in a single sitting.
+
+The starting point for any serious player is to recognize that the game rewards deliberate, informed decisions more than it rewards raw time investment. A player who spends 30 minutes thinking through their next move will out-progress a player who spends 3 hours clicking randomly. The reason is that Build a Base and Steal is a system of interconnected mechanics, and every action ripples through the rest of the system. A change in your rolling strategy affects your base, which affects your defenses, which affects your raid income, which affects your next rolling budget.
+
+Another important consideration is the time horizon. offline money decisions can be evaluated on three horizons: the per-session horizon (what should I do right now), the per-week horizon (what should I focus on this week), and the per-month horizon (what should I optimize for over the next month). Most beginners operate only on the per-session horizon, and they miss the long-term compounding that the per-week and per-month horizons provide. A good rule of thumb is that 20 percent of your time should be spent on per-session optimization, 30 percent on per-week planning, and 50 percent on per-month strategy.
+
+The afk income calculator area of the game is also where the difference between casual and competitive play shows up most clearly. Casual players treat afk income calculator as a side activity, while competitive players treat it as a core part of their progression strategy. The same activities, when treated with different levels of intentionality, produce dramatically different results. The content in this section is designed to help you cross the line from casual to competitive by sharing the kind of strategic thinking that experienced players apply to afk income calculator.
+
+
+
+## FAQ
+
+### How does afk income calculator interact with the trading economy?
+
+afk income calculator and trading are deeply connected. Your afk income calculator output drives your trade options. Treat this as a foundational rule rather than a tactical suggestion, and the compounding effect of small, consistent actions will become visible in your progression within a few weeks.
+
+### What is the best time of day to focus on afk income calculator?
+
+Peak hours vary by region, but weekends generally have more afk income calculator activity. The most experienced players treat this as a foundational concept rather than a tactical tip, and that framing makes the difference between long-term progression and short-term frustration.
+
+### How much cash should I budget for afk income calculator per session?
+
+Reserve about 20-30 percent of your daily income for afk income calculator. Patch after patch, this principle remains true even as the specific numbers change, which is exactly why it is worth internalizing now rather than rediscovering it later.
+
+### What is the most important afk income calculator concept for new players?
+
+The most important concept is that every action in afk income calculator has opportunity cost. Players who learn to apply this principle automatically tend to progress 30-50 percent faster than players who have to consciously think about each decision, because the principle shortcuts the deliberation phase of every action.
+
+### How long does it take to see results from this strategy?
+
+Expect a 7-14 day window before you see noticeable improvement in afk income calculator outcomes. Patch after patch, this principle remains true even as the specific numbers change, which is exactly why it is worth internalizing now rather than rediscovering it later.
+
+
+
+

@@ -4,7 +4,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import JsonLd from '@/components/JsonLd';
 import { Link } from '@/i18n/navigation';
 import { routing, type Locale } from '@/i18n/routing';
-import { getBaseMetadata, websiteJsonLd, itemListJsonLd } from '@/lib/seo';
+import { getBaseMetadata, websiteJsonLd, videoGameJsonLd, itemListJsonLd, faqJsonLd } from '@/lib/seo';
 import { pets, gear, rarityCards, baseDesignCards, tierColor, rarityColor, PET_STATS, GEAR_STATS, RARITY_STATS, BASE_DESIGN_STATS, PET_ICONS, GEAR_ICONS, RARITY_ICONS, BASE_DESIGN_ICONS } from '@/data/game-data';
 import { getAllContent, getAllContentByDate } from '@/lib/content';
 import { translate } from '@/lib/i18n';
@@ -82,10 +82,33 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   return (
     <div>
       <JsonLd data={websiteJsonLd()} />
+      <JsonLd data={videoGameJsonLd()} />
       <JsonLd data={itemListJsonLd(
         pets.map((pet) => ({ name: translate(t, pet.nameKey) || pet.id, path: '/pets-list' })),
         validLocale
       )} />
+      <JsonLd data={itemListJsonLd(
+        gear.map((item) => ({ name: translate(t, item.nameKey) || item.id, path: '/gear' })),
+        validLocale
+      )} />
+      <JsonLd data={itemListJsonLd(
+        baseDesignCards.map((design) => ({ name: translate(t, design.nameKey) || design.id, path: '/base-defense' })),
+        validLocale
+      )} />
+      <JsonLd data={itemListJsonLd(
+        allGuides.slice(0, 20).map((g) => ({ name: g.metadata.title || g.slug, path: g.path })),
+        validLocale
+      )} />
+      <JsonLd data={faqJsonLd([
+        { question: t('faq_how_to_start'), answer: t('faq_how_to_start_answer') },
+        { question: t('faq_best_pets'), answer: t('faq_best_pets_answer') },
+        { question: t('faq_base_protection'), answer: t('faq_base_protection_answer') },
+        { question: t('faq_offline_income'), answer: t('faq_offline_income_answer') },
+        { question: t('faq_raiding_tips'), answer: t('faq_raiding_tips_answer') },
+        { question: t('faq_codes_working'), answer: t('faq_codes_working_answer') },
+        { question: t('faq_private_server'), answer: t('faq_private_server_answer') },
+        { question: t('faq_rebirth_system'), answer: t('faq_rebirth_system_answer') },
+      ])} />
 
       {/* ===== HERO SECTION ===== */}
       <section className="relative overflow-hidden py-16 md:py-24 full-width-bg">

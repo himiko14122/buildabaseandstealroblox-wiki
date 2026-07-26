@@ -17,21 +17,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const validLocale = routing.locales.includes(locale as Locale) ? (locale as Locale) : routing.defaultLocale;
   setRequestLocale(validLocale);
   const t = await getTranslations();
-  return {
-    title: `${t('nav_termsOfService')} | ${t('site_title')}`,
-    description: t('page_termsOfService_description'),
-    alternates: {
-      canonical: `${SITE_URL}/terms-of-service`,
-      languages: {
-        'en': `${SITE_URL}/terms-of-service`,
-        'ko': `${SITE_URL}/ko/terms-of-service`,
-        'ja': `${SITE_URL}/ja/terms-of-service`,
-        'de': `${SITE_URL}/de/terms-of-service`,
-        'x-default': `${SITE_URL}/terms-of-service`,
-      },
-    },
-    keywords: ['DragonSword Awakening Wiki Terms of Service', 'DragonSword Awakening terms', 'DragonSword Awakening usage terms'],
-  };
+  return getBaseMetadata(
+    '/terms-of-service',
+    validLocale,
+    `${t('nav_termsOfService')} | ${t('site_title')}`,
+    t('page_termsOfService_description'),
+    'website',
+    '/og/default.png',
+    ['Build a Base and Steal wiki terms of service', 'Build a Base and Steal terms', 'Build a Base and Steal usage terms'],
+  );
 }
 
 export default async function TermsOfServicePage({ params }: { params: Promise<{ locale: string }> }) {

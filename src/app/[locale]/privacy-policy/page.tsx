@@ -17,21 +17,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const validLocale = routing.locales.includes(locale as Locale) ? (locale as Locale) : routing.defaultLocale;
   setRequestLocale(validLocale);
   const t = await getTranslations();
-  return {
-    title: `${t('nav_privacyPolicy')} | ${t('site_title')}`,
-    description: t('page_privacyPolicy_description'),
-    alternates: {
-      canonical: `${SITE_URL}/privacy-policy`,
-      languages: {
-        'en': `${SITE_URL}/privacy-policy`,
-        'ko': `${SITE_URL}/ko/privacy-policy`,
-        'ja': `${SITE_URL}/ja/privacy-policy`,
-        'de': `${SITE_URL}/de/privacy-policy`,
-        'x-default': `${SITE_URL}/privacy-policy`,
-      },
-    },
-    keywords: ['DragonSword Awakening Wiki Privacy Policy', 'DragonSword Awakening privacy', 'DragonSword Awakening data collection'],
-  };
+  return getBaseMetadata(
+    '/privacy-policy',
+    validLocale,
+    `${t('nav_privacyPolicy')} | ${t('site_title')}`,
+    t('page_privacyPolicy_description'),
+    'website',
+    '/og/default.png',
+    ['Build a Base and Steal wiki privacy policy', 'Build a Base and Steal privacy', 'Build a Base and Steal data collection'],
+  );
 }
 
 export default async function PrivacyPolicyPage({ params }: { params: Promise<{ locale: string }> }) {

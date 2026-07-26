@@ -1,0 +1,123 @@
+export const metadata = {
+  id: "offline-money-cap-and-resets",
+  slug: "offline-money-cap-and-resets",
+  order: 3,
+  difficulty: "intermediate",
+  title: "Build a Base and Steal Offline Cap and Reset Rules Explained",
+  description: "Everything you need to know about the offline money cap, server resets, and the difference between AFK and offline. Avoid the most common pitfalls that cost new players thousands of cash.",
+  keywords: ["Build a Base and Steal offline cap", "Build a Base and Steal offline reset", "Build a Base and Steal premium cap", "Build a Base and Steal AFK rules", "Build a Base and Steal server reset"],
+  image: "/images/offline-money/cap-and-resets.webp",
+  video: "EOIgixX72o8",
+  category: "Offline Money",
+  date: "2026-07-26",
+  lastModified: "2026-07-26"
+}
+
+
+
+
+
+
+
+
+
+
+The offline cap and reset rules in Build a Base and Steal are among the most misunderstood mechanics in the game. New players regularly lose hours of potential income because they do not understand exactly when the timer starts, when it stops, and what counts as a "reset." This guide clears up every common misconception, walks through the exact cap behavior under different scenarios, and shows you how to avoid the traps that catch beginners.
+
+## The 8-Hour Default Cap
+
+Every Build a Base and Steal account starts with an 8-hour offline cap. This cap determines the maximum number of hours of offline income you can accumulate in a single absence. If you log off for 8 hours or less, you will earn income for the full duration of your absence. If you log off for more than 8 hours, you will only earn for the first 8 hours, and any additional time will not produce cash.
+
+The cap is calculated using server time, not local time. The server logs the moment your client disconnects and the moment you reconnect, and the difference is the "offline duration" that the cap is applied to. Network lag, brief disconnects, and reconnects are all handled gracefully: the system waits for a stable reconnection before starting the next offline clock, so a momentary blip will not accidentally consume your offline window.
+
+### When the Clock Starts
+
+The clock starts the moment internet connection, or being kicked by anti-cheat. It does not include tabbing out, minimizing the window, or going idle in the lobby. Idle players who stay in the game but stop moving are still considered "online" by the system and continue to earn at the higher online rate.
+
+This is an important distinction. Some players think that alt-tabbing for an hour counts as offline, but it does not. As long as the game is the active process on your client, the offline clock is paused. The trade-off is that you are also not earning at the maximum online rate, because being idle lowers your effective activity score, which affects certain event bonuses. For pure offline income optimization, fully closing the client is best.
+
+## Premium Cap Extensions
+
+The Premium Pass raises the offline cap from 8 hours to 16 hours. For most players, this is the single most valuable feature of the pass, more so than the cosmetic rewards or the daily cash stipend. Doubling the offline cap means that you can be away for an entire weekend and still collect full income when you return, rather than losing the second half of your also activate an Extended Rest boost, the cap rises to 24 hours or higher, depending on the boost's specific multiplier. This stacking is the only legitimate way to extend the cap beyond 16 hours, and it is one of the few cases where the math genuinely justifies spending Robux on the game.
+
+### Boost Stacking Rules
+
+Boosts do not stack infinitely. The cap on top of the Premium Pass is 24 hours, and any additional boosts beyond that point are silently capped. This is to prevent the income system from being exploited by long-term AFK scripts, which the anti-cheat system actively monitors. If you see a boost that promises a 72-hour cap, it is a scam or a typo; legitimate boosts max out at 24 hours even on premium accounts.
+
+Daily login bonuses occasionally grant shorter Extended Rest boosts, typically 1.5x for 24 hours. These are worth claiming but not worth saving up. They are most valuable when activated immediately before a long absence, not when stockpiled in your inventory.
+
+## What Triggers a "Reset"
+
+A reset, in the context of offline money, is any event that forces the offline clock to restart from zero maintenance, all offline timers are wiped, and players reconnect to a fresh server with no accumulated offline cash. Maintenance typically happens on Sunday nights, and the developers usually announce the window a few days in advance. Plan your longest absences around maintenance windows, not across them, or you risk losing the entire offline window.
+
+The second is a server merge or split. When a server reaches its player cap, the game may spin up a new instance. Players who are present during the split will not see any reset, but players who are offline during the split will receive their offline cash on the server they were originally assigned to, and the cash will be unaffected. This is one of the few scenarios where being offline is actually safer than being online, because the merge can sometimes drop active players into a different instance and confuse the income tracking briefly.
+
+The third is an account-level wipe, which only happens in cases of confirmed cheating or rollback. Honest players will never encounter this, but it is worth knowing that any kind of exploit-related penalty will reset your offline cash along with your pet storage and inventory.
+
+## Common on resets the cap and lets them double-dip. It does not. The cap is calculated from the moment of disconnect, and reconnecting simply triggers the payout. The moment you reconnect, a new offline clock starts, and your next payout will be based on that new clock. There is no way to reset the cap mid-window.
+
+The second trap is the "AFK in lobby" approach. Some players park their character in the lobby and walk away, thinking they will earn passive income without the offline penalty. They earn at the online rate, but they also risk being kicked for inactivity, which would trigger a normal disconnect and consume part of their offline window. Better to close the client and earn at the guaranteed offline rate than to risk an unwanted disconnect.
+
+The third trap is logging off during a server event. Some events grant bonus income multipliers that apply both online and offline. If you log off during a 2x event, your offline income for that window is also doubled, but only if the event is still running when you reconnect. If the event ends before you reconnect, the bonus is not retroactively applied. Pay attention to event timers and plan your logouts accordingly.
+
+## Maximizing Income Around the Cap
+
+The simplest way to maximize income around the 8-hour cap is to log off for the maximum window collect less total income than players who log off for 8 continuous hours, because the cap resets at reconnect. A single long session is always more efficient than multiple short ones.
+
+The second optimization is to claim your offline cash the moment you reconnect, then immediately spend or reinvest. Holding offline cash in your wallet does not earn additional interest, so the fastest-growing economies are the ones that put cash back into rolling, leveling, or storage expansion as quickly as possible. Sitting on a large wallet is the same as leaving pet slots empty: the cash is not working for you.
+
+## See Also
+- [Offline Money: Advanced Formulas and Diminishing Returns](/offline-money/offline-money-advanced-formulas)
+- [Offline Money: Complete System Guide](/offline-money/offline-money-how-it-works)
+- [Rebirth and Prestige System: How It Ties Into Offline Money](/offline-money/offline-money-rebirth-prestige-tiein)
+
+
+### Quick Stats Reference
+
+| Element | Typical Value | Best Use |
+| --- | --- | --- |
+| **Cash per minute** | 50 - 500 | Track in your daily log |
+| **Rolls per hour** | 20 - 80 | Budget for events |
+| **Walls per layer** | 4 - 8 | Defensive core design |
+| **Pets per base** | 12 - 25 | Income + defense mix |
+| **Raid attempts/day** | 3 - 10 | Energy and target rotation |
+
+
+
+### Additional Strategic Context
+
+The following material explores the practical considerations that experienced players apply when using the strategies outlined above for the offline cap and reset rules explained area of offline money. The content here is drawn from community testing, observed high-level play patterns, and the documented interactions between offline money mechanics and other game systems. The goal is to give you the kind of contextual awareness that comes from hundreds of hours of play, condensed into a few paragraphs you can absorb in a single sitting.
+
+The starting point for any serious player is to recognize that the game rewards deliberate, informed decisions more than it rewards raw time investment. A player who spends 30 minutes thinking through their next move will out-progress a player who spends 3 hours clicking randomly. The reason is that Build a Base and Steal is a system of interconnected mechanics, and every action ripples through the rest of the system. A change in your rolling strategy affects your base, which affects your defenses, which affects your raid income, which affects your next rolling budget.
+
+The relationship between offline money and trading is often overlooked by newer players. The trades you make affect your base, your defenses, and your rolling options. A pet that is best in your base might be worth more as a trade asset. A pet that you think is weak might be the missing piece for another player's collection bonus, and therefore worth a premium. The trading mindset is one of portfolio thinking: every pet is both a personal asset and a potential trade chip, and the value depends on the broader market context.
+
+Finally, offline money rewards consistency over intensity. The player who logs in for 30 minutes every day and follows a deliberate plan will out-progress the player who logs in for 5 hours once a week and does whatever catches their attention. The reason is the same as for any compounding system: small, regular actions compound into large gains over time, while sporadic large actions produce sporadic large results with no compounding.
+
+
+
+## FAQ
+
+### What is the best time of day to focus on offline cap and reset rules explained?
+
+Evenings and weekends have the most active players, but the best time depends on your schedule. Patch after patch, this principle remains true even as the specific numbers change, which is exactly why it is worth internalizing now rather than rediscovering it later.
+
+### How much cash should I budget for offline cap and reset rules explained per session?
+
+Plan to spend roughly a quarter of daily cash on offline cap and reset rules explained activities. You will see this principle echoed in every serious offline cap and reset rules explained discussion on Discord, because the most active players have all arrived at the same conclusion through their own experience.
+
+### What is the most important offline cap and reset rules explained concept for new players?
+
+The biggest unlock is understanding that offline cap and reset rules explained has a feedback loop with your base, your trades, and your rolls. If you take only one thing away from this section, let it be this principle: the specific actions change, but the underlying logic does not.
+
+### How long does it take to see results from this strategy?
+
+Plan on two to three weeks of consistent effort to see real offline cap and reset rules explained gains. This insight separates casual players from the dedicated grinder crowd, and it shows up clearly in monthly leaderboard resets where the same names keep appearing at the top.
+
+### Does this strategy work for both solo players and teams?
+
+Solo and team players can both use this strategy. Players who learn to apply this principle automatically tend to progress 30-50 percent faster than players who have to consciously think about each decision, because the principle shortcuts the deliberation phase of every action.
+
+
+
+

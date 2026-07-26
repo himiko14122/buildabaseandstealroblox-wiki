@@ -2,7 +2,7 @@ import { routing, type Locale } from '@/i18n/routing';
 
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://buildabaseandstealroblox.wiki';
 export const SITE_NAME = 'Build a Base and Steal Wiki';
-export const HERO_IMAGE = '/images/hero.webp';
+export const HERO_IMAGE = '/hero-image-new.png';
 export const LOGO_IMAGE = '/favicon.svg';
 export const TWITTER_HANDLE = 'BuildBaseSteal';
 export const GA_TRACKING_ID = 'G-LC9021XYBB';

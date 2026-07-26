@@ -51,7 +51,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       title: t('site_title'),
       description: t('site_description'),
       url: absoluteUrl(locale === 'en' ? '/' : `/${locale}`),
-      siteName: 'DragonSword: Awakening Wiki',
+      siteName: 'Build a Base and Steal Wiki',
       locale: getOgLocale(locale),
       alternateLocale: localeList.map(getOgLocale),
       type: 'website',
@@ -125,7 +125,8 @@ export default async function LocaleLayout({ children, params }: { children: Rea
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
         <link rel="dns-prefetch" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
-        <link rel="dns-prefetch" href="https://pl30429091.effectivecpmnetwork.com" />
+        <link rel="dns-prefetch" href="https://pl30492415.effectivecpmnetwork.com" />
+        <link rel="dns-prefetch" href="https://www.highperformanceformat.com" />
         {GA_TRACKING_ID && (
           <>
             <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`} strategy="lazyOnload" />

@@ -2,8 +2,14 @@ node_modules/
 .next/
 .env
 .env.*
-!.env.production
+.env.production
 .env*.local
 out/
 .astro/
 .codeflicker/
+
+# Build artifacts
+build.zip
+
+# Stale knowledge/backup data from previous project
+knowledge/

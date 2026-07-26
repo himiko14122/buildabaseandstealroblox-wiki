@@ -3,12 +3,30 @@
 User-agent: *
 Allow: /
 
+# AI crawlers (GPTBot, Claude, Perplexity, Google-Extended) are welcome
+User-agent: GPTBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# Disallow ad/asset internals (keep public surfaces crawlable)
+Disallow: /ads/
+
 # Sitemap
 Sitemap: https://buildabaseandstealroblox.wiki/sitemap.xml
-
-# Disallow specific paths if needed
-# Disallow: /api/
-# Disallow: /admin/
 
 # Crawl-delay for respectful crawling
 Crawl-delay: 1

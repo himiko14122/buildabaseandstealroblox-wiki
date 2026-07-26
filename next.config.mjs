@@ -37,6 +37,10 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  env: {
+    NEXT_PUBLIC_GA_ID: 'G-LC9021XYBB',
+    NEXT_PUBLIC_CLOUDFLARE_ZONE_ID: '400c73d67260aa25b61c9b1f232d7c17',
+  },
 };
 
 export default withNextIntl(withMDX(nextConfig));

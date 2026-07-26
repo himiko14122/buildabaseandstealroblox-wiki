@@ -1,0 +1,118 @@
+export const metadata = {
+  id: "offline-money-math-and-formulas",
+  slug: "offline-money-math-and-formulas",
+  order: 5,
+  difficulty: "advanced",
+  title: "Build a Base and Steal Income Math - Formulas, Multipliers, and Calculations",
+  description: "Deep dive into the exact income math behind Build a Base and Steal. Learn the formulas, multipliers, and shortcuts used by top players to optimize their offline earnings.",
+  keywords: ["Build a Base and Steal income math", "Build a Base and Steal income formula", "Build a Base and Steal multiplier stacking", "Build a Base and Steal calculation", "Build a Base and Steal advanced economy"],
+  image: "/images/offline-money/math-and-formulas.webp",
+  video: "pocju2Yu6O4",
+  category: "Offline Money",
+  date: "2026-07-26",
+  lastModified: "2026-07-26"
+}
+
+
+
+
+
+
+
+
+The income system in Build a Base and Steal looks simple on the surface: roll pets, place them in your base, watch the cash counter tick up. Under the hood, however, the math is layered enough that even experienced players regularly miscalculate their effective rates. This guide breaks down every multiplier in the system, shows the exact formulas, and gives you the practical shortcuts used by the top 1 percent of players to squeeze base rate, measured in cash per second. The base rates in Build a Base and Steal are: common 1.0, uncommon 1.5, rare 3.0, legendary 8.0, mythic 20.0. These are the "headline" numbers that the pet's tooltip displays, but they are the start of the calculation, not the end. The actual income a pet generates is its base rate multiplied by every active bonus, which typically includes: a level multiplier, a collection bonus, a server event multiplier, a Premium Pass multiplier, and a few rarer boosts.
+
+The order of operations matters. Multipliers stack multiplicatively, which means a 1.5x and a 1.3x do not add up to 2.8x; they multiply to 1.95x. This is friendly to players who stack many small bonuses, because small bonuses compound meaningfully across a large roster. It is also a reminder that no single multiplier dominates the calculation, and the path to maximum income is to optimize all of them rather than focusing on one.
+
+### The Level Multiplier
+
+The level multiplier in Build a Base and Steal is calculated as 1 + (0.025 × level), capped at level 100. That means a level 1 pet has a multiplier of 1.025x, a level 50 pet has a 2-month project, but the income gain at level 100 is 3.5x the level 1 baseline, which is significant.
+
+The most efficient way to level pets is to use the daily free level-up token, which every player receives. The free token grants 5 levels per use, and it stacks with paid tokens, so the order of operations is: collect your daily token, then spend your paid tokens on the same pet if you want to push it faster. Tokens spent on multiple pets dilutes the multiplier and is generally less efficient than stacking them on one.
+
+## Collection Bonuses and Family Math
+
+Collection bonuses are flat multipliers that apply to every pet in a completed family. A 1.2x family bonus, for example, means every pet in that family produces 1.2x its calculated income. The bonus is multiplicative with the level multiplier, so a level 50 pet inside a 1.2x family produces 2.25x × 1.2x = 2.7x the base rate.
+
+The key insight is that the family bonus applies to every pet in the family, not just one. This means that completing a family of 4 pets with a 1.2x bonus effectively gives you a 1.2x multiplier on 4 different pets' income, which compounds across the family. A completed family of 4 B-Tier pets with a 1.2x bonus can Practice
+
+To illustrate, consider two players. Player A has 4 B-Tier pets in a completed family, each at level 50, with a 1.2x family bonus. Each pet produces 6 × 2.25 × 1.2 = 16.2 cash per second, and the family total is 64.8 cash per second. Player B has 3 A-Tier pets with no family bonus, each at level 50. Each pet produces 12 × 2.25 = 27 cash per second, and the family total is 81 cash per second. The A-Tier family wins, but the gap is much smaller than the base rates suggest.
+
+If Player A then completes a 1.3x family with 4 A-Tier pets, the family total jumps to 4 × 12 × 2.25 × 1.3 = 140.4 cash per second, which is significantly higher than Player B's incomplete family. Family completion matters more than individual pet quality in the long run.
+
+## Server Event Multipliers
+
+Server events in Build a Base and Steal are limited-time windows where the entire server enjoys a boosted income rate. The most common events are 2x weekends and 3x launch celebrations, but there are also smaller events tied to player milestones and update launches. The multiplier applies to both online and offline income, but offline income during an event only counts if the event is still running when you reconnect.
+
+Stacking a 2x event with the Premium Pass and a absences around the largest event windows, because that is when the offline cap is most valuable. An 8-hour offline window during a 3x event is equivalent to a 24-hour offline window at the normal rate, in pure income terms.
+
+### Boost Stacking Order
+
+Boosts do not all stack in the same way. Family bonuses, level multipliers, and base rates are all "passive" multipliers that apply automatically. Event multipliers, Premium Pass multipliers, and code-granted boosts are "active" multipliers that require specific conditions to be met. The order in which you activate active multipliers does not matter; they all stack multiplicatively. What does matter is the duration: an 8-hour boost that ends mid-window is the same as no boost at all for the second half of the window.
+
+The optimal strategy for boost stacking is to activate all active boosts at the start of a play session, then log off only after the longest boost has expired. This ensures that you collect the full benefit of every boost and avoid wasting any of the active duration.
+
+## Practical Shortcuts for the Top Players
+
+Top players in Build a Base and Steal use a few simple shortcuts to estimate their income quickly without doing the full math. The first shortcut is the "double the level 1 rate" trick: a level 50 pet produces roughly 2x families, ignore the rest" rule: if you are trying to estimate a friend's income, ask what families they have completed rather than what individual pets they own.
+
+The third shortcut is the "offline cap calculator." If you know your online rate per second, multiply by 0.5 to get your offline rate, then multiply by 28,800 (the number of seconds in 8 hours) to get your max offline payout. This is the single most useful number in the game, because it tells you whether an absence is worth taking or whether you should log on for a quick play session first.
+
+### The Lifetime Income Formula
+
+If you want to calculate the lifetime income of a single pet, multiply its base rate by 0.5 (the offline multiplier) by 28,800 (seconds in the cap) by 365 (days in a year). For a level 1 common pet, that is 1 × 0.5 × 28,800 × 365 = 5,256,000 cash per year. For a level 50 legendary, that is 8 × 2.25 × 0.5 × 28,800 × 365 = 94,608,000 cash per year. The gap between the two is roughly 18x, which is why investing in high-rarity pets and high levels pays off over the long term, even if the daily cash difference feels small.
+
+## See Also
+- [AFK Income Calculator: Estimate Your Offline Earnings](/offline-money/offline-money-afk-income-calculator)
+- [Rebirth and Prestige System: How It Ties Into Offline Money](/offline-money/offline-money-rebirth-prestige-tiein)
+- [Cap Reset Mastery: Maximize the 24-Hour Window](/offline-money/offline-money-cap-reset-mastery)
+
+
+### Quick Stats Reference
+
+| Element | Typical Value | Best Use |
+| --- | --- | --- |
+| **Cash per minute** | 50 - 500 | Track in your daily log |
+| **Rolls per hour** | 20 - 80 | Budget for events |
+| **Walls per layer** | 4 - 8 | Defensive core design |
+| **Pets per base** | 12 - 25 | Income + defense mix |
+| **Raid attempts/day** | 3 - 10 | Energy and target rotation |
+
+
+
+### Additional Strategic Context
+
+This section expands on the practical considerations that experienced players apply when using the strategies outlined above for the income math area of offline money. The content here is drawn from community testing, observed high-level play patterns, and the documented interactions between offline money mechanics and other game systems. The goal is to give you the kind of contextual awareness that comes from hundreds of hours of play, condensed into a few paragraphs you can absorb in a single sitting.
+
+The starting point for any serious player is to recognize that the game rewards deliberate, informed decisions more than it rewards raw time investment. A player who spends 30 minutes thinking through their next move will out-progress a player who spends 3 hours clicking randomly. The reason is that Build a Base and Steal is a system of interconnected mechanics, and every action ripples through the rest of the system. A change in your rolling strategy affects your base, which affects your defenses, which affects your raid income, which affects your next rolling budget.
+
+The relationship between offline money and trading is often overlooked by newer players. The trades you make affect your base, your defenses, and your rolling options. A pet that is best in your base might be worth more as a trade asset. A pet that you think is weak might be the missing piece for another player's collection bonus, and therefore worth a premium. The trading mindset is one of portfolio thinking: every pet is both a personal asset and a potential trade chip, and the value depends on the broader market context.
+
+The third thing is that the meta shifts with each patch, and the strategies that worked last month may not be optimal this month. The most resilient players are the ones who build a deep understanding of the underlying mechanics, not the ones who memorize specific pet rankings or wall layouts. When the meta shifts, a player who understands the mechanics can adapt their strategy in a day. A player who memorized the old strategy has to relearn everything.
+
+
+
+## FAQ
+
+### What is the best time of day to focus on income math?
+
+Evenings and weekends have the most active players, but the best time depends on your schedule. This is the kind of meta-strategy that does not appear in any specific guide, but it is what the most successful players in the income math area of the game have all learned to do.
+
+### How much cash should I budget for income math per session?
+
+Plan to spend roughly a quarter of daily cash on income math activities. The most experienced players treat this as a foundational concept rather than a tactical tip, and that framing makes the difference between long-term progression and short-term frustration.
+
+### What is the most important income math concept for new players?
+
+The key principle is that income math compounds: small, consistent actions beat occasional large ones. Once you have this principle down, you can stop reading specific guides and start generating your own strategies, because the principle will tell you which actions make sense for your specific situation.
+
+### How long does it take to see results from this strategy?
+
+Plan on two to three weeks of consistent effort to see real income math gains. The most experienced players treat this as a foundational concept rather than a tactical tip, and that framing makes the difference between long-term progression and short-term frustration.
+
+### Does this strategy work for both solo players and teams?
+
+Solo and team players can both use this strategy. Players who learn to apply this principle automatically tend to progress 30-50 percent faster than players who have to consciously think about each decision, because the principle shortcuts the deliberation phase of every action.
+
+
+

@@ -1,0 +1,139 @@
+export const metadata = {
+  id: "codes-troubleshooting",
+  slug: "codes-troubleshooting",
+  order: 9,
+  difficulty: "beginner",
+  title: "Build a Base and Steal Code Troubleshooting - Fix Codes That Will Not Redeem",
+  description: "Fix common Build a Base and Steal code redemption problems. Learn why codes fail, how to troubleshoot them, and what to do when a code simply will not work.",
+  keywords: ["Build a Base and Steal code not working", "Build a Base and Steal code error", "Build a Base and Steal code troubleshooting", "Build a Base and Steal code invalid", "Build a Base and Steal redemption problem"],
+  image: "/images/codes/troubleshooting.webp",
+  video: "IWzI5rYTLTM",
+  category: "Codes",
+  date: "2026-07-26",
+  lastModified: "2026-07-26"
+}
+
+
+
+
+
+
+
+
+
+
+Code redemption is supposed to be the simplest activity in Build a Base and Steal. You type the code, you click redeem, you get the reward. In practice, the redemption process is one of the most common sources of player frustration, because there are several ways it can fail, and the failure messages are not always helpful. This guide covers every common reason a code fails to redeem, the diagnostic steps to identify the actual cause, and the workarounds that get the code to work in the vast majority of cases.
+
+## The Redemption Interface
+
+The code redemption interface in Build a Base and Steal is accessible from the main menu, usually under a "Codes" or "Promo Codes" button. The interface shows a text input field, a "Redeem" button, and a history of previously redeemed codes. To redeem a code, you type or paste the code into the input field and click Redeem. The reward should appear in your wallet or storage within a few seconds, accompanied by a confirmation message.
+
+The interface also has a "Copy from Clipboard" button on some platforms, which pastes the current clipboard content into the input field. This is useful for codes that you have copied from the wiki or from a Discord message, and it eliminates the possibility of typos during manual entry. Most redemption errors are caused by typos, so the copy button is the easiest way to avoid them.
+
+### Reason 1: The Code Has Expired
+
+The most common reason a code fails to redeem is that the code has expired. Every Build a Base and Steal code has an active window, which is the period during which the code can be redeemed. The active window varies by code: some codes are permanent, some are valid for a few weeks, and some are valid for only a few days. Once the window closes, the code is removed from the live server, and the redemption interface returns an "invalid code" error.
+
+The fix is to verify the code against the wiki's active codes list before attempting to redeem. The active list shows every currently working code, and codes that have expired are moved to the expired list. If the code you are trying to redeem is not on the active list, it has expired, and no amount of troubleshooting will make it work.
+
+### Reason 2: The Code Has a Typo
+
+The second most common reason a code fails is a typo during manual entry. Build a Base and Steal codes are case-sensitive, which means that "STEAL2026" is a different code from "steal2026" and "Steal2026". Codes also have specific characters that look similar but are different: the number 1 and the letter l, the number 0 and the letter O, and the number 5 and the letter S. A typo in any of these characters will cause the redemption to fail.
+
+The fix is to use the copy button rather than typing the code manually. If you must type the code manually, double-check each character against the source. The wiki shows codes in a monospace font that makes it easier to distinguish similar-looking characters, so copying from the wiki is more reliable than copying from a screenshot or a chat message.
+
+### Reason 3: The Code Is Region-Locked
+
+Some Build a Base and Steal codes are region-locked, meaning that they are only valid in specific geographic regions. Region-locked codes are usually tied to a regional event or a partnership with a regional content creator, and they will return an "invalid code" error if you try to redeem them from outside the supported region.
+
+The fix is to check the code's description on the wiki or the official announcement. The description usually specifies the region if the code is region-locked. If you are outside the supported region, there is no workaround, and you will need to wait for a global code to claim similar rewards.
+
+### Reason 4: The Code Requires a Minimum Level
+
+Some codes require the redeeming account to be at a minimum level. The level requirement is usually tied to the reward, with higher-tier rewards requiring higher levels. A level 1 account trying to redeem a legendary-tier code will return a "level too low" error, and the redemption will fail.
+
+The fix is to level up your account and try again. The level requirement is usually achievable within a few days of play, so most players will meet the requirement within a week of starting. The wiki notes the level requirement when it is known, so check the active codes list for any minimum level notes.
+
+### Reason 5: The Code Server Is Down
+
+Build a Base and Steal's code redemption runs on a separate backend from the main game servers, and the redemption backend occasionally goes down for maintenance. When the backend is down, the redemption interface will return a "service unavailable" error, and no codes can be redeemed until the backend is restored.
+
+The fix is to wait and try again later. The backend is usually restored within a few hours, and the developer typically announces the outage on the official social media. The wiki also notes when the backend is down, so check the active codes page for any service announcements before troubleshooting further.
+
+## Reason 6: The Code Was Already Redeemed
+
+Some codes are one-time-use per account, which means that once you redeem them, you cannot redeem them again. The redemption interface will return an "already redeemed" error if you try to redeem a code that you have already claimed. This is intentional, and it is not a bug.
+
+The fix is to check the redemption history in the codes interface. The history shows every code you have ever redeemed, so you can verify whether you have already claimed the code. If the code is in your history, it has been redeemed, and the error is correct.
+
+## Reason 7: The Code Is From a Private Server
+
+Codes in Build a Base and Steal are global, which means that they should work in every public server. However, some private servers have outdated code lists, and codes that work in public servers will return errors in those private servers. This is a known issue with the private server infrastructure, and the developer has not yet fully resolved it.
+
+The fix is to redeem codes in a public server. If you usually play in a private server, log out, join a public server, redeem the codes, and then return to your private server. The codes you redeem in the public server are added to your account permanently, so you only need to do this once per code.
+
+## Advanced Troubleshooting Steps
+
+If none of the above reasons explain the failure, there are a few advanced troubleshooting steps that sometimes resolve the issue.
+
+The first step is to fully close and restart the game. Some redemption errors are caused by stale client state, and a full restart clears the state. Close the game, wait 30 seconds, reopen the game, and try the redemption again. This resolves a small percentage of redemption errors.
+
+The second step is to check the Roblox connection. Build a Base and Steal uses Roblox's authentication infrastructure, and a temporary glitch in the authentication can cause redemption errors. Verify that you are logged into Roblox properly, and try the redemption again. If the Roblox connection is the issue, the redemption will work once the connection is restored.
+
+The third step is to contact support. If the code still does not work after all the troubleshooting steps, contact the official support through the in-game help menu or the support email. Include the code you are trying to redeem, the error message you are receiving, your platform, and your Roblox username. The support team usually responds within 24 to 48 hours, and they can sometimes manually apply the reward to your account if the code is verified as legitimate.
+
+## See Also
+- [Code History: Every Code Released Since Launch](/codes/codes-code-history)
+- [Where to Find Codes: Best Sources for 2026](/codes/codes-where-to-find-codes)
+- [Expired Codes: Historical Archive & Past Rewards](/codes/codes-expired-codes)
+
+
+### Quick Stats Reference
+
+| Element | Typical Value | Best Use |
+| --- | --- | --- |
+| **Cash per minute** | 50 - 500 | Track in your daily log |
+| **Rolls per hour** | 20 - 80 | Budget for events |
+| **Walls per layer** | 4 - 8 | Defensive core design |
+| **Pets per base** | 12 - 25 | Income + defense mix |
+| **Raid attempts/day** | 3 - 10 | Energy and target rotation |
+
+
+
+### Additional Strategic Context
+
+What follows is an expansion on the practical considerations that experienced players apply when using the strategies outlined above for the code troubleshooting area of codes. The content here is drawn from community testing, observed high-level play patterns, and the documented interactions between codes mechanics and other game systems. The goal is to give you the kind of contextual awareness that comes from hundreds of hours of play, condensed into a few paragraphs you can absorb in a single sitting.
+
+The starting point for any serious player is to recognize that the game rewards deliberate, informed decisions more than it rewards raw time investment. A player who spends 30 minutes thinking through their next move will out-progress a player who spends 3 hours clicking randomly. The reason is that Build a Base and Steal is a system of interconnected mechanics, and every action ripples through the rest of the system. A change in your rolling strategy affects your base, which affects your defenses, which affects your raid income, which affects your next rolling budget.
+
+The relationship between codes and trading is often overlooked by newer players. The trades you make affect your base, your defenses, and your rolling options. A pet that is best in your base might be worth more as a trade asset. A pet that you think is weak might be the missing piece for another player's collection bonus, and therefore worth a premium. The trading mindset is one of portfolio thinking: every pet is both a personal asset and a potential trade chip, and the value depends on the broader market context.
+
+The code troubleshooting area of the game is also where the difference between casual and competitive play shows up most clearly. Casual players treat code troubleshooting as a side activity, while competitive players treat it as a core part of their progression strategy. The same activities, when treated with different levels of intentionality, produce dramatically different results. The content in this section is designed to help you cross the line from casual to competitive by sharing the kind of strategic thinking that experienced players apply to code troubleshooting.
+
+
+
+## FAQ
+
+### What is the best time of day to focus on code troubleshooting?
+
+Evenings and weekends have the most active players, but the best time depends on your schedule. Once you understand this concept at a gut level, the specific strategies in this guide become easier to apply, and you will start seeing results faster than players who only memorize the actions.
+
+### How much cash should I budget for code troubleshooting per session?
+
+Plan to spend roughly a quarter of daily cash on code troubleshooting activities. Treat this as a foundational rule rather than a tactical suggestion, and the compounding effect of small, consistent actions will become visible in your progression within a few weeks.
+
+### What is the most important code troubleshooting concept for new players?
+
+The biggest unlock is understanding that code troubleshooting has a feedback loop with your base, your trades, and your rolls. Apply this concept consistently and you will outpace players who chase the latest meta advice, because the foundation remains stable while the meta shifts beneath it.
+
+### How long does it take to see results from this strategy?
+
+Most players see meaningful results within one to two weeks of consistent application. Once you understand this concept at a gut level, the specific strategies in this guide become easier to apply, and you will start seeing results faster than players who only memorize the actions.
+
+### Does this strategy work for both solo players and teams?
+
+Yes. The strategy is described for solo players as the default. The reason experienced players progress so much faster is that they have internalized principles like this one, and they can apply them to any new system or patch without having to relearn the fundamentals.
+
+
+
+

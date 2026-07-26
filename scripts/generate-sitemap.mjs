@@ -1,25 +1,29 @@
 import fs from 'fs';
 import path from 'path';
 
-const SITE_URL = 'https://dragon-sword-awakening.wiki';
+const SITE_URL = 'https://buildabaseandstealroblox.wiki';
 const LOCALES = ['en', 'ko', 'ja', 'de'];
 const routing_defaultLocale = 'en';
-const CONTENT_TYPES = ['heroes', 'tier-list', 'tag-combos', 'guides', 'builds', 'status-ailments', 'exploration', 'familiars', 'updates', 'cooking-crafting', 'story-lore', 'system-requirements', 'buying-guide'];
+const CONTENT_TYPES = [
+  'codes', 'beginner-guide', 'pet-rolling', 'base-defense', 'raiding',
+  'offline-money', 'pets-list', 'gear', 'strategies', 'faq', 'updates',
+  'community', 'guides', 'categories'
+];
 const NAV_PAGES = [
   { path: '/', priority: 1, changefreq: 'daily' },
-  { path: '/heroes', priority: 0.9, changefreq: 'weekly' },
-  { path: '/tier-list', priority: 0.9, changefreq: 'weekly' },
-  { path: '/tag-combos', priority: 0.9, changefreq: 'weekly' },
+  { path: '/codes', priority: 0.9, changefreq: 'daily' },
+  { path: '/beginner-guide', priority: 0.9, changefreq: 'weekly' },
+  { path: '/pet-rolling', priority: 0.9, changefreq: 'weekly' },
+  { path: '/base-defense', priority: 0.9, changefreq: 'weekly' },
+  { path: '/raiding', priority: 0.9, changefreq: 'weekly' },
+  { path: '/offline-money', priority: 0.8, changefreq: 'weekly' },
+  { path: '/pets-list', priority: 0.8, changefreq: 'weekly' },
+  { path: '/gear', priority: 0.8, changefreq: 'weekly' },
+  { path: '/strategies', priority: 0.8, changefreq: 'weekly' },
+  { path: '/faq', priority: 0.7, changefreq: 'weekly' },
+  { path: '/updates', priority: 0.7, changefreq: 'weekly' },
+  { path: '/community', priority: 0.7, changefreq: 'weekly' },
   { path: '/guides', priority: 0.9, changefreq: 'weekly' },
-  { path: '/builds', priority: 0.9, changefreq: 'weekly' },
-  { path: '/status-ailments', priority: 0.8, changefreq: 'weekly' },
-  { path: '/exploration', priority: 0.8, changefreq: 'weekly' },
-  { path: '/familiars', priority: 0.8, changefreq: 'weekly' },
-  { path: '/updates', priority: 0.8, changefreq: 'weekly' },
-  { path: '/cooking-crafting', priority: 0.8, changefreq: 'weekly' },
-  { path: '/story-lore', priority: 0.8, changefreq: 'weekly' },
-  { path: '/system-requirements', priority: 0.8, changefreq: 'weekly' },
-  { path: '/buying-guide', priority: 0.8, changefreq: 'weekly' },
   { path: '/about', priority: 0.7, changefreq: 'monthly' },
   { path: '/sitemap', priority: 0.5, changefreq: 'monthly' },
   { path: '/privacy-policy', priority: 0.4, changefreq: 'yearly' },
@@ -27,18 +31,11 @@ const NAV_PAGES = [
 ];
 
 function localizedPath(locale, p) {
-  // With localePrefix: 'always', all locales get prefix
-  // Exception: English root path "/" serves English homepage (via mirror-en-to-root.mjs)
-  // All URLs must end with trailing slash (trailingSlash: true)
   if (locale === 'en') {
     if (p === '/') return '/';
     return `/en${p}/`;
   }
   return p === '/' ? `/${locale}/` : `/${locale}${p}/`;
-}
-
-function escapeXml(str) {
-  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
 const manifestPath = path.join(process.cwd(), 'src', 'lib', 'content-manifest.json');
@@ -58,7 +55,6 @@ for (const page of NAV_PAGES) {
       const alp = localizedPath(l, page.path);
       return `    <xhtml:link rel="alternate" hreflang="${l}" href="${SITE_URL}${alp}" />`;
     }).join('\n');
-    // Always add x-default pointing to default locale
     const defaultLp = localizedPath(routing_defaultLocale, page.path);
     const xDefault = `    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_URL}${defaultLp}" />`;
     urls.push(`  <url>
@@ -73,8 +69,9 @@ ${xDefault}
 }
 
 for (const item of contentPaths) {
+  if (item.locale !== routing_defaultLocale) continue;
   const contentPath = `/${item.contentType}/${item.slug}`;
-  const lp = localizedPath(item.locale, contentPath);
+  const lp = localizedPath(routing_defaultLocale, contentPath);
   const allAlternates = LOCALES.map((l) => {
     const alp = localizedPath(l, contentPath);
     return `    <xhtml:link rel="alternate" hreflang="${l}" href="${SITE_URL}${alp}" />`;

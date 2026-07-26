@@ -6,6 +6,7 @@ import { getAllContent } from '@/lib/content';
 import { translate } from '@/lib/i18n';
 import { CONTENT_TYPES, type ContentType } from '@/config/navigation';
 import { SITE_URL } from '@/config/site';
+import { getBaseMetadata } from '@/lib/seo';
 
 
 export function generateStaticParams() {
@@ -17,20 +18,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const validLocale = routing.locales.includes(locale as Locale) ? (locale as Locale) : routing.defaultLocale;
   setRequestLocale(validLocale);
   const t = await getTranslations();
-  return {
-    title: `${t('nav_sitemap')} | ${t('site_title')}`,
-    description: t('page_sitemap_description'),
-    alternates: {
-      canonical: `${SITE_URL}/sitemap`,
-      languages: {
-        'en': `${SITE_URL}/sitemap`,
-        'ko': `${SITE_URL}/ko/sitemap`,
-        'ja': `${SITE_URL}/ja/sitemap`,
-        'de': `${SITE_URL}/de/sitemap`,
-        'x-default': `${SITE_URL}/sitemap`,
-      },
-    },
-  };
+  return getBaseMetadata(
+    '/sitemap',
+    validLocale,
+    `${t('nav_sitemap')} | ${t('site_title')}`,
+    t('page_sitemap_description'),
+    'website',
+    '/og/default.png',
+    ['Build a Base and Steal sitemap', 'Build a Base and Steal wiki pages', 'site index'],
+  );
 }
 
 const CATEGORY_LABEL_KEYS: Record<string, string> = {

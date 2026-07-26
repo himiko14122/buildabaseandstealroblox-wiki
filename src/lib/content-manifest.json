@@ -2,6 +2,46 @@
   "contentPaths": [
     {
       "locale": "en",
+      "contentType": "categories",
+      "slug": "base-defense",
+      "segments": [
+        "base-defense"
+      ],
+      "importPath": "base-defense",
+      "title": "Build a Base and Steal Base Defense Guide - Fortification & Protection"
+    },
+    {
+      "locale": "en",
+      "contentType": "base-defense",
+      "slug": "base-defense-base-locations",
+      "segments": [
+        "base-defense-base-locations"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Base-Locations",
+      "title": "Build a Base and Steal Base Location Strategy - Where to Place Your Base"
+    },
+    {
+      "locale": "en",
+      "contentType": "base-defense",
+      "slug": "base-defense-budget-optimization",
+      "segments": [
+        "base-defense-budget-optimization"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Budget-Optimization-Guide",
+      "title": "Build a Base and Steal Defense Budget Optimization - Cost-Effective Base Building"
+    },
+    {
+      "locale": "en",
+      "contentType": "base-defense",
+      "slug": "base-defense-core-vault",
+      "segments": [
+        "base-defense-core-vault"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Core-Vault-Guide",
+      "title": "Build a Base and Steal Core Vault - Protecting Your Most Valuable Pets"
+    },
+    {
+      "locale": "en",
       "contentType": "guides",
       "slug": "base-defense-guide",
       "segments": [
@@ -11,14 +51,74 @@
       "title": "Build a Base and Steal Base Defense Guide - Best Layout & Protection"
     },
     {
-      "locale": "ja",
-      "contentType": "guides",
-      "slug": "base-defense-guide",
+      "locale": "en",
+      "contentType": "base-defense",
+      "slug": "base-defense-layered-defense",
       "segments": [
-        "base-defense-guide"
+        "base-defense-layered-defense"
       ],
-      "importPath": "Build-a-Base-and-Steal-Base-Defense-Guide",
-      "title": "Build a Base and Steal Base Defense Guide - Best Layout & Protection"
+      "importPath": "Build-a-Base-and-Steal-Layered-Defense",
+      "title": "Build a Base and Steal Layered Defense - Build Multiple Defensive Rings"
+    },
+    {
+      "locale": "en",
+      "contentType": "base-defense",
+      "slug": "base-defense-raider-counter-tactics",
+      "segments": [
+        "base-defense-raider-counter-tactics"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Counter-Raider-Tactics-Guide",
+      "title": "Build a Base and Steal Counter-Raider Tactics - Anti-Raid Defense Strategies"
+    },
+    {
+      "locale": "en",
+      "contentType": "base-defense",
+      "slug": "base-defense-recovery-after-raid",
+      "segments": [
+        "base-defense-recovery-after-raid"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Recovery-After-Raid",
+      "title": "Build a Base and Steal Recovery After a Raid - Rebuild and Strengthen"
+    },
+    {
+      "locale": "en",
+      "contentType": "base-defense",
+      "slug": "base-defense-redundant-defenses",
+      "segments": [
+        "base-defense-redundant-defenses"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Redundant-Defenses",
+      "title": "Build a Base and Steal Redundant Defenses - Build Bases That Self-Repair"
+    },
+    {
+      "locale": "en",
+      "contentType": "base-defense",
+      "slug": "base-defense-trap-mechanics",
+      "segments": [
+        "base-defense-trap-mechanics"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Trap-Mechanics",
+      "title": "Build a Base and Steal Trap Mechanics - Master Every Trap Type"
+    },
+    {
+      "locale": "en",
+      "contentType": "base-defense",
+      "slug": "base-defense-trap-system",
+      "segments": [
+        "base-defense-trap-system"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Trap-System-Guide",
+      "title": "Build a Base and Steal Trap System - Complete Trap Placement and Synergy Guide"
+    },
+    {
+      "locale": "en",
+      "contentType": "base-defense",
+      "slug": "base-defense-wall-strategy",
+      "segments": [
+        "base-defense-wall-strategy"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Wall-Strategy-Guide",
+      "title": "Build a Base and Steal Wall Strategy - Complete Placement and Material Guide"
     },
     {
       "locale": "en",
@@ -31,14 +131,134 @@
       "title": "Build a Base and Steal Beginner Guide - Start Your Journey"
     },
     {
-      "locale": "ja",
-      "contentType": "guides",
+      "locale": "en",
+      "contentType": "categories",
       "slug": "beginner-guide",
       "segments": [
         "beginner-guide"
       ],
-      "importPath": "Build-a-Base-and-Steal-Beginner-Guide",
-      "title": "Build a Base and Steal Beginner Guide - Start Your Journey"
+      "importPath": "beginner-guide",
+      "title": "Build a Base and Steal Beginner Guide - Getting Started Tutorial"
+    },
+    {
+      "locale": "ko",
+      "contentType": "categories",
+      "slug": "beginner-guide",
+      "segments": [
+        "beginner-guide"
+      ],
+      "importPath": "beginner-guide",
+      "title": "Build a Base and Steal 초보자 가이드"
+    },
+    {
+      "locale": "de",
+      "contentType": "categories",
+      "slug": "beginner-guide",
+      "segments": [
+        "beginner-guide"
+      ],
+      "importPath": "beginner-guide",
+      "title": "Build a Base and Steal Einsteigerleitfaden"
+    },
+    {
+      "locale": "en",
+      "contentType": "beginner-guide",
+      "slug": "beginner-guide-cash-management",
+      "segments": [
+        "beginner-guide-cash-management"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Cash-Management-Guide",
+      "title": "Build a Base and Steal Cash Management - Budget Rules That Work"
+    },
+    {
+      "locale": "en",
+      "contentType": "beginner-guide",
+      "slug": "beginner-guide-common-mistakes",
+      "segments": [
+        "beginner-guide-common-mistakes"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Common-Mistakes-Guide",
+      "title": "Build a Base and Steal Common Mistakes - 10 Traps New Players Fall Into"
+    },
+    {
+      "locale": "en",
+      "contentType": "beginner-guide",
+      "slug": "beginner-guide-daily-routine",
+      "segments": [
+        "beginner-guide-daily-routine"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Daily-Routine",
+      "title": "Build a Base and Steal Daily Routine - Maximize Every Login"
+    },
+    {
+      "locale": "en",
+      "contentType": "beginner-guide",
+      "slug": "beginner-guide-first-30-minutes",
+      "segments": [
+        "beginner-guide-first-30-minutes"
+      ],
+      "importPath": "Build-a-Base-and-Steal-First-30-Minutes-Guide",
+      "title": "Build a Base and Steal First 30 Minutes - What Every Beginner Must Do"
+    },
+    {
+      "locale": "en",
+      "contentType": "beginner-guide",
+      "slug": "beginner-guide-first-raid-preparation",
+      "segments": [
+        "beginner-guide-first-raid-preparation"
+      ],
+      "importPath": "Build-a-Base-and-Steal-First-Raid-Preparation",
+      "title": "Build a Base and Steal First Raid - How to Prepare and Execute Successfully"
+    },
+    {
+      "locale": "en",
+      "contentType": "beginner-guide",
+      "slug": "beginner-guide-first-week-roadmap",
+      "segments": [
+        "beginner-guide-first-week-roadmap"
+      ],
+      "importPath": "Build-a-Base-and-Steal-First-Week-Roadmap",
+      "title": "Build a Base and Steal First Week Roadmap - Day by Day Plan"
+    },
+    {
+      "locale": "en",
+      "contentType": "beginner-guide",
+      "slug": "beginner-guide-interface-navigation",
+      "segments": [
+        "beginner-guide-interface-navigation"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Interface-Guide",
+      "title": "Build a Base and Steal Interface Guide - Navigate Every Menu and Screen"
+    },
+    {
+      "locale": "en",
+      "contentType": "beginner-guide",
+      "slug": "beginner-guide-pet-storage",
+      "segments": [
+        "beginner-guide-pet-storage"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Pet-Storage-Guide",
+      "title": "Build a Base and Steal Pet Storage Guide - Protect and Organize Your Collection"
+    },
+    {
+      "locale": "en",
+      "contentType": "beginner-guide",
+      "slug": "beginner-guide-pet-storage-management",
+      "segments": [
+        "beginner-guide-pet-storage-management"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Pet-Storage-Management",
+      "title": "Build a Base and Steal Pet Storage Management - Organize Your Collection"
+    },
+    {
+      "locale": "en",
+      "contentType": "beginner-guide",
+      "slug": "beginner-guide-understanding-economy",
+      "segments": [
+        "beginner-guide-understanding-economy"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Understanding-the-Economy",
+      "title": "Build a Base and Steal Economy Explained - How Cash, Pets, and Walls Connect"
     },
     {
       "locale": "en",
@@ -51,14 +271,84 @@
       "title": "Build a Base and Steal Best Pets Guide - Top Tier List 2026"
     },
     {
-      "locale": "ja",
-      "contentType": "guides",
-      "slug": "best-pets-guide",
+      "locale": "en",
+      "contentType": "categories",
+      "slug": "codes",
       "segments": [
-        "best-pets-guide"
+        "codes"
       ],
-      "importPath": "Build-a-Base-and-Steal-Best-Pets-Guide",
-      "title": "Build a Base and Steal Best Pets Guide - Top Tier List 2026"
+      "importPath": "codes",
+      "title": "Build a Base and Steal Codes - All Active Promo Codes & Free Rewards"
+    },
+    {
+      "locale": "ko",
+      "contentType": "categories",
+      "slug": "codes",
+      "segments": [
+        "codes"
+      ],
+      "importPath": "codes",
+      "title": "Build a Base and Steal Codes - 모든 활성 프로모 코드"
+    },
+    {
+      "locale": "de",
+      "contentType": "categories",
+      "slug": "codes",
+      "segments": [
+        "codes"
+      ],
+      "importPath": "codes",
+      "title": "Build a Base and Steal Codes - Alle aktiven Promo-Codes"
+    },
+    {
+      "locale": "en",
+      "contentType": "codes",
+      "slug": "codes-active-codes",
+      "segments": [
+        "codes-active-codes"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Active-Codes",
+      "title": "Build a Base and Steal Active Codes - July 2026 Working List"
+    },
+    {
+      "locale": "en",
+      "contentType": "codes",
+      "slug": "codes-code-history",
+      "segments": [
+        "codes-code-history"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Code-History",
+      "title": "Build a Base and Steal Code History - Every Code Released Since Launch"
+    },
+    {
+      "locale": "en",
+      "contentType": "codes",
+      "slug": "codes-event-codes",
+      "segments": [
+        "codes-event-codes"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Event-Codes",
+      "title": "Build a Base and Steal Event Codes - Limited Time Rewards From Special Events"
+    },
+    {
+      "locale": "en",
+      "contentType": "codes",
+      "slug": "codes-expired-codes",
+      "segments": [
+        "codes-expired-codes"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Expired-Codes",
+      "title": "Build a Base and Steal Expired Codes - Historical Archive & Past Rewards"
+    },
+    {
+      "locale": "en",
+      "contentType": "codes",
+      "slug": "codes-free-rewards",
+      "segments": [
+        "codes-free-rewards"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Free-Rewards",
+      "title": "Build a Base and Steal Free Rewards - Every Way to Earn Without Spending"
     },
     {
       "locale": "en",
@@ -71,14 +361,224 @@
       "title": "Build a Base and Steal Codes Guide - All Active Working Codes (July 2026)"
     },
     {
-      "locale": "ja",
-      "contentType": "guides",
-      "slug": "codes-guide",
+      "locale": "en",
+      "contentType": "codes",
+      "slug": "codes-redemption-guide",
       "segments": [
-        "codes-guide"
+        "codes-redemption-guide"
       ],
-      "importPath": "Build-a-Base-and-Steal-Codes-Guide",
-      "title": "Build a Base and Steal Codes Guide - All Active Working Codes (July 2026)"
+      "importPath": "Build-a-Base-and-Steal-Redemption-Guide",
+      "title": "Build a Base and Steal Codes Redemption Guide - How to Claim Free Rewards"
+    },
+    {
+      "locale": "en",
+      "contentType": "codes",
+      "slug": "codes-roblox-promocode-integration",
+      "segments": [
+        "codes-roblox-promocode-integration"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Roblox-Promo-Code-Integration",
+      "title": "Build a Base and Steal Roblox Promo Codes - How Roblox Codes Work With This Game"
+    },
+    {
+      "locale": "en",
+      "contentType": "codes",
+      "slug": "codes-troubleshooting",
+      "segments": [
+        "codes-troubleshooting"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Code-Troubleshooting",
+      "title": "Build a Base and Steal Code Troubleshooting - Fix Codes That Will Not Redeem"
+    },
+    {
+      "locale": "en",
+      "contentType": "codes",
+      "slug": "codes-update-launch-codes",
+      "segments": [
+        "codes-update-launch-codes"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Update-Launch-Codes",
+      "title": "Build a Base and Steal Update Launch Codes - Every Code From Major Updates"
+    },
+    {
+      "locale": "en",
+      "contentType": "codes",
+      "slug": "codes-where-to-find-codes",
+      "segments": [
+        "codes-where-to-find-codes"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Where-to-Find-Codes",
+      "title": "Build a Base and Steal Where to Find Codes - Best Sources for 2026"
+    },
+    {
+      "locale": "en",
+      "contentType": "categories",
+      "slug": "community",
+      "segments": [
+        "community"
+      ],
+      "importPath": "community",
+      "title": "Build a Base and Steal Community - Discord, Social Media & Player Resources"
+    },
+    {
+      "locale": "en",
+      "contentType": "community",
+      "slug": "community-discord-servers",
+      "segments": [
+        "community-discord-servers"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Discord-Servers",
+      "title": "Build a Base and Steal Discord Servers - Join the Community"
+    },
+    {
+      "locale": "en",
+      "contentType": "community",
+      "slug": "community-events",
+      "segments": [
+        "community-events"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Community-Events",
+      "title": "Build a Base and Steal Community Events - Tournaments and Competitions"
+    },
+    {
+      "locale": "en",
+      "contentType": "community",
+      "slug": "community-tier-list-makers",
+      "segments": [
+        "community-tier-list-makers"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Tier-List-Makers",
+      "title": "Build a Base and Steal Tier List Makers - Community Rankings and Guides"
+    },
+    {
+      "locale": "en",
+      "contentType": "community",
+      "slug": "community-trading-etiquette",
+      "segments": [
+        "community-trading-etiquette"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Trading-Etiquette",
+      "title": "Build a Base and Steal Trading Etiquette - How to Trade Respectfully"
+    },
+    {
+      "locale": "en",
+      "contentType": "community",
+      "slug": "community-youtube-creators",
+      "segments": [
+        "community-youtube-creators"
+      ],
+      "importPath": "Build-a-Base-and-Steal-YouTube-Creators",
+      "title": "Build a Base and Steal YouTube Creators - Best Channels to Follow"
+    },
+    {
+      "locale": "en",
+      "contentType": "categories",
+      "slug": "faq",
+      "segments": [
+        "faq"
+      ],
+      "importPath": "faq",
+      "title": "Build a Base and Steal FAQ - Frequently Asked Questions & Answers"
+    },
+    {
+      "locale": "en",
+      "contentType": "faq",
+      "slug": "faq-base-defense-questions",
+      "segments": [
+        "faq-base-defense-questions"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Base-Defense-FAQ",
+      "title": "Build a Base and Steal FAQ - Base Defense and Walls Answered"
+    },
+    {
+      "locale": "en",
+      "contentType": "faq",
+      "slug": "faq-beginner-questions",
+      "segments": [
+        "faq-beginner-questions"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Beginner-FAQ",
+      "title": "Build a Base and Steal Beginner FAQ - Answers to Common New Player Questions"
+    },
+    {
+      "locale": "en",
+      "contentType": "faq",
+      "slug": "faq-bugs-glitches-questions",
+      "segments": [
+        "faq-bugs-glitches-questions"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Bugs-Glitches-FAQ",
+      "title": "Build a Base and Steal Bugs and Glitches FAQ - Common Issues and Fixes"
+    },
+    {
+      "locale": "en",
+      "contentType": "faq",
+      "slug": "faq-codes-rebirth-questions",
+      "segments": [
+        "faq-codes-rebirth-questions"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Codes-Rebirth-FAQ",
+      "title": "Build a Base and Steal Codes and Rebirth FAQ - Promo Codes and Reset Questions"
+    },
+    {
+      "locale": "en",
+      "contentType": "faq",
+      "slug": "faq-economy-and-codes",
+      "segments": [
+        "faq-economy-and-codes"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Economy-Codes-FAQ",
+      "title": "Build a Base and Steal FAQ - Economy, Codes, and Currency Answered"
+    },
+    {
+      "locale": "en",
+      "contentType": "faq",
+      "slug": "faq-endgame-questions",
+      "segments": [
+        "faq-endgame-questions"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Endgame-FAQ",
+      "title": "Build a Base and Steal Endgame FAQ - Advanced Player Questions Answered"
+    },
+    {
+      "locale": "en",
+      "contentType": "faq",
+      "slug": "faq-general-questions",
+      "segments": [
+        "faq-general-questions"
+      ],
+      "importPath": "Build-a-Base-and-Steal-General-Questions-FAQ",
+      "title": "Build a Base and Steal FAQ - General Questions Answered"
+    },
+    {
+      "locale": "en",
+      "contentType": "faq",
+      "slug": "faq-pets-and-rolling",
+      "segments": [
+        "faq-pets-and-rolling"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Pets-and-Rolling-FAQ",
+      "title": "Build a Base and Steal FAQ - Pets and Rolling Questions Answered"
+    },
+    {
+      "locale": "en",
+      "contentType": "faq",
+      "slug": "faq-raiding-questions",
+      "segments": [
+        "faq-raiding-questions"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Raiding-FAQ",
+      "title": "Build a Base and Steal FAQ - Raiding and Attacking Answered"
+    },
+    {
+      "locale": "en",
+      "contentType": "faq",
+      "slug": "faq-trading-questions",
+      "segments": [
+        "faq-trading-questions"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Trading-FAQ",
+      "title": "Build a Base and Steal Trading FAQ - Pet and Gear Market Questions"
     },
     {
       "locale": "en",
@@ -91,14 +591,314 @@
       "title": "Build a Base and Steal Farming Guide - Efficient Resource Generation"
     },
     {
-      "locale": "ja",
-      "contentType": "guides",
-      "slug": "farming-guide",
+      "locale": "en",
+      "contentType": "categories",
+      "slug": "gear",
       "segments": [
-        "farming-guide"
+        "gear"
       ],
-      "importPath": "Build-a-Base-and-Steal-Farming-Guide",
-      "title": "Build a Base and Steal Farming Guide - Efficient Resource Generation"
+      "importPath": "gear",
+      "title": "Build a Base and Steal Gear Guide - Equipment, Tools & Items"
+    },
+    {
+      "locale": "en",
+      "contentType": "gear",
+      "slug": "gear-crafting-guide",
+      "segments": [
+        "gear-crafting-guide"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Gear-Crafting-Guide",
+      "title": "Build a Base and Steal Gear Crafting Guide - How to Craft Legendary and Mythic Gear"
+    },
+    {
+      "locale": "en",
+      "contentType": "gear",
+      "slug": "gear-epic-tier-gear",
+      "segments": [
+        "gear-epic-tier-gear"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Epic-Tier-Gear",
+      "title": "Build a Base and Steal Epic Tier Gear - The Best Epic Weapons and Tools"
+    },
+    {
+      "locale": "en",
+      "contentType": "gear",
+      "slug": "gear-legendary-tier",
+      "segments": [
+        "gear-legendary-tier"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Gear-Legendary-Tier",
+      "title": "Build a Base and Steal Gear Legendary Tier - End-Game Equipment Guide"
+    },
+    {
+      "locale": "en",
+      "contentType": "gear",
+      "slug": "gear-mythic-tier-gear",
+      "segments": [
+        "gear-mythic-tier-gear"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Mythic-Tier-Gear",
+      "title": "Build a Base and Steal Mythic Tier Gear - The Ultimate Weapons and Tools"
+    },
+    {
+      "locale": "en",
+      "contentType": "gear",
+      "slug": "gear-progression-path",
+      "segments": [
+        "gear-progression-path"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Gear-Progression-Path",
+      "title": "Build a Base and Steal Gear Progression Path - From Starter to Mythic"
+    },
+    {
+      "locale": "en",
+      "contentType": "gear",
+      "slug": "gear-set-bonuses",
+      "segments": [
+        "gear-set-bonuses"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Gear-Set-Bonuses",
+      "title": "Build a Base and Steal Gear Set Bonuses - Synergies and Complete Set Effects"
+    },
+    {
+      "locale": "en",
+      "contentType": "gear",
+      "slug": "gear-starter-loadout",
+      "segments": [
+        "gear-starter-loadout"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Gear-Starter-Loadout",
+      "title": "Build a Base and Steal Gear Starter Loadout - Best Beginner Equipment"
+    },
+    {
+      "locale": "en",
+      "contentType": "gear",
+      "slug": "gear-support-items",
+      "segments": [
+        "gear-support-items"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Gear-Support-Items",
+      "title": "Build a Base and Steal Gear Support Items - Shields, Healing, and Survival"
+    },
+    {
+      "locale": "en",
+      "contentType": "gear",
+      "slug": "gear-tools-explained",
+      "segments": [
+        "gear-tools-explained"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Gear-Tools-Explained",
+      "title": "Build a Base and Steal Gear Tools Explained - Breaching, Scanning, and Mobility"
+    },
+    {
+      "locale": "en",
+      "contentType": "gear",
+      "slug": "gear-weapon-types",
+      "segments": [
+        "gear-weapon-types"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Gear-Weapon-Types",
+      "title": "Build a Base and Steal Gear Weapon Types - Blasters, Hammers, and More"
+    },
+    {
+      "locale": "en",
+      "contentType": "categories",
+      "slug": "guides",
+      "segments": [
+        "guides"
+      ],
+      "importPath": "guides",
+      "title": "Build a Base and Steal Guides - Complete Wiki & Tutorial Collection"
+    },
+    {
+      "locale": "ko",
+      "contentType": "categories",
+      "slug": "guides",
+      "segments": [
+        "guides"
+      ],
+      "importPath": "guides",
+      "title": "Build a Base and Steal 가이드 - 완전한 위키 컬렉션"
+    },
+    {
+      "locale": "de",
+      "contentType": "categories",
+      "slug": "guides",
+      "segments": [
+        "guides"
+      ],
+      "importPath": "guides",
+      "title": "Build a Base and Steal Leitfäden - Vollständige Wiki-Sammlung"
+    },
+    {
+      "locale": "en",
+      "contentType": "categories",
+      "slug": "offline-money",
+      "segments": [
+        "offline-money"
+      ],
+      "importPath": "offline-money",
+      "title": "Build a Base and Steal Offline Money Guide - Passive Income & Earning"
+    },
+    {
+      "locale": "en",
+      "contentType": "offline-money",
+      "slug": "offline-money-advanced-formulas",
+      "segments": [
+        "offline-money-advanced-formulas"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Advanced-Formulas",
+      "title": "Build a Base and Steal Offline Money - Advanced Formulas and Diminishing Returns"
+    },
+    {
+      "locale": "en",
+      "contentType": "offline-money",
+      "slug": "offline-money-afk-income-calculator",
+      "segments": [
+        "offline-money-afk-income-calculator"
+      ],
+      "importPath": "Build-a-Base-and-Steal-AFK-Income-Calculator",
+      "title": "Build a Base and Steal AFK Income Calculator - Estimate Your Offline Earnings"
+    },
+    {
+      "locale": "en",
+      "contentType": "offline-money",
+      "slug": "offline-money-best-pets",
+      "segments": [
+        "offline-money-best-pets"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Best-Pets-for-Offline-Money",
+      "title": "Build a Base and Steal Best Pets for Offline Money - Tier List and Picks"
+    },
+    {
+      "locale": "en",
+      "contentType": "offline-money",
+      "slug": "offline-money-cap-and-resets",
+      "segments": [
+        "offline-money-cap-and-resets"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Offline-Cap-and-Reset-Rules",
+      "title": "Build a Base and Steal Offline Cap and Reset Rules Explained"
+    },
+    {
+      "locale": "en",
+      "contentType": "offline-money",
+      "slug": "offline-money-cap-reset-mastery",
+      "segments": [
+        "offline-money-cap-reset-mastery"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Cap-Reset-Mastery",
+      "title": "Build a Base and Steal Cap Reset Mastery - Maximize the 24-Hour Window"
+    },
+    {
+      "locale": "en",
+      "contentType": "offline-money",
+      "slug": "offline-money-how-it-works",
+      "segments": [
+        "offline-money-how-it-works"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Offline-Money-How-It-Works",
+      "title": "Build a Base and Steal Offline Money - Complete System Guide"
+    },
+    {
+      "locale": "en",
+      "contentType": "offline-money",
+      "slug": "offline-money-math-and-formulas",
+      "segments": [
+        "offline-money-math-and-formulas"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Income-Math-and-Formulas",
+      "title": "Build a Base and Steal Income Math - Formulas, Multipliers, and Calculations"
+    },
+    {
+      "locale": "en",
+      "contentType": "offline-money",
+      "slug": "offline-money-multiplier-stacking",
+      "segments": [
+        "offline-money-multiplier-stacking"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Multiplier-Stacking",
+      "title": "Build a Base and Steal Multiplier Stacking - Combine Auras, Happiness, and Bonuses"
+    },
+    {
+      "locale": "en",
+      "contentType": "offline-money",
+      "slug": "offline-money-rebirth-prestige-tiein",
+      "segments": [
+        "offline-money-rebirth-prestige-tiein"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Rebirth-Prestige-TieIn",
+      "title": "Build a Base and Steal Rebirth and Prestige System - How It Ties Into Offline Money"
+    },
+    {
+      "locale": "en",
+      "contentType": "offline-money",
+      "slug": "offline-money-storage-expansion",
+      "segments": [
+        "offline-money-storage-expansion"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Storage-Expansion-Guide",
+      "title": "Build a Base and Steal Storage Expansion Guide - More Pets, More Money"
+    },
+    {
+      "locale": "en",
+      "contentType": "categories",
+      "slug": "pet-rolling",
+      "segments": [
+        "pet-rolling"
+      ],
+      "importPath": "pet-rolling",
+      "title": "Build a Base and Steal Pet Rolling Guide - Roll Strategy & Tier List"
+    },
+    {
+      "locale": "en",
+      "contentType": "pet-rolling",
+      "slug": "pet-rolling-advanced-strategy",
+      "segments": [
+        "pet-rolling-advanced-strategy"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Pet-Rolling-Advanced-Strategy",
+      "title": "Build a Base and Steal Pet Rolling Advanced Strategy - Pro Roller Tactics"
+    },
+    {
+      "locale": "en",
+      "contentType": "pet-rolling",
+      "slug": "pet-rolling-budget-management",
+      "segments": [
+        "pet-rolling-budget-management"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Pet-Rolling-Budget-Management",
+      "title": "Build a Base and Steal Pet Rolling Budget Management - Save and Spend Smart"
+    },
+    {
+      "locale": "en",
+      "contentType": "pet-rolling",
+      "slug": "pet-rolling-drop-rates",
+      "segments": [
+        "pet-rolling-drop-rates"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Pet-Rolling-Drop-Rates",
+      "title": "Build a Base and Steal Pet Rolling Drop Rates - Probability and Pity System"
+    },
+    {
+      "locale": "en",
+      "contentType": "pet-rolling",
+      "slug": "pet-rolling-event-strategy",
+      "segments": [
+        "pet-rolling-event-strategy"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Pet-Rolling-Event-Strategy",
+      "title": "Build a Base and Steal Pet Rolling Event Strategy - Maximize Limited-Time Bonuses"
+    },
+    {
+      "locale": "en",
+      "contentType": "pet-rolling",
+      "slug": "pet-rolling-farming-strategies",
+      "segments": [
+        "pet-rolling-farming-strategies"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Rolling-Farm-Strategies",
+      "title": "Build a Base and Steal Rolling Farm Strategies - Efficient Cash Generation"
     },
     {
       "locale": "en",
@@ -111,27 +911,167 @@
       "title": "Build a Base and Steal Pet Rolling Guide - Drop Rates & Strategy"
     },
     {
-      "locale": "ja",
-      "contentType": "guides",
-      "slug": "pet-rolling-guide",
+      "locale": "en",
+      "contentType": "pet-rolling",
+      "slug": "pet-rolling-legendary-vs-mythic",
       "segments": [
-        "pet-rolling-guide"
+        "pet-rolling-legendary-vs-mythic"
       ],
-      "importPath": "Build-a-Base-and-Steal-Pet-Rolling-Guide",
-      "title": "Build a Base and Steal Pet Rolling Guide - Drop Rates & Strategy"
+      "importPath": "Build-a-Base-and-Steal-Legendary-vs-Mythic",
+      "title": "Build a Base and Steal Legendary vs Mythic - Which Tier Should You Chase"
     },
     {
       "locale": "en",
-      "contentType": "guides",
-      "slug": "progression-guide",
+      "contentType": "pet-rolling",
+      "slug": "pet-rolling-pity-system",
       "segments": [
-        "progression-guide"
+        "pet-rolling-pity-system"
       ],
-      "importPath": "Build-a-Base-and-Steal-Progression-Guide",
-      "title": "Build a Base and Steal Progression Guide - Level Up Fast 2026"
+      "importPath": "Build-a-Base-and-Steal-Pity-System",
+      "title": "Build a Base and Steal Pity System - Guaranteed Drops After X Rolls"
     },
     {
-      "locale": "ja",
+      "locale": "en",
+      "contentType": "pet-rolling",
+      "slug": "pet-rolling-psychology",
+      "segments": [
+        "pet-rolling-psychology"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Rolling-Psychology",
+      "title": "Build a Base and Steal Rolling Psychology - Beat the Gacha Mindset"
+    },
+    {
+      "locale": "en",
+      "contentType": "pet-rolling",
+      "slug": "pet-rolling-storage-optimization",
+      "segments": [
+        "pet-rolling-storage-optimization"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Pet-Storage-Optimization",
+      "title": "Build a Base and Steal Pet Storage Optimization - Maximize Storage Value"
+    },
+    {
+      "locale": "en",
+      "contentType": "pet-rolling",
+      "slug": "pet-rolling-tier-list",
+      "segments": [
+        "pet-rolling-tier-list"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Pet-Rolling-Tier-List",
+      "title": "Build a Base and Steal Pet Rolling Tier List - Best Pets to Roll For in 2026"
+    },
+    {
+      "locale": "en",
+      "contentType": "categories",
+      "slug": "pets-list",
+      "segments": [
+        "pets-list"
+      ],
+      "importPath": "pets-list",
+      "title": "Build a Base and Steal Pets List - Complete Pet Collection & Tier List"
+    },
+    {
+      "locale": "en",
+      "contentType": "pets-list",
+      "slug": "pets-list-collection-bonuses",
+      "segments": [
+        "pets-list-collection-bonuses"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Pets-List-Collection-Bonuses",
+      "title": "Build a Base and Steal Pets List - Collection Bonuses Explained"
+    },
+    {
+      "locale": "en",
+      "contentType": "pets-list",
+      "slug": "pets-list-common-uncommon",
+      "segments": [
+        "pets-list-common-uncommon"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Pets-List-Common-and-Uncommon",
+      "title": "Build a Base and Steal Pets List - Common and Uncommon Tier"
+    },
+    {
+      "locale": "en",
+      "contentType": "pets-list",
+      "slug": "pets-list-how-to-get-mythics",
+      "segments": [
+        "pets-list-how-to-get-mythics"
+      ],
+      "importPath": "Build-a-Base-and-Steal-How-to-Get-Mythics",
+      "title": "Build a Base and Steal How to Get Mythics - Mythic Pet Drop Rates and Strategies"
+    },
+    {
+      "locale": "en",
+      "contentType": "pets-list",
+      "slug": "pets-list-legendary-mythic",
+      "segments": [
+        "pets-list-legendary-mythic"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Pets-List-Legendary-and-Mythic",
+      "title": "Build a Base and Steal Pets List - Legendary and Mythic Tier"
+    },
+    {
+      "locale": "en",
+      "contentType": "pets-list",
+      "slug": "pets-list-newest-pets-meta",
+      "segments": [
+        "pets-list-newest-pets-meta"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Newest-Pets-Meta",
+      "title": "Build a Base and Steal Newest Pets Meta - Latest Pet Tier List and Rankings"
+    },
+    {
+      "locale": "en",
+      "contentType": "pets-list",
+      "slug": "pets-list-pet-evolution-potions",
+      "segments": [
+        "pets-list-pet-evolution-potions"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Pet-Evolution-Potions",
+      "title": "Build a Base and Steal Pet Evolution and Potions - Upgrade and Transform Your Pets"
+    },
+    {
+      "locale": "en",
+      "contentType": "pets-list",
+      "slug": "pets-list-pet-reroll-guide",
+      "segments": [
+        "pets-list-pet-reroll-guide"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Pet-Reroll-Guide",
+      "title": "Build a Base and Steal Pet Reroll Guide - When and How to Reroll Your Pet Collection"
+    },
+    {
+      "locale": "en",
+      "contentType": "pets-list",
+      "slug": "pets-list-rare-epic",
+      "segments": [
+        "pets-list-rare-epic"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Pets-List-Rare-and-Epic",
+      "title": "Build a Base and Steal Pets List - Rare and Epic Tier"
+    },
+    {
+      "locale": "en",
+      "contentType": "pets-list",
+      "slug": "pets-list-skill-pets",
+      "segments": [
+        "pets-list-skill-pets"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Skill-Pets",
+      "title": "Build a Base and Steal Skill Pets - Pets with Special Abilities and Roles"
+    },
+    {
+      "locale": "en",
+      "contentType": "pets-list",
+      "slug": "pets-list-trading-values",
+      "segments": [
+        "pets-list-trading-values"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Pets-List-Trading-Values",
+      "title": "Build a Base and Steal Pets List - Trading Values and Market Prices"
+    },
+    {
+      "locale": "en",
       "contentType": "guides",
       "slug": "progression-guide",
       "segments": [
@@ -151,14 +1091,114 @@
       "title": "Build a Base and Steal Raid Guide - Complete Raiding Strategy"
     },
     {
-      "locale": "ja",
-      "contentType": "guides",
-      "slug": "raid-guide",
+      "locale": "en",
+      "contentType": "categories",
+      "slug": "raiding",
       "segments": [
-        "raid-guide"
+        "raiding"
       ],
-      "importPath": "Build-a-Base-and-Steal-Raid-Guide",
-      "title": "Build a Base and Steal Raid Guide - Complete Raiding Strategy"
+      "importPath": "raiding",
+      "title": "Build a Base and Steal Raiding Guide - Pet Stealing & Attack Strategies"
+    },
+    {
+      "locale": "en",
+      "contentType": "raiding",
+      "slug": "raiding-anti-counter-defense",
+      "segments": [
+        "raiding-anti-counter-defense"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Anti-Counter-Defense",
+      "title": "Build a Base and Steal Anti-Counter Defense - Defend Against Counter Raiders"
+    },
+    {
+      "locale": "en",
+      "contentType": "raiding",
+      "slug": "raiding-anti-detection",
+      "segments": [
+        "raiding-anti-detection"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Anti-Detection-Guide",
+      "title": "Build a Base and Steal Anti-Detection - Avoiding Alarms, Cameras, and Trap Sensors"
+    },
+    {
+      "locale": "en",
+      "contentType": "raiding",
+      "slug": "raiding-breaching-techniques",
+      "segments": [
+        "raiding-breaching-techniques"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Breaching-Techniques-Guide",
+      "title": "Build a Base and Steal Breaching Techniques - Wall Breaking and Entry Methods"
+    },
+    {
+      "locale": "en",
+      "contentType": "raiding",
+      "slug": "raiding-coordinated-raids",
+      "segments": [
+        "raiding-coordinated-raids"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Coordinated-Raids",
+      "title": "Build a Base and Steal Coordinated Raids - Team Up for Maximum Loot"
+    },
+    {
+      "locale": "en",
+      "contentType": "raiding",
+      "slug": "raiding-event-raids",
+      "segments": [
+        "raiding-event-raids"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Event-Raids",
+      "title": "Build a Base and Steal Event Raids - Special Raid Opportunities"
+    },
+    {
+      "locale": "en",
+      "contentType": "raiding",
+      "slug": "raiding-loot-extraction",
+      "segments": [
+        "raiding-loot-extraction"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Loot-Extraction-Guide",
+      "title": "Build a Base and Steal Loot Extraction - Securing Stolen Pets and Resources"
+    },
+    {
+      "locale": "en",
+      "contentType": "raiding",
+      "slug": "raiding-raid-economy",
+      "segments": [
+        "raiding-raid-economy"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Raid-Economy",
+      "title": "Build a Base and Steal Raid Economy - Cash Flow of Successful Raiding"
+    },
+    {
+      "locale": "en",
+      "contentType": "raiding",
+      "slug": "raiding-raid-record-keeping",
+      "segments": [
+        "raiding-raid-record-keeping"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Raid-Record-Keeping",
+      "title": "Build a Base and Steal Raid Record Keeping - Track Every Raid for Improvement"
+    },
+    {
+      "locale": "en",
+      "contentType": "raiding",
+      "slug": "raiding-stealth-vs-brute",
+      "segments": [
+        "raiding-stealth-vs-brute"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Stealth-vs-Brute-Force-Guide",
+      "title": "Build a Base and Steal Stealth vs Brute Force - Choosing the Right Raid Style"
+    },
+    {
+      "locale": "en",
+      "contentType": "raiding",
+      "slug": "raiding-target-selection",
+      "segments": [
+        "raiding-target-selection"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Target-Selection-Guide",
+      "title": "Build a Base and Steal Target Selection - How to Find and Evaluate Raid Targets"
     },
     {
       "locale": "en",
@@ -171,17 +1211,3255 @@
       "title": "Build a Base and Steal Stealing Guide - Advanced Pet Theft Strategies"
     },
     {
-      "locale": "ja",
-      "contentType": "guides",
-      "slug": "stealing-guide",
+      "locale": "en",
+      "contentType": "categories",
+      "slug": "strategies",
       "segments": [
-        "stealing-guide"
+        "strategies"
       ],
-      "importPath": "Build-a-Base-and-Steal-Stealing-Guide",
-      "title": "Build a Base and Steal Stealing Guide - Advanced Pet Theft Strategies"
+      "importPath": "strategies",
+      "title": "Build a Base and Steal Strategy Guide - Advanced Tactics & Pro Tips"
+    },
+    {
+      "locale": "en",
+      "contentType": "strategies",
+      "slug": "strategies-aggressive-strategies",
+      "segments": [
+        "strategies-aggressive-strategies"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Aggressive-Strategies",
+      "title": "Build a Base and Steal Aggressive Strategies - Dominate Through Force"
+    },
+    {
+      "locale": "en",
+      "contentType": "strategies",
+      "slug": "strategies-early-game",
+      "segments": [
+        "strategies-early-game"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Strategies-Early-Game",
+      "title": "Build a Base and Steal Early Game Strategy - First Week Roadmap"
+    },
+    {
+      "locale": "en",
+      "contentType": "strategies",
+      "slug": "strategies-end-game",
+      "segments": [
+        "strategies-end-game"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Strategies-End-Game",
+      "title": "Build a Base and Steal End Game Strategy - Master the Top Tier"
+    },
+    {
+      "locale": "en",
+      "contentType": "strategies",
+      "slug": "strategies-mid-game",
+      "segments": [
+        "strategies-mid-game"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Strategies-Mid-Game",
+      "title": "Build a Base and Steal Mid Game Strategy - Months 1 to 3 Roadmap"
+    },
+    {
+      "locale": "en",
+      "contentType": "strategies",
+      "slug": "strategies-rebirth",
+      "segments": [
+        "strategies-rebirth"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Rebirth-Strategies",
+      "title": "Build a Base and Steal Rebirth Strategies - Optimize Your Rebirth Cycle"
+    },
+    {
+      "locale": "en",
+      "contentType": "strategies",
+      "slug": "strategies-solo-vs-team",
+      "segments": [
+        "strategies-solo-vs-team"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Strategies-Solo-vs-Team",
+      "title": "Build a Base and Steal Solo vs Team Play - Which Strategy Is Right for You?"
+    },
+    {
+      "locale": "en",
+      "contentType": "strategies",
+      "slug": "strategies-solo-vs-team-forks",
+      "segments": [
+        "strategies-solo-vs-team-forks"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Solo-vs-Team",
+      "title": "Build a Base and Steal Solo vs Team Forks - Choosing Your Path"
+    },
+    {
+      "locale": "en",
+      "contentType": "strategies",
+      "slug": "strategies-speedrun",
+      "segments": [
+        "strategies-speedrun"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Speedrun-Strategies",
+      "title": "Build a Base and Steal Speedrun Strategies - Complete Raids in Record Time"
+    },
+    {
+      "locale": "en",
+      "contentType": "strategies",
+      "slug": "strategies-trader-playstyle",
+      "segments": [
+        "strategies-trader-playstyle"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Strategies-Trader-Playstyle",
+      "title": "Build a Base and Steal Trader Playstyle - Master the Market"
+    },
+    {
+      "locale": "en",
+      "contentType": "strategies",
+      "slug": "strategies-trader-playstyle-economy",
+      "segments": [
+        "strategies-trader-playstyle-economy"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Trader-Playstyle",
+      "title": "Build a Base and Steal Trader Playstyle - Master the Economy"
+    },
+    {
+      "locale": "en",
+      "contentType": "guides",
+      "slug": "trading-guide",
+      "segments": [
+        "trading-guide"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Trading-Guide",
+      "title": "Build a Base and Steal Trading Guide - Safe and Profitable Trades"
+    },
+    {
+      "locale": "en",
+      "contentType": "categories",
+      "slug": "updates",
+      "segments": [
+        "updates"
+      ],
+      "importPath": "updates",
+      "title": "Build a Base and Steal Updates - Latest Patch Notes & Game News"
+    },
+    {
+      "locale": "en",
+      "contentType": "updates",
+      "slug": "updates-balance-changes",
+      "segments": [
+        "updates-balance-changes"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Balance-Changes",
+      "title": "Build a Base and Steal Balance Changes - How Updates Affect Gameplay"
+    },
+    {
+      "locale": "en",
+      "contentType": "updates",
+      "slug": "updates-events-calendar",
+      "segments": [
+        "updates-events-calendar"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Events-Calendar",
+      "title": "Build a Base and Steal Events Calendar - Current and Upcoming Events"
+    },
+    {
+      "locale": "en",
+      "contentType": "updates",
+      "slug": "updates-new-pets",
+      "segments": [
+        "updates-new-pets"
+      ],
+      "importPath": "Build-a-Base-and-Steal-New-Pets",
+      "title": "Build a Base and Steal New Pets - Latest Pet Additions and Meta Impact"
+    },
+    {
+      "locale": "en",
+      "contentType": "updates",
+      "slug": "updates-patch-notes",
+      "segments": [
+        "updates-patch-notes"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Patch-Notes",
+      "title": "Build a Base and Steal Patch Notes - Latest Updates and Changes"
+    },
+    {
+      "locale": "en",
+      "contentType": "updates",
+      "slug": "updates-upcoming-features",
+      "segments": [
+        "updates-upcoming-features"
+      ],
+      "importPath": "Build-a-Base-and-Steal-Upcoming-Features",
+      "title": "Build a Base and Steal Upcoming Features - What's Coming Next"
     }
   ],
   "tocMap": {
+    "codes:en:codes-active-codes": [
+      {
+        "id": "currently-active-codes",
+        "text": "Currently Active Codes"
+      },
+      {
+        "id": "how-to-use-this-list",
+        "text": "How to Use This List"
+      },
+      {
+        "id": "what-rewards-are-typically-offered",
+        "text": "What Rewards Are Typically Offered"
+      },
+      {
+        "id": "the-refresh-and-creator-partnerships-and-we-verify-any-new-code-in-a-public-server-before-adding-it-to-the-list-verification-takes-5-to-15-minutes-because-we-confirm-both-that-the-code-redeems-successfully-and-that-the-reward-matches-what-the-source-claimed-codes-that-fail-verification-are-not-added-and-codes-that-work-but-grant-a-different-reward-than-advertised-are-added-with-a-corrected-reward-description",
+        "text": "The Refresh, and creator partnerships, and we verify any new code in a public server before adding it to the list. Verification takes 5 to 15 minutes because we confirm both that the code redeems successfully and that the reward matches what the source claimed. Codes that fail verification are not added, and codes that work but grant a different reward than advertised are added with a corrected reward description."
+      },
+      {
+        "id": "avoiding-fake-codes",
+        "text": "Avoiding Fake Codes"
+      },
+      {
+        "id": "what-to-do-after-redeeming",
+        "text": "What to Do After Redeeming"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "codes:en:codes-code-history": [
+      {
+        "id": "the-three-eras-of-build-a-base-and-steal-codes",
+        "text": "The Three Eras of Build a Base and Steal Codes"
+      },
+      {
+        "id": "the-hidden-code-phenomenon",
+        "text": "The Hidden Code Phenomenon"
+      },
+      {
+        "id": "building-a-code-routine",
+        "text": "Building a Code Routine"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "codes:en:codes-troubleshooting": [
+      {
+        "id": "the-redemption-interface",
+        "text": "The Redemption Interface"
+      },
+      {
+        "id": "reason-6-the-code-was-already-redeemed",
+        "text": "Reason 6: The Code Was Already Redeemed"
+      },
+      {
+        "id": "reason-7-the-code-is-from-a-private-server",
+        "text": "Reason 7: The Code Is From a Private Server"
+      },
+      {
+        "id": "advanced-troubleshooting-steps",
+        "text": "Advanced Troubleshooting Steps"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "codes:en:codes-event-codes": [
+      {
+        "id": "the-event-code-calendar",
+        "text": "The Event Code Calendar"
+      },
+      {
+        "id": "update-tied-event-codes",
+        "text": "Update-Tied Event Codes"
+      },
+      {
+        "id": "strategy-for-catching-event-codes",
+        "text": "Strategy for Catching Event Codes"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "codes:en:codes-expired-codes": [
+      {
+        "id": "recently-expired-codes-june---july-2026",
+        "text": "Recently Expired Codes (June - July 2026)"
+      },
+      {
+        "id": "older-expired-codes-q1-2026",
+        "text": "Older Expired Codes (Q1 2026)"
+      },
+      {
+        "id": "how-to-read-this-archive",
+        "text": "How to Read This Archive"
+      },
+      {
+        "id": "looking-forward-what-the-archive-tells-us",
+        "text": "Looking Forward: What the Archive Tells Us"
+      },
+      {
+        "id": "reporting-errors-in-the-archive",
+        "text": "Reporting Errors in the Archive"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "codes:en:codes-free-rewards": [
+      {
+        "id": "daily-login-rewards",
+        "text": "Daily Login Rewards"
+      },
+      {
+        "id": "event-rewards",
+        "text": "Event Rewards"
+      },
+      {
+        "id": "achievement-milestones",
+        "text": "Achievement Milestones"
+      },
+      {
+        "id": "social-media-giveaways",
+        "text": "Social Media Giveaways"
+      },
+      {
+        "id": "creator-partnerships-and-content-codes",
+        "text": "Creator Partnerships and Content Codes"
+      },
+      {
+        "id": "compounding-free-rewards",
+        "text": "Compounding Free Rewards"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "codes:en:codes-redemption-guide": [
+      {
+        "id": "where-to-find-the-code-redemption-menu",
+        "text": "Where to Find the Code Redemption Menu"
+      },
+      {
+        "id": "entering-codes-correctly",
+        "text": "Entering Codes Correctly"
+      },
+      {
+        "id": "types-of-rewards-you-can-earn",
+        "text": "Types of Rewards You Can Earn"
+      },
+      {
+        "id": "best-practices-for-code-hunting",
+        "text": "Best Practices for Code Hunting"
+      },
+      {
+        "id": "what-to-do-with-code-rewards",
+        "text": "What to Do With Code Rewards"
+      },
+      {
+        "id": "frequently-asked-questions-about-code-redemption",
+        "text": "Frequently Asked Questions About Code Redemption"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "codes:en:codes-roblox-promocode-integration": [
+      {
+        "id": "the-two-code-systems-explained",
+        "text": "The Two Code Systems Explained"
+      },
+      {
+        "id": "the-strategy-for-maximizing-code-rewards",
+        "text": "The Strategy for Maximizing Code Rewards"
+      },
+      {
+        "id": "common-misconceptions-about-the-code-systems",
+        "text": "Common Misconceptions About the Code Systems"
+      },
+      {
+        "id": "staying-updated-on-both-systems",
+        "text": "Staying Updated on Both Systems"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "codes:en:codes-update-launch-codes": [
+      {
+        "id": "the-update-code-pattern",
+        "text": "The Update Code Pattern"
+      },
+      {
+        "id": "v24-launch-codes-the-income-update",
+        "text": "v2.4 Launch Codes (The Income Update)"
+      },
+      {
+        "id": "v25-expected-codes",
+        "text": "v2.5 Expected Codes"
+      },
+      {
+        "id": "strategy-for-update-codes",
+        "text": "Strategy for Update Codes"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "codes:en:codes-where-to-find-codes": [
+      {
+        "id": "the-official-discord-server",
+        "text": "The Official Discord Server"
+      },
+      {
+        "id": "the-official-x--twitter-account",
+        "text": "The Official X / Twitter Account"
+      },
+      {
+        "id": "youtube-creator-partnerships",
+        "text": "YouTube Creator Partnerships"
+      },
+      {
+        "id": "third-party-aggregators",
+        "text": "Third-Party Aggregators"
+      },
+      {
+        "id": "roblox-itself",
+        "text": "Roblox Itself"
+      },
+      {
+        "id": "setting-up-code-alerts",
+        "text": "Setting Up Code Alerts"
+      },
+      {
+        "id": "avoiding-fake-codes",
+        "text": "Avoiding Fake Codes"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "beginner-guide:en:beginner-guide-cash-management": [
+      {
+        "id": "reading-the-server-economy",
+        "text": "Reading the Server Economy"
+      },
+      {
+        "id": "stop-loss-discipline",
+        "text": "Stop-Loss Discipline"
+      },
+      {
+        "id": "income-categorization",
+        "text": "Income Categorization"
+      },
+      {
+        "id": "avoiding-the-cash-traps",
+        "text": "Avoiding the Cash Traps"
+      },
+      {
+        "id": "long-term-wealth-building",
+        "text": "Long-Term Wealth Building"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "beginner-guide:en:beginner-guide-common-mistakes": [
+      {
+        "id": "mistake-one-spending-all-cash-on-the-first-roll",
+        "text": "Mistake One: Spending All Cash on the First Roll"
+      },
+      {
+        "id": "mistake-two-building-without-a-plan",
+        "text": "Mistake Two: Building Without a Plan"
+      },
+      {
+        "id": "mistake-four-chasing-rare-pets-too-early",
+        "text": "Mistake Four: Chasing Rare Pets Too Early"
+      },
+      {
+        "id": "mistake-eight-trusting-strangers",
+        "text": "Mistake Eight: Trusting Strangers"
+      },
+      {
+        "id": "mistake-ten-playing-alone",
+        "text": "Mistake Ten: Playing Alone"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "beginner-guide:en:beginner-guide-daily-routine": [
+      {
+        "id": "the-five-phases-of-a-daily-session",
+        "text": "The Five Phases of a Daily Session"
+      },
+      {
+        "id": "adapting-the-routine",
+        "text": "Adapting the Routine"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "beginner-guide:en:beginner-guide-first-30-minutes": [
+      {
+        "id": "minute-zero-to-five-spawn-and-survey",
+        "text": "Minute Zero to Five: Spawn and Survey"
+      },
+      {
+        "id": "minute-five-to-fifteen-first-wall-and-first-roll",
+        "text": "Minute Five to Fifteen: First Wall and First Roll"
+      },
+      {
+        "id": "minute-fifteen-to-twenty-five-build-the-foundation",
+        "text": "Minute Fifteen to Twenty-Five: Build the Foundation"
+      },
+      {
+        "id": "minute-twenty-five-to-thirty-log-off-strategically",
+        "text": "Minute Twenty-Five to Thirty: Log Off Strategically"
+      },
+      {
+        "id": "common-first-session-traps-to-avoid",
+        "text": "Common First-Session Traps to Avoid"
+      },
+      {
+        "id": "what-comes-after-the-first-session",
+        "text": "What Comes After the First Session"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "beginner-guide:en:beginner-guide-first-raid-preparation": [
+      {
+        "id": "why-your-first-raid-matters",
+        "text": "Why Your First Raid Matters"
+      },
+      {
+        "id": "step-5-extract-your-loot",
+        "text": "Step 5: Extract Your Loot"
+      },
+      {
+        "id": "step-6-after-the-raid",
+        "text": "Step 6: After the Raid"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "beginner-guide:en:beginner-guide-first-week-roadmap": [
+      {
+        "id": "day-one-foundation-and-first-walls",
+        "text": "Day One: Foundation and First Walls"
+      },
+      {
+        "id": "day-two-expansion-and-first-raids",
+        "text": "Day Two: Expansion and First Raids"
+      },
+      {
+        "id": "day-three-income-optimization",
+        "text": "Day Three: Income Optimization"
+      },
+      {
+        "id": "day-four-first-major-upgrade",
+        "text": "Day Four: First Major Upgrade"
+      },
+      {
+        "id": "day-six-specialization-and-mid-game-entry",
+        "text": "Day Six: Specialization and Mid-Game Entry"
+      },
+      {
+        "id": "day-seven-rest-and-long-term-planning",
+        "text": "Day Seven: Rest and Long-Term Planning"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "beginner-guide:en:beginner-guide-interface-navigation": [
+      {
+        "id": "the-main-hud",
+        "text": "The Main HUD"
+      },
+      {
+        "id": "the-trading-hub",
+        "text": "The Trading Hub"
+      },
+      {
+        "id": "settings-and-account-menus",
+        "text": "Settings and Account Menus"
+      },
+      {
+        "id": "navigation-tips-for-new-players",
+        "text": "Navigation Tips for New Players"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "beginner-guide:en:beginner-guide-pet-storage": [
+      {
+        "id": "the-three-t-protected-by-your-strongest-defenses-tier-two-holds-your-mid-rarity-pets-protected-by-standard-defenses-tier-three-holds-your-common-pets-often-placed-as-buffers-in-vulnerable-positions-this-system-works-because-it-matches-the-protection-level-to-the-pet-value-ensuring-that-your-most-valuable-assets-get-the-strongest-protection-while-your-common-pets-absorb-raid-attempts",
+        "text": "The Three-T protected by your strongest defenses. Tier two holds your mid-rarity pets, protected by standard defenses. Tier three holds your common pets, often placed as buffers in vulnerable positions. This system works because it matches the protection level to the pet value, ensuring that your most valuable assets get the strongest protection while your common pets absorb raid attempts."
+      },
+      {
+        "id": "placement-geography",
+        "text": "Placement Geography"
+      },
+      {
+        "id": "storage-upgrades",
+        "text": "Storage Upgrades"
+      },
+      {
+        "id": "pet-organization-tools",
+        "text": "Pet Organization Tools"
+      },
+      {
+        "id": "the-trading-connection",
+        "text": "The Trading Connection"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "beginner-guide:en:beginner-guide-pet-storage-management": [
+      {
+        "id": "how-storage-works-in-build-a-base-and-steal",
+        "text": "How Storage Works in Build a Base and Steal"
+      },
+      {
+        "id": "when-to-expand-storage",
+        "text": "When to Expand Storage"
+      },
+      {
+        "id": "the-long-term-storage-mindset",
+        "text": "The Long-Term Storage Mindset"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "beginner-guide:en:beginner-guide-understanding-economy": [
+      {
+        "id": "the-three-currency-layers",
+        "text": "The Three Currency Layers"
+      },
+      {
+        "id": "the-role-of-offline-income",
+        "text": "The Role of Offline Income"
+      },
+      {
+        "id": "common-economic-mistakes",
+        "text": "Common Economic Mistakes"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "pet-rolling:en:pet-rolling-legendary-vs-mythic": [
+      {
+        "id": "the-rolling-cost-difference",
+        "text": "The Rolling Cost Difference"
+      },
+      {
+        "id": "which-tier-to-chase",
+        "text": "Which Tier to Chase"
+      },
+      {
+        "id": "the-hybrid-strategy",
+        "text": "The Hybrid Strategy"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "pet-rolling:en:pet-rolling-advanced-strategy": [
+      {
+        "id": "the-session-structure-of-a-pro-roller",
+        "text": "The Session Structure of a Pro Roller"
+      },
+      {
+        "id": "long-term-rolling-goals-and-milestones",
+        "text": "Long-Term Rolling Goals and Milestones"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "pet-rolling:en:pet-rolling-budget-management": [
+      {
+        "id": "why-budget-discipline-matters-more-than-luck",
+        "text": "Why Budget Discipline Matters More Than Luck"
+      },
+      {
+        "id": "common-budget-mistakes-and-how-to-avoid-them",
+        "text": "Common Budget Mistakes and How to Avoid Them"
+      },
+      {
+        "id": "building-a-sustainable-rolling-habit",
+        "text": "Building a Sustainable Rolling Habit"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "pet-rolling:en:pet-rolling-drop-rates": [
+      {
+        "id": "the-six-tier-rarity-structure",
+        "text": "The Six-Tier Rarity Structure"
+      },
+      {
+        "id": "reading-your-own-rolling-history",
+        "text": "Reading Your Own Rolling History"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "pet-rolling:en:pet-rolling-event-strategy": [
+      {
+        "id": "pre-event-planning",
+        "text": "Pre-Event Planning"
+      },
+      {
+        "id": "common-event-mistakes",
+        "text": "Common Event Mistakes"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "pet-rolling:en:pet-rolling-tier-list": [
+      {
+        "id": "how-the-tier-list-is-built",
+        "text": "How the Tier List Is Built"
+      },
+      {
+        "id": "d-tier-skip-unless-required",
+        "text": "D Tier: Skip Unless Required"
+      },
+      {
+        "id": "adapting-the-tier-list-to-your-playstyle",
+        "text": "Adapting the Tier List to Your Playstyle"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "pet-rolling:en:pet-rolling-storage-optimization": [
+      {
+        "id": "how-storage-value-works",
+        "text": "How Storage Value Works"
+      },
+      {
+        "id": "common-storage-mistakes",
+        "text": "Common Storage Mistakes"
+      },
+      {
+        "id": "the-storage-first-mindset",
+        "text": "The Storage-First Mindset"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "pet-rolling:en:pet-rolling-pity-system": [
+      {
+        "id": "what-the-pity-system-does",
+        "text": "What the Pity System Does"
+      },
+      {
+        "id": "common-pity-mistakes",
+        "text": "Common Pity Mistakes"
+      },
+      {
+        "id": "maximizing-pity-efficiency",
+        "text": "Maximizing Pity Efficiency"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "pet-rolling:en:pet-rolling-farming-strategies": [
+      {
+        "id": "the-three-farming-loops",
+        "text": "The Three Farming Loops"
+      },
+      {
+        "id": "combining-the-loops",
+        "text": "Combining the Loops"
+      },
+      {
+        "id": "long-term-farm-sustainability",
+        "text": "Long-Term Farm Sustainability"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "pet-rolling:en:pet-rolling-psychology": [
+      {
+        "id": "the-variable-reward-schedule",
+        "text": "The Variable Reward Schedule"
+      },
+      {
+        "id": "the-endowment-effect",
+        "text": "The Endowment Effect"
+      },
+      {
+        "id": "the-social-comparison-trap",
+        "text": "The Social Comparison Trap"
+      },
+      {
+        "id": "building-a-healthy-rolling-mindset",
+        "text": "Building a Healthy Rolling Mindset"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "base-defense:en:base-defense-base-locations": [
+      {
+        "id": "the-plot-types",
+        "text": "The Plot Types"
+      },
+      {
+        "id": "choosing-the-right-plot",
+        "text": "Choosing the Right Plot"
+      },
+      {
+        "id": "plot-migration",
+        "text": "Plot Migration"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "base-defense:en:base-defense-budget-optimization": [
+      {
+        "id": "the-defense-budget-framework",
+        "text": "The Defense Budget Framework"
+      },
+      {
+        "id": "cost-effectiveness-principles",
+        "text": "Cost-Effectiveness Principles"
+      },
+      {
+        "id": "allocating-across-wall-materials",
+        "text": "Allocating Across Wall Materials"
+      },
+      {
+        "id": "allocating-across-trap-types",
+        "text": "Allocating Across Trap Types"
+      },
+      {
+        "id": "allocating-across-pet-storage",
+        "text": "Allocating Across Pet Storage"
+      },
+      {
+        "id": "reserve-management",
+        "text": "Reserve Management"
+      },
+      {
+        "id": "optimization-patterns",
+        "text": "Optimization Patterns"
+      },
+      {
+        "id": "common-budget-mistakes",
+        "text": "Common Budget Mistakes"
+      },
+      {
+        "id": "conclusion-the-budget-is-the-base",
+        "text": "Conclusion: The Budget Is the Base"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "base-defense:en:base-defense-core-vault": [
+      {
+        "id": "what-a-core-vault-is-for",
+        "text": "What a Core Vault Is For"
+      },
+      {
+        "id": "choosing-the-vault-location",
+        "text": "Choosing the Vault Location"
+      },
+      {
+        "id": "vault-construction",
+        "text": "Vault Construction"
+      },
+      {
+        "id": "pet-placement-inside-the-vault",
+        "text": "Pet Placement Inside the Vault"
+      },
+      {
+        "id": "hidden-access-mechanisms",
+        "text": "Hidden Access Mechanisms"
+      },
+      {
+        "id": "vault-maintenance",
+        "text": "Vault Maintenance"
+      },
+      {
+        "id": "emergency-vault-protocols",
+        "text": "Emergency Vault Protocols"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "base-defense:en:base-defense-raider-counter-tactics": [
+      {
+        "id": "anti-stealth-defense-patterns",
+        "text": "Anti-Stealth Defense Patterns"
+      },
+      {
+        "id": "anti-brute-force-defense-patterns",
+        "text": "Anti-Brute-Force Defense Patterns"
+      },
+      {
+        "id": "anti-team-defense-patterns",
+        "text": "Anti-Team Defense Patterns"
+      },
+      {
+        "id": "adaptive-defense-responding-to-the-raid-type",
+        "text": "Adaptive Defense: Responding to the Raid Type"
+      },
+      {
+        "id": "conclusion-defeat-the-raid-type-not-the-raider",
+        "text": "Conclusion: Defeat the Raid Type, Not the Raider"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "base-defense:en:base-defense-layered-defense": [
+      {
+        "id": "why-layered-defense-works",
+        "text": "Why Layered Defense Works"
+      },
+      {
+        "id": "cost-benefit-analysis",
+        "text": "Cost-Benefit Analysis"
+      },
+      {
+        "id": "adapting-the-layers",
+        "text": "Adapting the Layers"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "base-defense:en:base-defense-recovery-after-raid": [
+      {
+        "id": "the-first-hour-after-the-raid",
+        "text": "The First Hour After the Raid"
+      },
+      {
+        "id": "the-repelling-effect",
+        "text": "The Repelling Effect"
+      },
+      {
+        "id": "building-back-stronger",
+        "text": "Building Back Stronger"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "base-defense:en:base-defense-redundant-defenses": [
+      {
+        "id": "what-redundancy-means",
+        "text": "What Redundancy Means"
+      },
+      {
+        "id": "redundant-pet-placement",
+        "text": "Redundant Pet Placement"
+      },
+      {
+        "id": "the-cost-of-redundancy",
+        "text": "The Cost of Redundancy"
+      },
+      {
+        "id": "the-long-term-redundancy-mindset",
+        "text": "The Long-Term Redundancy Mindset"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "base-defense:en:base-defense-trap-mechanics": [
+      {
+        "id": "trap-categories",
+        "text": "Trap Categories"
+      },
+      {
+        "id": "extraction-delay-trap",
+        "text": "Extraction Delay Trap"
+      },
+      {
+        "id": "trap-combinations",
+        "text": "Trap Combinations"
+      },
+      {
+        "id": "trap-maintenance",
+        "text": "Trap Maintenance"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "base-defense:en:base-defense-trap-system": [
+      {
+        "id": "trap-categories-in-build-a-base-and-steal",
+        "text": "Trap Categories in Build a Base and Steal"
+      },
+      {
+        "id": "trap-placement-principles",
+        "text": "Trap Placement Principles"
+      },
+      {
+        "id": "trap-chains-and-cascade-designs",
+        "text": "Trap Chains and Cascade Designs"
+      },
+      {
+        "id": "common-trap-mistakes",
+        "text": "Common Trap Mistakes"
+      },
+      {
+        "id": "measuring-trap-effectiveness",
+        "text": "Measuring Trap Effectiveness"
+      },
+      {
+        "id": "conclusion-traps-are-networks-not-decorations",
+        "text": "Conclusion: Traps Are Networks, Not Decorations"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "base-defense:en:base-defense-wall-strategy": [
+      {
+        "id": "how-walls-work-in-build-a-base-and-steal",
+        "text": "How Walls Work in Build a Base and Steal"
+      },
+      {
+        "id": "wall-material-tier-guide",
+        "text": "Wall Material Tier Guide"
+      },
+      {
+        "id": "strategic-wall-placement",
+        "text": "Strategic Wall Placement"
+      },
+      {
+        "id": "common-wall-mistakes-to-avoid",
+        "text": "Common Wall Mistakes to Avoid"
+      },
+      {
+        "id": "advanced-wall-techniques",
+        "text": "Advanced Wall Techniques"
+      },
+      {
+        "id": "measuring-wall-effectiveness",
+        "text": "Measuring Wall Effectiveness"
+      },
+      {
+        "id": "conclusion-walls-are-strategy-not-decoration",
+        "text": "Conclusion: Walls Are Strategy, Not Decoration"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "raiding:en:raiding-anti-counter-defense": [
+      {
+        "id": "how-counter-raids-work",
+        "text": "How Counter-Raids Work"
+      },
+      {
+        "id": "the-defensive-cooldown",
+        "text": "The Defensive Cooldown"
+      },
+      {
+        "id": "long-term-anti-counter-defense",
+        "text": "Long-Term Anti-Counter Defense"
+      },
+      {
+        "id": "the-counter-raid-economics",
+        "text": "The Counter-Raid Economics"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "raiding:en:raiding-anti-detection": [
+      {
+        "id": "the-detection-layer-in-build-a-base-and-steal",
+        "text": "The Detection Layer in Build a Base and Steal"
+      },
+      {
+        "id": "alarm-traps",
+        "text": "Alarm Traps"
+      },
+      {
+        "id": "surveillance-cameras",
+        "text": "Surveillance Cameras"
+      },
+      {
+        "id": "the-detection-network",
+        "text": "The Detection Network"
+      },
+      {
+        "id": "anti-detection-tools",
+        "text": "Anti-Detection Tools"
+      },
+      {
+        "id": "anti-detection-techniques",
+        "text": "Anti-Detection Techniques"
+      },
+      {
+        "id": "counter-defenses-to-anti-detection",
+        "text": "Counter-Defenses to Anti-Detection"
+      },
+      {
+        "id": "common-anti-detection-mistakes",
+        "text": "Common Anti-Detection Mistakes"
+      },
+      {
+        "id": "conclusion-the-invisible-raid-is-the-profitable-raid",
+        "text": "Conclusion: The Invisible Raid Is the Profitable Raid"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "raiding:en:raiding-breaching-techniques": [
+      {
+        "id": "understanding-breaching-mechanics",
+        "text": "Understanding Breaching Mechanics"
+      },
+      {
+        "id": "wall-breaking-tools",
+        "text": "Wall-Breaking Tools"
+      },
+      {
+        "id": "breaching-sequences",
+        "text": "Breaching Sequences"
+      },
+      {
+        "id": "defensive-awareness-during-breaching",
+        "text": "Defensive Awareness During Breaching"
+      },
+      {
+        "id": "common-breaching-mistakes",
+        "text": "Common Breaching Mistakes"
+      },
+      {
+        "id": "conclusion-breaching-is-sequence-not-just-force",
+        "text": "Conclusion: Breaching Is Sequence, Not Just Force"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "raiding:en:raiding-coordinated-raids": [
+      {
+        "id": "the-coordination-mechanics",
+        "text": "The Coordination Mechanics"
+      },
+      {
+        "id": "coordinating-without-a-group",
+        "text": "Coordinating Without a Group"
+      },
+      {
+        "id": "common-coordination-mistakes",
+        "text": "Common Coordination Mistakes"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "raiding:en:raiding-event-raids": [
+      {
+        "id": "how-event-raids-work",
+        "text": "How Event Raids Work"
+      },
+      {
+        "id": "the-event-raid-risks",
+        "text": "The Event Raid Risks"
+      },
+      {
+        "id": "the-post-event-strategy",
+        "text": "The Post-Event Strategy"
+      },
+      {
+        "id": "long-term-event-planning",
+        "text": "Long-Term Event Planning"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "raiding:en:raiding-loot-extraction": [
+      {
+        "id": "the-extraction-window",
+        "text": "The Extraction Window"
+      },
+      {
+        "id": "loot-prioritization",
+        "text": "Loot Prioritization"
+      },
+      {
+        "id": "the-pet-pickup-mechanic",
+        "text": "The Pet Pickup Mechanic"
+      },
+      {
+        "id": "secure-extraction-paths",
+        "text": "Secure Extraction Paths"
+      },
+      {
+        "id": "the-defensive-loot",
+        "text": "The Defensive Loot"
+      },
+      {
+        "id": "post-extraction-processing",
+        "text": "Post-Extraction Processing"
+      },
+      {
+        "id": "common-extraction-mistakes",
+        "text": "Common Extraction Mistakes"
+      },
+      {
+        "id": "conclusion-the-raid-is-not-over-until-the-loot-is-stored",
+        "text": "Conclusion: The Raid Is Not Over Until the Loot Is Stored"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "raiding:en:raiding-raid-economy": [
+      {
+        "id": "the-cost-of-a-raid",
+        "text": "The Cost of a Raid"
+      },
+      {
+        "id": "the-reinvestment-principle",
+        "text": "The Reinvestment Principle"
+      },
+      {
+        "id": "the-long-term-raid-business",
+        "text": "The Long-Term Raid Business"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "raiding:en:raiding-raid-record-keeping": [
+      {
+        "id": "why-record-keeping-matters",
+        "text": "Why Record Keeping Matters"
+      },
+      {
+        "id": "the-logging-habit",
+        "text": "The Logging Habit"
+      },
+      {
+        "id": "the-log-review",
+        "text": "The Log Review"
+      },
+      {
+        "id": "common-logging-mistakes",
+        "text": "Common Logging Mistakes"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "raiding:en:raiding-stealth-vs-brute": [
+      {
+        "id": "the-stealth-philosophy",
+        "text": "The Stealth Philosophy"
+      },
+      {
+        "id": "the-brute-force-philosophy",
+        "text": "The Brute Force Philosophy"
+      },
+      {
+        "id": "the-hybrid-approach",
+        "text": "The Hybrid Approach"
+      },
+      {
+        "id": "switching-mid-raid",
+        "text": "Switching Mid-Raid"
+      },
+      {
+        "id": "conclusion-style-is-strategy-not-preference",
+        "text": "Conclusion: Style Is Strategy, Not Preference"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "raiding:en:raiding-target-selection": [
+      {
+        "id": "the-goal-of-target-selection",
+        "text": "The Goal of Target Selection"
+      },
+      {
+        "id": "building-a-target-shortlist",
+        "text": "Building a Target Shortlist"
+      },
+      {
+        "id": "evaluating-a-targets-value",
+        "text": "Evaluating a Target's Value"
+      },
+      {
+        "id": "evaluating-a-targets-defenses",
+        "text": "Evaluating a Target's Defenses"
+      },
+      {
+        "id": "the-target-score",
+        "text": "The Target Score"
+      },
+      {
+        "id": "risk-management",
+        "text": "Risk Management"
+      },
+      {
+        "id": "common-selection-mistakes",
+        "text": "Common Selection Mistakes"
+      },
+      {
+        "id": "conclusion-pick-the-right-targets-not-the-most-targets",
+        "text": "Conclusion: Pick the Right Targets, Not the Most Targets"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "offline-money:en:offline-money-afk-income-calculator": [
+      {
+        "id": "the-calculator-inputs",
+        "text": "The Calculator Inputs"
+      },
+      {
+        "id": "sample-calculation-20-pet-roster",
+        "text": "Sample Calculation: 20-Pet Roster"
+      },
+      {
+        "id": "adjusting-the-calculator-for-different-scenarios",
+        "text": "Adjusting the Calculator for Different Scenarios"
+      },
+      {
+        "id": "common-calculator-mistakes",
+        "text": "Common Calculator Mistakes"
+      },
+      {
+        "id": "from-calculator-to-action",
+        "text": "From Calculator to Action"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "offline-money:en:offline-money-advanced-formulas": [
+      {
+        "id": "the-base-formula",
+        "text": "The Base Formula"
+      },
+      {
+        "id": "happiness-the-hidden-multiplier",
+        "text": "Happiness: The Hidden Multiplier"
+      },
+      {
+        "id": "diminishing-returns-on-pet-count",
+        "text": "Diminishing Returns on Pet Count"
+      },
+      {
+        "id": "the-offline-cap-curve",
+        "text": "The Offline Cap Curve"
+      },
+      {
+        "id": "stacking-multipliers-the-big-picture",
+        "text": "Stacking Multipliers: The Big Picture"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "offline-money:en:offline-money-best-pets": [
+      {
+        "id": "the-income-math-you-need-to-know",
+        "text": "The Income Math You Need to Know"
+      },
+      {
+        "id": "pets-to-avoid-keeping",
+        "text": "Pets to Avoid Keeping"
+      },
+      {
+        "id": "leveling-priority-for-maximum-offline-cash",
+        "text": "Leveling Priority for Maximum Offline Cash"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "offline-money:en:offline-money-cap-reset-mastery": [
+      {
+        "id": "how-cap-resets-actually-work",
+        "text": "How Cap Resets Actually Work"
+      },
+      {
+        "id": "the-two-login-strategy",
+        "text": "The Two-Login Strategy"
+      },
+      {
+        "id": "the-premium-72-hour-cap",
+        "text": "The Premium 72-Hour Cap"
+      },
+      {
+        "id": "avoiding-cap-wastage",
+        "text": "Avoiding Cap Wastage"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "offline-money:en:offline-money-math-and-formulas": [
+      {
+        "id": "collection-bonuses-and-family-math",
+        "text": "Collection Bonuses and Family Math"
+      },
+      {
+        "id": "server-event-multipliers",
+        "text": "Server Event Multipliers"
+      },
+      {
+        "id": "practical-shortcuts-for-the-top-players",
+        "text": "Practical Shortcuts for the Top Players"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "offline-money:en:offline-money-multiplier-stacking": [
+      {
+        "id": "aura-placement-strategy",
+        "text": "Aura Placement Strategy"
+      },
+      {
+        "id": "event-bonus-timing",
+        "text": "Event Bonus Timing"
+      },
+      {
+        "id": "server-mood-and-raid-timing",
+        "text": "Server Mood and Raid Timing"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "offline-money:en:offline-money-cap-and-resets": [
+      {
+        "id": "the-8-hour-default-cap",
+        "text": "The 8-Hour Default Cap"
+      },
+      {
+        "id": "premium-cap-extensions",
+        "text": "Premium Cap Extensions"
+      },
+      {
+        "id": "what-triggers-a-reset",
+        "text": "What Triggers a \"Reset\""
+      },
+      {
+        "id": "common-on-resets-the-cap-and-lets-them-double-dip-it-does-not-the-cap-is-calculated-from-the-moment-of-disconnect-and-reconnecting-simply-triggers-the-payout-the-moment-you-reconnect-a-new-offline-clock-starts-and-your-next-payout-will-be-based-on-that-new-clock-there-is-no-way-to-reset-the-cap-mid-window",
+        "text": "Common on resets the cap and lets them double-dip. It does not. The cap is calculated from the moment of disconnect, and reconnecting simply triggers the payout. The moment you reconnect, a new offline clock starts, and your next payout will be based on that new clock. There is no way to reset the cap mid-window."
+      },
+      {
+        "id": "maximizing-income-around-the-cap",
+        "text": "Maximizing Income Around the Cap"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "offline-money:en:offline-money-how-it-works": [
+      {
+        "id": "the-core-income-formula",
+        "text": "The Core Income Formula"
+      },
+      {
+        "id": "how-the-offline-cap-works",
+        "text": "How the Offline Cap Works"
+      },
+      {
+        "id": "maximizing-your-offline-earnings",
+        "text": "Maximizing Your Offline Earnings"
+      },
+      {
+        "id": "common-misconceptions",
+        "text": "Common Misconceptions"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "offline-money:en:offline-money-rebirth-prestige-tiein": [
+      {
+        "id": "how-rebirth-works",
+        "text": "How Rebirth Works"
+      },
+      {
+        "id": "the-offline-income-connection",
+        "text": "The Offline Income Connection"
+      },
+      {
+        "id": "when-to-rebirth",
+        "text": "When to Rebirth"
+      },
+      {
+        "id": "stacking-rebirth-with-other-bonuses",
+        "text": "Stacking Rebirth with Other Bonuses"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "offline-money:en:offline-money-storage-expansion": [
+      {
+        "id": "the-default-storage-and-why-it-is-not-enough",
+        "text": "The Default Storage and Why It Is Not Enough"
+      },
+      {
+        "id": "the-cost-curve",
+        "text": "The Cost Curve"
+      },
+      {
+        "id": "when-to-expand",
+        "text": "When to Expand"
+      },
+      {
+        "id": "filling-new-storage-efficiently",
+        "text": "Filling New Storage Efficiently"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "pets-list:en:pets-list-how-to-get-mythics": [
+      {
+        "id": "mythic-drop-rates-explained",
+        "text": "Mythic Drop Rates Explained"
+      },
+      {
+        "id": "rolling-strategies-for-mythics",
+        "text": "Rolling Strategies for Mythics"
+      },
+      {
+        "id": "evolution-path-to-mythic",
+        "text": "Evolution Path to Mythic"
+      },
+      {
+        "id": "combining-rolling-and-evolution",
+        "text": "Combining Rolling and Evolution"
+      },
+      {
+        "id": "the-mythic-endgame",
+        "text": "The Mythic Endgame"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "pets-list:en:pets-list-newest-pets-meta": [
+      {
+        "id": "how-the-meta-shifts",
+        "text": "How the Meta Shifts"
+      },
+      {
+        "id": "s-tier-pets-current-meta",
+        "text": "S-Tier Pets (Current Meta)"
+      },
+      {
+        "id": "a-tier-pets-current-meta",
+        "text": "A-Tier Pets (Current Meta)"
+      },
+      {
+        "id": "b-tier-pets-current-meta",
+        "text": "B-Tier Pets (Current Meta)"
+      },
+      {
+        "id": "how-to-chase-the-meta",
+        "text": "How to Chase the Meta"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "pets-list:en:pets-list-pet-evolution-potions": [
+      {
+        "id": "how-pet-evolution-works",
+        "text": "How Pet Evolution Works"
+      },
+      {
+        "id": "rarity-potions-what-they-do-and-when-to-use-them",
+        "text": "Rarity Potions: What They Do and When to Use Them"
+      },
+      {
+        "id": "which-evolutions-are-worth-it",
+        "text": "Which Evolutions Are Worth It"
+      },
+      {
+        "id": "evolution-and-the-offline-income-multiplier",
+        "text": "Evolution and the Offline Income Multiplier"
+      },
+      {
+        "id": "the-evolution-endgame",
+        "text": "The Evolution Endgame"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "pets-list:en:pets-list-pet-reroll-guide": [
+      {
+        "id": "how-pet-rerolling-works",
+        "text": "How Pet Rerolling Works"
+      },
+      {
+        "id": "when-to-reroll",
+        "text": "When to Reroll"
+      },
+      {
+        "id": "reroll-tickets-what-they-do-and-how-to-use-them",
+        "text": "Reroll Tickets: What They Do and How to Use Them"
+      },
+      {
+        "id": "the-friendship-level-consideration",
+        "text": "The Friendship Level Consideration"
+      },
+      {
+        "id": "building-a-long-term-roster",
+        "text": "Building a Long-Term Roster"
+      },
+      {
+        "id": "common-reroll-mistakes",
+        "text": "Common Reroll Mistakes"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "pets-list:en:pets-list-collection-bonuses": [
+      {
+        "id": "what-are-collection-bonuses",
+        "text": "What Are Collection Bonuses"
+      },
+      {
+        "id": "common-mistakes-with-collection-bonuses",
+        "text": "Common Mistakes with Collection Bonuses"
+      },
+      {
+        "id": "long-term-collection-planning",
+        "text": "Long-Term Collection Planning"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "pets-list:en:pets-list-common-uncommon": [
+      {
+        "id": "understanding-the-common-tier",
+        "text": "Understanding the Common Tier"
+      },
+      {
+        "id": "understanding-the-uncommon-tier",
+        "text": "Understanding the Uncommon Tier"
+      },
+      {
+        "id": "strategies-for-common-and-uncommon-pets",
+        "text": "Strategies for Common and Uncommon Pets"
+      },
+      {
+        "id": "common-mistakes-with-low-tier-pets",
+        "text": "Common Mistakes with Low-Tier Pets"
+      },
+      {
+        "id": "long-term-value-of-low-tier-pets",
+        "text": "Long-Term Value of Low-Tier Pets"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "pets-list:en:pets-list-legendary-mythic": [
+      {
+        "id": "the-legendary-tier",
+        "text": "The Legendary Tier"
+      },
+      {
+        "id": "the-mythic-tier",
+        "text": "The Mythic Tier"
+      },
+      {
+        "id": "strategies-for-legendary-and-mythic-pets",
+        "text": "Strategies for Legendary and Mythic Pets"
+      },
+      {
+        "id": "common-mistakes-with-end-game-pets",
+        "text": "Common Mistakes with End-Game Pets"
+      },
+      {
+        "id": "long-term-collection-goals",
+        "text": "Long-Term Collection Goals"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "pets-list:en:pets-list-rare-epic": [
+      {
+        "id": "the-epic-tier",
+        "text": "The Epic Tier"
+      },
+      {
+        "id": "strategies-for-rare-and-epic-pets",
+        "text": "Strategies for Rare and Epic Pets"
+      },
+      {
+        "id": "common-mistakes-with-mid-tier-pets",
+        "text": "Common Mistakes with Mid-Tier Pets"
+      },
+      {
+        "id": "long-term-value-and-collection-goals",
+        "text": "Long-Term Value and Collection Goals"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "pets-list:en:pets-list-trading-values": [
+      {
+        "id": "the-trading-value-of-each-tier",
+        "text": "The Trading Value of Each Tier"
+      },
+      {
+        "id": "common-trading-mistakes",
+        "text": "Common Trading Mistakes"
+      },
+      {
+        "id": "long-term-trading-goals",
+        "text": "Long-Term Trading Goals"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "pets-list:en:pets-list-skill-pets": [
+      {
+        "id": "the-three-skill-categories",
+        "text": "The Three Skill Categories"
+      },
+      {
+        "id": "offensive-skill-pets",
+        "text": "Offensive Skill Pets"
+      },
+      {
+        "id": "defensive-skill-pets",
+        "text": "Defensive Skill Pets"
+      },
+      {
+        "id": "utility-skill-pets",
+        "text": "Utility Skill Pets"
+      },
+      {
+        "id": "building-a-roster-around-skill-pets",
+        "text": "Building a Roster Around Skill Pets"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "gear:en:gear-epic-tier-gear": [
+      {
+        "id": "how-epic-gear-differs-from-lower-tiers",
+        "text": "How Epic Gear Differs from Lower Tiers"
+      },
+      {
+        "id": "epic-tier-weapons",
+        "text": "Epic Tier Weapons"
+      },
+      {
+        "id": "epic-tier-tools",
+        "text": "Epic Tier Tools"
+      },
+      {
+        "id": "building-an-epic-loadout",
+        "text": "Building an Epic Loadout"
+      },
+      {
+        "id": "when-to-upgrade-beyond-epic",
+        "text": "When to Upgrade Beyond Epic"
+      },
+      {
+        "id": "common-epic-gear-mistakes",
+        "text": "Common Epic Gear Mistakes"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "gear:en:gear-crafting-guide": [
+      {
+        "id": "how-crafting-works",
+        "text": "How Crafting Works"
+      },
+      {
+        "id": "crafting-materials-legendary",
+        "text": "Crafting Materials: Legendary"
+      },
+      {
+        "id": "crafting-materials-mythic",
+        "text": "Crafting Materials: Mythic"
+      },
+      {
+        "id": "crafting-strategy-which-items-to-craft",
+        "text": "Crafting Strategy: Which Items to Craft"
+      },
+      {
+        "id": "crafting-and-the-gear-progression-path",
+        "text": "Crafting and the Gear Progression Path"
+      },
+      {
+        "id": "common-crafting-mistakes",
+        "text": "Common Crafting Mistakes"
+      },
+      {
+        "id": "the-crafting-endgame",
+        "text": "The Crafting Endgame"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "gear:en:gear-legendary-tier": [
+      {
+        "id": "understanding-the-legendary-tier",
+        "text": "Understanding the Legendary Tier"
+      },
+      {
+        "id": "acquiring-legendary-gear",
+        "text": "Acquiring Legendary Gear"
+      },
+      {
+        "id": "common-legendary-gear-mistakes",
+        "text": "Common Legendary Gear Mistakes"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "gear:en:gear-progression-path": [
+      {
+        "id": "early-game-starter-gear-to-rare-gear",
+        "text": "Early Game: Starter Gear to Rare Gear"
+      },
+      {
+        "id": "mid-game-rare-gear-to-epic-gear",
+        "text": "Mid Game: Rare Gear to Epic Gear"
+      },
+      {
+        "id": "late-game-epic-gear-to-legendary-gear",
+        "text": "Late Game: Epic Gear to Legendary Gear"
+      },
+      {
+        "id": "endgame-legendary-gear-to-mythic-gear",
+        "text": "Endgame: Legendary Gear to Mythic Gear"
+      },
+      {
+        "id": "upgrade-priority-within-each-tier",
+        "text": "Upgrade Priority Within Each Tier"
+      },
+      {
+        "id": "common-progression-mistakes",
+        "text": "Common Progression Mistakes"
+      },
+      {
+        "id": "the-optimal-progression-timeline",
+        "text": "The Optimal Progression Timeline"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "gear:en:gear-set-bonuses": [
+      {
+        "id": "how-gear-sets-work",
+        "text": "How Gear Sets Work"
+      },
+      {
+        "id": "the-fire-set-offensive-synergy",
+        "text": "The Fire Set: Offensive Synergy"
+      },
+      {
+        "id": "the-frost-set-defensive-synergy",
+        "text": "The Frost Set: Defensive Synergy"
+      },
+      {
+        "id": "the-shadow-set-utility-synergy",
+        "text": "The Shadow Set: Utility Synergy"
+      },
+      {
+        "id": "mixed-set-strategies",
+        "text": "Mixed Set Strategies"
+      },
+      {
+        "id": "set-bonus-math-the-5-piece-advantage",
+        "text": "Set Bonus Math: The 5-Piece Advantage"
+      },
+      {
+        "id": "building-a-complete-set",
+        "text": "Building a Complete Set"
+      },
+      {
+        "id": "set-bonuses-in-the-meta",
+        "text": "Set Bonuses in the Meta"
+      },
+      {
+        "id": "common-set-bonus-mistakes",
+        "text": "Common Set Bonus Mistakes"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "gear:en:gear-starter-loadout": [
+      {
+        "id": "the-four-gear-categories",
+        "text": "The Four Gear Categories"
+      },
+      {
+        "id": "common-starter-loadout-mistakes",
+        "text": "Common Starter Loadout Mistakes"
+      },
+      {
+        "id": "upgrading-your-loadout-over-time",
+        "text": "Upgrading Your Loadout Over Time"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "gear:en:gear-support-items": [
+      {
+        "id": "shield-categories",
+        "text": "Shield Categories"
+      },
+      {
+        "id": "common-support-item-mistakes",
+        "text": "Common Support Item Mistakes"
+      },
+      {
+        "id": "long-term-support-item-strategy",
+        "text": "Long-Term Support Item Strategy"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "gear:en:gear-tools-explained": [
+      {
+        "id": "breaching-tools",
+        "text": "Breaching Tools"
+      },
+      {
+        "id": "building-a-tool-loadout",
+        "text": "Building a Tool Loadout"
+      },
+      {
+        "id": "common-tool-mistakes",
+        "text": "Common Tool Mistakes"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "gear:en:gear-weapon-types": [
+      {
+        "id": "blasters-the-all-purpose-weapon",
+        "text": "Blasters: The All-Purpose Weapon"
+      },
+      {
+        "id": "choosing-the-right-raids-the-hammer-is-the-best-choice-if-you-prefer-combat-focused-raids-the-energy-weapon-or-sniper-is-the-best-choice-if-you-prefer-flexible-solo-play-the-blaster-is-the-best-choice-if-you-prefer-team-play-the-heavy-or-support-weapon-is-the-best-choice",
+        "text": "Choosing the Right raids, the hammer is the best choice. If you prefer combat-focused raids, the energy weapon or sniper is the best choice. If you prefer flexible solo play, the blaster is the best choice. If you prefer team play, the heavy or support weapon is the best choice."
+      },
+      {
+        "id": "weapon-upgrade-path",
+        "text": "Weapon Upgrade Path"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "gear:en:gear-mythic-tier-gear": [
+      {
+        "id": "the-mythic-drop-rate",
+        "text": "The Mythic Drop Rate"
+      },
+      {
+        "id": "mythic-tier-weapons",
+        "text": "Mythic Tier Weapons"
+      },
+      {
+        "id": "mythic-tier-tools",
+        "text": "Mythic Tier Tools"
+      },
+      {
+        "id": "building-the-ultimate-mythic-loadout",
+        "text": "Building the Ultimate Mythic Loadout"
+      },
+      {
+        "id": "crafting-mythic-gear",
+        "text": "Crafting Mythic Gear"
+      },
+      {
+        "id": "the-mythic-endgame",
+        "text": "The Mythic Endgame"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "strategies:en:strategies-aggressive-strategies": [
+      {
+        "id": "the-aggressive-mindset",
+        "text": "The Aggressive Mindset"
+      },
+      {
+        "id": "aggressive-gear-loadouts",
+        "text": "Aggressive Gear Loadouts"
+      },
+      {
+        "id": "aggressive-raiding-techniques",
+        "text": "Aggressive Raiding Techniques"
+      },
+      {
+        "id": "aggressive-base-building",
+        "text": "Aggressive Base Building"
+      },
+      {
+        "id": "aggressive-server-domination",
+        "text": "Aggressive Server Domination"
+      },
+      {
+        "id": "common-aggressive-mistakes",
+        "text": "Common Aggressive Mistakes"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "strategies:en:strategies-rebirth": [
+      {
+        "id": "the-first-rebirth-timing-and-preparation",
+        "text": "The First Rebirth: Timing and Preparation"
+      },
+      {
+        "id": "the-rebirth-cycle-early-mid-and-late",
+        "text": "The Rebirth Cycle: Early, Mid, and Late"
+      },
+      {
+        "id": "rebirth-timing-when-to-reset",
+        "text": "Rebirth Timing: When to Reset"
+      },
+      {
+        "id": "rebirth-bonuses-maximizing-multiplier-gains",
+        "text": "Rebirth Bonuses: Maximizing Multiplier Gains"
+      },
+      {
+        "id": "rebirth-and-the-offline-income-multiplier",
+        "text": "Rebirth and the Offline Income Multiplier"
+      },
+      {
+        "id": "common-rebirth-mistakes",
+        "text": "Common Rebirth Mistakes"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "strategies:en:strategies-solo-vs-team-forks": [
+      {
+        "id": "solo-play-maximum-flexibility",
+        "text": "Solo Play: Maximum Flexibility"
+      },
+      {
+        "id": "team-play-synergy-and-scale",
+        "text": "Team Play: Synergy and Scale"
+      },
+      {
+        "id": "choosing-the-right-playstyle",
+        "text": "Choosing the Right Playstyle"
+      },
+      {
+        "id": "hybrid-strategies",
+        "text": "Hybrid Strategies"
+      },
+      {
+        "id": "common-solo-and-team-mistakes",
+        "text": "Common Solo and Team Mistakes"
+      },
+      {
+        "id": "the-solo-vs-team-decision",
+        "text": "The Solo vs Team Decision"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "strategies:en:strategies-speedrun": [
+      {
+        "id": "the-speedrun-mindset",
+        "text": "The Speedrun Mindset"
+      },
+      {
+        "id": "route-planning-the-speedrun-foundation",
+        "text": "Route Planning: The Speedrun Foundation"
+      },
+      {
+        "id": "gear-selection-speedrun-loadouts",
+        "text": "Gear Selection: Speedrun Loadouts"
+      },
+      {
+        "id": "micro-techniques-shaving-seconds",
+        "text": "Micro-Techniques: Shaving Seconds"
+      },
+      {
+        "id": "speedrun-practice-and-improvement",
+        "text": "Speedrun Practice and Improvement"
+      },
+      {
+        "id": "speedrun-etiquette-and-ethics",
+        "text": "Speedrun Etiquette and Ethics"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "strategies:en:strategies-early-game": [
+      {
+        "id": "the-first-session-foundation",
+        "text": "The First Session: Foundation"
+      },
+      {
+        "id": "early-game-progression-milestones",
+        "text": "Early Game Progression Milestones"
+      },
+      {
+        "id": "the-mindset-of-an-early-game-player",
+        "text": "The Mindset of an Early Game Player"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "strategies:en:strategies-end-game": [
+      {
+        "id": "the-end-game-mindset",
+        "text": "The End Game Mindset"
+      },
+      {
+        "id": "common-end-game-mistakes",
+        "text": "Common End Game Mistakes"
+      },
+      {
+        "id": "end-game-success-metrics-leaderboard-ranking-and-their-ability-to-maintain-a-top-position-over-time",
+        "text": "End Game Success Metrics leaderboard ranking, and their ability to maintain a top position over time."
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "strategies:en:strategies-mid-game": [
+      {
+        "id": "the-mid-game-mindset",
+        "text": "The Mid Game Mindset"
+      },
+      {
+        "id": "mid-game-milestones",
+        "text": "Mid Game Milestones"
+      },
+      {
+        "id": "transitioning-to-the-end-game",
+        "text": "Transitioning to the End Game"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "strategies:en:strategies-solo-vs-team": [
+      {
+        "id": "the-solo-play-approach",
+        "text": "The Solo Play Approach"
+      },
+      {
+        "id": "coordination-and-communication",
+        "text": "Coordination and Communication"
+      },
+      {
+        "id": "choosing-the-right-approach-for-you",
+        "text": "Choosing the Right Approach for You"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "strategies:en:strategies-trader-playstyle": [
+      {
+        "id": "the-trader-mindset",
+        "text": "The Trader Mindset"
+      },
+      {
+        "id": "common-trader-mistakes",
+        "text": "Common Trader Mistakes"
+      },
+      {
+        "id": "long-term-trader-goals",
+        "text": "Long-Term Trader Goals"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "strategies:en:strategies-trader-playstyle-economy": [
+      {
+        "id": "the-trader-mindset",
+        "text": "The Trader Mindset"
+      },
+      {
+        "id": "understanding-market-prices",
+        "text": "Understanding Market Prices"
+      },
+      {
+        "id": "trading-strategies",
+        "text": "Trading Strategies"
+      },
+      {
+        "id": "building-a-trading-operation",
+        "text": "Building a Trading Operation"
+      },
+      {
+        "id": "the-trader-endgame",
+        "text": "The Trader Endgame"
+      },
+      {
+        "id": "common-trader-mistakes",
+        "text": "Common Trader Mistakes"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "faq:en:faq-base-defense-questions": [
+      {
+        "id": "how-do-i-protect-my-pets",
+        "text": "How Do I Protect My Pets?"
+      },
+      {
+        "id": "how-many-walls-do-i-need",
+        "text": "How Many Walls Do I Need?"
+      },
+      {
+        "id": "what-are-turrets-and-are-they-worth-it",
+        "text": "What Are Turrets and Are They Worth It?"
+      },
+      {
+        "id": "can-i-get-my-pets-back-after-a-raid",
+        "text": "Can I Get My Pets Back After a Raid?"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      }
+    ],
+    "faq:en:faq-beginner-questions": [
+      {
+        "id": "getting-started",
+        "text": "Getting Started"
+      },
+      {
+        "id": "core-mechanics",
+        "text": "Core Mechanics"
+      },
+      {
+        "id": "common-mistakes",
+        "text": "Common Mistakes"
+      },
+      {
+        "id": "progression",
+        "text": "Progression"
+      },
+      {
+        "id": "technical-issues",
+        "text": "Technical Issues"
+      },
+      {
+        "id": "community-and-social",
+        "text": "Community and Social"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      }
+    ],
+    "faq:en:faq-bugs-glitches-questions": [
+      {
+        "id": "common-bugs",
+        "text": "Common Bugs"
+      },
+      {
+        "id": "common-glitches",
+        "text": "Common Glitches"
+      },
+      {
+        "id": "reporting-bugs",
+        "text": "Reporting Bugs"
+      },
+      {
+        "id": "exploiting-glitches",
+        "text": "Exploiting Glitches"
+      },
+      {
+        "id": "technical-issues",
+        "text": "Technical Issues"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      }
+    ],
+    "faq:en:faq-codes-rebirth-questions": [
+      {
+        "id": "promo-codes",
+        "text": "Promo Codes"
+      },
+      {
+        "id": "rebirth-system",
+        "text": "Rebirth System"
+      },
+      {
+        "id": "advanced-questions",
+        "text": "Advanced Questions"
+      },
+      {
+        "id": "common-mistakes",
+        "text": "Common Mistakes"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      }
+    ],
+    "faq:en:faq-economy-and-codes": [
+      {
+        "id": "what-is-the-main-currency-in-build-a-base-and-steal",
+        "text": "What is the Main Currency in Build a Base and Steal?"
+      },
+      {
+        "id": "how-do-codes-work",
+        "text": "How Do Codes Work?"
+      },
+      {
+        "id": "how-can-i-make-cash-faster",
+        "text": "How Can I Make Cash Faster?"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      }
+    ],
+    "faq:en:faq-endgame-questions": [
+      {
+        "id": "mythic-gear",
+        "text": "Mythic Gear"
+      },
+      {
+        "id": "rebirth-and-prestige",
+        "text": "Rebirth and Prestige"
+      },
+      {
+        "id": "offline-income-optimization",
+        "text": "Offline Income Optimization"
+      },
+      {
+        "id": "advanced-strategies",
+        "text": "Advanced Strategies"
+      },
+      {
+        "id": "technical-and-mathematical-questions",
+        "text": "Technical and Mathematical Questions"
+      },
+      {
+        "id": "future-planning",
+        "text": "Future Planning"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      }
+    ],
+    "faq:en:faq-general-questions": [
+      {
+        "id": "what-is-build-a-base-and-steal",
+        "text": "What is Build a Base and Steal?"
+      },
+      {
+        "id": "what-is-the-core-gameplay-loop",
+        "text": "What is the Core Gameplay Loop?"
+      },
+      {
+        "id": "can-i-play-solo-or-with-friends",
+        "text": "Can I Play Solo or With Friends?"
+      },
+      {
+        "id": "is-my-progress-saved",
+        "text": "Is My Progress Saved?"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      }
+    ],
+    "faq:en:faq-pets-and-rolling": [
+      {
+        "id": "how-do-i-get-more-pets",
+        "text": "How Do I Get More Pets?"
+      },
+      {
+        "id": "is-there-a-pity-system",
+        "text": "Is There a Pity System?"
+      },
+      {
+        "id": "can-i-delete-or-sell-pets",
+        "text": "Can I Delete or Sell Pets?"
+      },
+      {
+        "id": "can-pets-be-upgraded",
+        "text": "Can Pets Be Upgraded?"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      }
+    ],
+    "faq:en:faq-raiding-questions": [
+      {
+        "id": "how-do-i-choose-a-target",
+        "text": "How Do I Choose a Target?"
+      },
+      {
+        "id": "what-happens-if-i-die-during-a-raid",
+        "text": "What Happens If I Die During a Raid?"
+      },
+      {
+        "id": "how-many-pets-can-i-steal-per-raid",
+        "text": "How Many Pets Can I Steal Per Raid?"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      }
+    ],
+    "faq:en:faq-trading-questions": [
+      {
+        "id": "pet-trading",
+        "text": "Pet Trading"
+      },
+      {
+        "id": "gear-trading",
+        "text": "Gear Trading"
+      },
+      {
+        "id": "material-trading",
+        "text": "Material Trading"
+      },
+      {
+        "id": "market-strategies",
+        "text": "Market Strategies"
+      },
+      {
+        "id": "technical-questions",
+        "text": "Technical Questions"
+      },
+      {
+        "id": "market-timing",
+        "text": "Market Timing"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      }
+    ],
+    "updates:en:updates-balance-changes": [
+      {
+        "id": "major-balance-changes-in-version-350",
+        "text": "Major Balance Changes in Version 3.5.0"
+      },
+      {
+        "id": "how-to-adapt-to-balance-changes",
+        "text": "How to Adapt to Balance Changes"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "updates:en:updates-events-calendar": [
+      {
+        "id": "current-events-july-2026",
+        "text": "Current Events (July 2026)"
+      },
+      {
+        "id": "upcoming-events-august-2026",
+        "text": "Upcoming Events (August 2026)"
+      },
+      {
+        "id": "event-types-explained",
+        "text": "Event Types Explained"
+      },
+      {
+        "id": "event-participation-tips",
+        "text": "Event Participation Tips"
+      },
+      {
+        "id": "event-rewards-guide",
+        "text": "Event Rewards Guide"
+      },
+      {
+        "id": "event-calendar-updates",
+        "text": "Event Calendar Updates"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "updates:en:updates-new-pets": [
+      {
+        "id": "new-pets-in-version-350",
+        "text": "New Pets in Version 3.5.0"
+      },
+      {
+        "id": "new-pets-in-version-340",
+        "text": "New Pets in Version 3.4.0"
+      },
+      {
+        "id": "meta-impact-analysis",
+        "text": "Meta Impact Analysis"
+      },
+      {
+        "id": "pet-acquisition-strategy",
+        "text": "Pet Acquisition Strategy"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "updates:en:updates-patch-notes": [
+      {
+        "id": "build-a-base-and-steal-patch-notes---version-350-july-2026",
+        "text": "Build a Base and Steal Patch Notes - Version 3.5.0 (July 2026)"
+      },
+      {
+        "id": "build-a-base-and-steal-patch-notes---version-340-june-2026",
+        "text": "Build a Base and Steal Patch Notes - Version 3.4.0 (June 2026)"
+      },
+      {
+        "id": "build-a-base-and-steal-patch-notes---version-330-may-2026",
+        "text": "Build a Base and Steal Patch Notes - Version 3.3.0 (May 2026)"
+      },
+      {
+        "id": "build-a-base-and-steal-patch-notes---version-320-april-2026",
+        "text": "Build a Base and Steal Patch Notes - Version 3.2.0 (April 2026)"
+      },
+      {
+        "id": "build-a-base-and-steal-patch-notes---version-310-march-2026",
+        "text": "Build a Base and Steal Patch Notes - Version 3.1.0 (March 2026)"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "updates:en:updates-upcoming-features": [
+      {
+        "id": "build-a-base-and-steal-roadmap---q3-2026",
+        "text": "Build a Base and Steal Roadmap - Q3 2026"
+      },
+      {
+        "id": "build-a-base-and-steal-roadmap---q4-2026",
+        "text": "Build a Base and Steal Roadmap - Q4 2026"
+      },
+      {
+        "id": "long-term-plans-2027",
+        "text": "Long-Term Plans (2027)"
+      },
+      {
+        "id": "developer-philosophy",
+        "text": "Developer Philosophy"
+      },
+      {
+        "id": "how-to-provide-feedback",
+        "text": "How to Provide Feedback"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "community:en:community-events": [
+      {
+        "id": "major-community-events",
+        "text": "Major Community Events"
+      },
+      {
+        "id": "community-organized-events",
+        "text": "Community-Organized Events"
+      },
+      {
+        "id": "event-participation-guide",
+        "text": "Event Participation Guide"
+      },
+      {
+        "id": "event-etiquette",
+        "text": "Event Etiquette"
+      },
+      {
+        "id": "creating-your-own-events",
+        "text": "Creating Your Own Events"
+      },
+      {
+        "id": "event-highlights",
+        "text": "Event Highlights"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "community:en:community-discord-servers": [
+      {
+        "id": "official-build-a-base-and-steal-discord",
+        "text": "Official Build a Base and Steal Discord"
+      },
+      {
+        "id": "community-run-discord-servers",
+        "text": "Community Run Discord Servers"
+      },
+      {
+        "id": "discord-etiquette",
+        "text": "Discord Etiquette"
+      },
+      {
+        "id": "getting-help-on-discord",
+        "text": "Getting Help on Discord"
+      },
+      {
+        "id": "community-events",
+        "text": "Community Events"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "community:en:community-tier-list-makers": [
+      {
+        "id": "community-tier-list-platforms",
+        "text": "Community Tier List Platforms"
+      },
+      {
+        "id": "pet-tier-lists",
+        "text": "Pet Tier Lists"
+      },
+      {
+        "id": "gear-tier-lists",
+        "text": "Gear Tier Lists"
+      },
+      {
+        "id": "strategy-tier-lists",
+        "text": "Strategy Tier Lists"
+      },
+      {
+        "id": "creating-your-own-tier-lists",
+        "text": "Creating Your Own Tier Lists"
+      },
+      {
+        "id": "community-rankings-vs-personal-rankings",
+        "text": "Community Rankings vs. Personal Rankings"
+      },
+      {
+        "id": "tier-list-controversies",
+        "text": "Tier List Controversies"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "community:en:community-trading-etiquette": [
+      {
+        "id": "core-trading-principles",
+        "text": "Core Trading Principles"
+      },
+      {
+        "id": "pre-trade-etiquette",
+        "text": "Pre-Trade Etiquette"
+      },
+      {
+        "id": "during-the-trade",
+        "text": "During the Trade"
+      },
+      {
+        "id": "post-trade-etiquette",
+        "text": "Post-Trade Etiquette"
+      },
+      {
+        "id": "avoiding-common-scams",
+        "text": "Avoiding Common Scams"
+      },
+      {
+        "id": "building-a-positive-reputation",
+        "text": "Building a Positive Reputation"
+      },
+      {
+        "id": "trading-with-new-players",
+        "text": "Trading with New Players"
+      },
+      {
+        "id": "consequences-of-bad-etiquette",
+        "text": "Consequences of Bad Etiquette"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "community:en:community-youtube-creators": [
+      {
+        "id": "top-build-a-base-and-steal-youtube-creators",
+        "text": "Top Build a Base and Steal YouTube Creators"
+      },
+      {
+        "id": "upcoming-creators-to-watch",
+        "text": "Upcoming Creators to Watch"
+      },
+      {
+        "id": "community-content-categories",
+        "text": "Community Content Categories"
+      },
+      {
+        "id": "how-to-support-creators",
+        "text": "How to Support Creators"
+      },
+      {
+        "id": "finding-new-content",
+        "text": "Finding New Content"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
     "guides:en:base-defense-guide": [
       {
         "id": "understanding-base-defense-fundamentals",
@@ -202,6 +4480,14 @@
       {
         "id": "advanced-base-layout-patterns",
         "text": "Advanced Base Layout Patterns"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
       }
     ],
     "guides:en:beginner-guide": [
@@ -232,6 +4518,14 @@
       {
         "id": "frequently-asked-questions",
         "text": "Frequently Asked Questions"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
       }
     ],
     "guides:en:best-pets-guide": [
@@ -270,6 +4564,14 @@
       {
         "id": "conclusion",
         "text": "Conclusion"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
       }
     ],
     "guides:en:codes-guide": [
@@ -320,6 +4622,14 @@
       {
         "id": "conclusion",
         "text": "Conclusion"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
       }
     ],
     "guides:en:farming-guide": [
@@ -350,6 +4660,14 @@
       {
         "id": "advanced-strategies-and-meta-considerations",
         "text": "Advanced Strategies and Meta Considerations"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
       }
     ],
     "guides:en:pet-rolling-guide": [
@@ -380,6 +4698,14 @@
       {
         "id": "frequently-asked-questions",
         "text": "Frequently Asked Questions"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
       }
     ],
     "guides:en:progression-guide": [
@@ -406,6 +4732,14 @@
       {
         "id": "conclusion",
         "text": "Conclusion"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
       }
     ],
     "guides:en:raid-guide": [
@@ -432,6 +4766,14 @@
       {
         "id": "post-raid-management",
         "text": "Post-Raid Management"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
       }
     ],
     "guides:en:stealing-guide": [
@@ -454,280 +4796,786 @@
       {
         "id": "post-raid-management",
         "text": "Post-Raid Management"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
       }
     ],
-    "guides:ja:base-defense-guide": [
+    "guides:en:trading-guide": [
       {
-        "id": "understanding-base-defense-fundamentals",
-        "text": "Understanding Base Defense Fundamentals"
+        "id": "getting-started-with-trading",
+        "text": "Getting Started with Trading"
       },
       {
-        "id": "core-defense-components",
-        "text": "Core Defense Components"
+        "id": "understanding-pet-values",
+        "text": "Understanding Pet Values"
       },
       {
-        "id": "advanced-defensive-strategies",
-        "text": "Advanced Defensive Strategies"
+        "id": "essential-trading-strategies",
+        "text": "Essential Trading Strategies"
       },
       {
-        "id": "meta-defense-and-psychological-warfare",
-        "text": "Meta-Defense and Psychological Warfare"
+        "id": "safe-trading-practices",
+        "text": "Safe Trading Practices"
       },
       {
-        "id": "advanced-base-layout-patterns",
-        "text": "Advanced Base Layout Patterns"
-      }
-    ],
-    "guides:ja:beginner-guide": [
-      {
-        "id": "getting-started-in-build-a-base-and-steal",
-        "text": "Getting Started in Build a Base and Steal"
+        "id": "advanced-trading-techniques",
+        "text": "Advanced Trading Techniques"
       },
       {
-        "id": "pet-rolling-mechanics",
-        "text": "Pet Rolling Mechanics"
+        "id": "trading-etiquette",
+        "text": "Trading Etiquette"
       },
       {
-        "id": "base-building-fundamentals",
-        "text": "Base Building Fundamentals"
+        "id": "trading-tools-and-resources",
+        "text": "Trading Tools and Resources"
       },
       {
-        "id": "earning-passive-income",
-        "text": "Earning Passive Income"
+        "id": "troubleshooting-trading-issues",
+        "text": "Troubleshooting Trading Issues"
       },
       {
-        "id": "protection-and-defense",
-        "text": "Protection and Defense"
+        "id": "maximizing-trading-profits",
+        "text": "Maximizing Trading Profits"
       },
       {
-        "id": "advanced-beginner-tips",
-        "text": "Advanced Beginner Tips"
+        "id": "community-trading-events",
+        "text": "Community Trading Events"
       },
       {
-        "id": "frequently-asked-questions",
-        "text": "Frequently Asked Questions"
-      }
-    ],
-    "guides:ja:best-pets-guide": [
-      {
-        "id": "pet-rarity-system-explained",
-        "text": "Pet Rarity System Explained"
-      },
-      {
-        "id": "s-tier-legendary-pets",
-        "text": "S-Tier: Legendary Pets"
-      },
-      {
-        "id": "a-tier-epic-pets",
-        "text": "A-Tier: Epic Pets"
-      },
-      {
-        "id": "b-tier-rare-pets",
-        "text": "B-Tier: Rare Pets"
-      },
-      {
-        "id": "c-tier-uncommon-pets",
-        "text": "C-Tier: Uncommon Pets"
-      },
-      {
-        "id": "d-tier-common-pets",
-        "text": "D-Tier: Common Pets"
-      },
-      {
-        "id": "pet-synergy-and-team-composition",
-        "text": "Pet Synergy and Team Composition"
-      },
-      {
-        "id": "pet-investment-priorities",
-        "text": "Pet Investment Priorities"
+        "id": "future-of-trading",
+        "text": "Future of Trading"
       },
       {
         "id": "conclusion",
         "text": "Conclusion"
+      },
+      {
+        "id": "see-also",
+        "text": "See Also"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
       }
     ],
-    "guides:ja:codes-guide": [
+    "categories:en:base-defense": [
       {
-        "id": "current-active-codes-july-2026",
-        "text": "Current Active Codes (July 2026)"
+        "id": "-understanding-base-defense-principles",
+        "text": "🏰 Understanding Base Defense Principles"
       },
       {
-        "id": "how-to-redeem-codes",
-        "text": "How to Redeem Codes"
+        "id": "-base-design-fundamentals",
+        "text": "📐 Base Design Fundamentals"
       },
       {
-        "id": "code-rewards-breakdown",
-        "text": "Code Rewards Breakdown"
+        "id": "-advanced-defense-systems",
+        "text": "🔧 Advanced Defense Systems"
       },
       {
-        "id": "code-types-and-categories",
-        "text": "Code Types and Categories"
+        "id": "-resource-management-for-defense",
+        "text": "💰 Resource Management for Defense"
       },
       {
-        "id": "tips-for-maximizing-code-value",
-        "text": "Tips for Maximizing Code Value"
+        "id": "-defense-strategy-by-progression-level",
+        "text": "🎯 Defense Strategy by Progression Level"
       },
       {
-        "id": "code-community-and-sharing",
-        "text": "Code Community and Sharing"
+        "id": "-specific-defense-strategies",
+        "text": "🧭 Specific Defense Strategies"
       },
       {
-        "id": "troubleshooting-code-issues",
-        "text": "Troubleshooting Code Issues"
+        "id": "-measuring-defense-effectiveness",
+        "text": "📊 Measuring Defense Effectiveness"
       },
       {
-        "id": "future-code-predictions",
-        "text": "Future Code Predictions"
+        "id": "️-common-defense-mistakes",
+        "text": "⚠️ Common Defense Mistakes"
       },
       {
-        "id": "advanced-code-strategies",
-        "text": "Advanced Code Strategies"
+        "id": "-advanced-defense-concepts",
+        "text": "🎓 Advanced Defense Concepts"
       },
       {
-        "id": "technical-code-implementation",
-        "text": "Technical Code Implementation"
+        "id": "-future-defense-developments",
+        "text": "🔮 Future Defense Developments"
       },
       {
-        "id": "code-related-game-features",
-        "text": "Code-Related Game Features"
+        "id": "-conclusion-building-an-impenetrable-fortress",
+        "text": "🎯 Conclusion: Building an Impenetrable Fortress"
       },
       {
-        "id": "conclusion",
-        "text": "Conclusion"
+        "id": "-related-resources",
+        "text": "📚 Related Resources"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
       }
     ],
-    "guides:ja:farming-guide": [
+    "categories:en:beginner-guide": [
       {
-        "id": "understanding-resource-generation-systems",
-        "text": "Understanding Resource Generation Systems"
+        "id": "-what-is-build-a-base-and-steal",
+        "text": "🎮 What is Build a Base and Steal?"
       },
       {
-        "id": "core-farming-buildings",
-        "text": "Core Farming Buildings"
+        "id": "-your-first-steps-getting-started",
+        "text": "🚀 Your First Steps: Getting Started"
       },
       {
-        "id": "optimal-base-layout-strategies",
-        "text": "Optimal Base Layout Strategies"
+        "id": "-core-game-mechanics-explained",
+        "text": "📚 Core Game Mechanics Explained"
       },
       {
-        "id": "advanced-farming-techniques",
-        "text": "Advanced Farming Techniques"
+        "id": "-progression-path-from-beginner-to-expert",
+        "text": "📈 Progression Path: From Beginner to Expert"
       },
       {
-        "id": "resource-conversion-and-value-enhancement",
-        "text": "Resource Conversion and Value Enhancement"
+        "id": "-essential-tips-for-beginners",
+        "text": "🎯 Essential Tips for Beginners"
       },
       {
-        "id": "efficiency-metrics-and-performance-tracking",
-        "text": "Efficiency Metrics and Performance Tracking"
+        "id": "-common-beginner-mistakes",
+        "text": "🚧 Common Beginner Mistakes"
       },
       {
-        "id": "advanced-strategies-and-meta-considerations",
-        "text": "Advanced Strategies and Meta Considerations"
+        "id": "-tools-and-resources-for-beginners",
+        "text": "🔧 Tools and Resources for Beginners"
+      },
+      {
+        "id": "-advanced-preparation",
+        "text": "🎓 Advanced Preparation"
+      },
+      {
+        "id": "-setting-goals-for-your-journey",
+        "text": "🚀 Setting Goals for Your Journey"
+      },
+      {
+        "id": "-getting-help-and-support",
+        "text": "🆘 Getting Help and Support"
+      },
+      {
+        "id": "-conclusion-your-journey-begins",
+        "text": "🎉 Conclusion: Your Journey Begins!"
+      },
+      {
+        "id": "-next-steps-in-your-journey",
+        "text": "📚 Next Steps in Your Journey"
+      },
+      {
+        "id": "-pro-tips-for-new-players",
+        "text": "💡 Pro Tips for New Players"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
       }
     ],
-    "guides:ja:pet-rolling-guide": [
+    "categories:en:codes": [
       {
-        "id": "understanding-pet-rolling-mechanics",
-        "text": "Understanding Pet Rolling Mechanics"
+        "id": "-current-active-codes-july-2026",
+        "text": "🎁 Current Active Codes (July 2026)"
       },
       {
-        "id": "budget-planning-for-optimal-rolling",
-        "text": "Budget Planning for Optimal Rolling"
+        "id": "-how-to-redeem-codes",
+        "text": "🎯 How to Redeem Codes"
       },
       {
-        "id": "advanced-rolling-strategies",
-        "text": "Advanced Rolling Strategies"
+        "id": "-types-of-rewards-from-codes",
+        "text": "💰 Types of Rewards from Codes"
       },
       {
-        "id": "rarity-chase-strategies",
-        "text": "Rarity Chase Strategies"
+        "id": "-code-release-schedule",
+        "text": "📅 Code Release Schedule"
       },
       {
-        "id": "rolling-session-management",
-        "text": "Rolling Session Management"
+        "id": "-code-sources-and-updates",
+        "text": "🔍 Code Sources and Updates"
       },
       {
-        "id": "common-rolling-mistakes-to-avoid",
-        "text": "Common Rolling Mistakes to Avoid"
+        "id": "-code-usage-strategies",
+        "text": "💡 Code Usage Strategies"
       },
       {
-        "id": "frequently-asked-questions",
-        "text": "Frequently Asked Questions"
+        "id": "️-code-safety-and-scams",
+        "text": "⚠️ Code Safety and Scams"
+      },
+      {
+        "id": "-maximizing-code-benefits",
+        "text": "🎮 Maximizing Code Benefits"
+      },
+      {
+        "id": "-code-statistics-and-history",
+        "text": "📊 Code Statistics and History"
+      },
+      {
+        "id": "-stay-updated-on-new-codes",
+        "text": "🔔 Stay Updated on New Codes"
+      },
+      {
+        "id": "-code-not-working-help-guide",
+        "text": "🆘 Code Not Working? Help Guide"
+      },
+      {
+        "id": "-impact-of-codes-on-gameplay",
+        "text": "📈 Impact of Codes on Gameplay"
+      },
+      {
+        "id": "-code-redemption-best-practices",
+        "text": "🎯 Code Redemption Best Practices"
+      },
+      {
+        "id": "-future-code-expectations",
+        "text": "🚀 Future Code Expectations"
+      },
+      {
+        "id": "-getting-help-and-support",
+        "text": "📞 Getting Help and Support"
+      },
+      {
+        "id": "-conclusion-making-the-most-of-build-a-base-and-steal-codes",
+        "text": "💎 Conclusion: Making the Most of Build a Base and Steal Codes"
+      },
+      {
+        "id": "-related-content",
+        "text": "🔄 Related Content"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
       }
     ],
-    "guides:ja:progression-guide": [
+    "categories:en:community": [
       {
-        "id": "early-game-foundation-building-levels-1-20",
-        "text": "Early Game: Foundation Building (Levels 1-20)"
+        "id": "official-community-platforms",
+        "text": "Official Community Platforms"
       },
       {
-        "id": "mid-game-strategic-development-levels-21-50",
-        "text": "Mid Game: Strategic Development (Levels 21-50)"
+        "id": "community-features",
+        "text": "Community Features"
       },
       {
-        "id": "late-game-mastery-and-optimization-levels-51",
-        "text": "Late Game: Mastery and Optimization (Levels 51+)"
+        "id": "community-resources",
+        "text": "Community Resources"
       },
       {
-        "id": "progression-acceleration-strategies",
-        "text": "Progression Acceleration Strategies"
+        "id": "community-events",
+        "text": "Community Events"
       },
       {
-        "id": "common-progression-mistakes-to-avoid",
-        "text": "Common Progression Mistakes to Avoid"
+        "id": "community-guidelines",
+        "text": "Community Guidelines"
       },
       {
-        "id": "conclusion",
-        "text": "Conclusion"
+        "id": "getting-involved",
+        "text": "Getting Involved"
+      },
+      {
+        "id": "community-leaders-and-contributors",
+        "text": "Community Leaders and Contributors"
+      },
+      {
+        "id": "regional-communities",
+        "text": "Regional Communities"
+      },
+      {
+        "id": "community-achievements",
+        "text": "Community Achievements"
+      },
+      {
+        "id": "staying-safe",
+        "text": "Staying Safe"
+      },
+      {
+        "id": "community-feedback",
+        "text": "Community Feedback"
+      },
+      {
+        "id": "related-resources",
+        "text": "Related Resources"
+      },
+      {
+        "id": "join-the-community-today",
+        "text": "Join the Community Today!"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
       }
     ],
-    "guides:ja:raid-guide": [
+    "categories:en:faq": [
       {
-        "id": "raid-fundamentals-and-mechanics",
-        "text": "Raid Fundamentals and Mechanics"
+        "id": "general-questions",
+        "text": "General Questions"
       },
       {
-        "id": "pre-raid-intelligence-gathering",
-        "text": "Pre-Raid Intelligence Gathering"
+        "id": "gameplay-questions",
+        "text": "Gameplay Questions"
       },
       {
-        "id": "raid-composition-and-planning",
-        "text": "Raid Composition and Planning"
+        "id": "progression-questions",
+        "text": "Progression Questions"
       },
       {
-        "id": "tactical-execution-strategies",
-        "text": "Tactical Execution Strategies"
+        "id": "technical-questions",
+        "text": "Technical Questions"
       },
       {
-        "id": "advanced-raiding-techniques",
-        "text": "Advanced Raiding Techniques"
+        "id": "codes-and-rewards",
+        "text": "Codes and Rewards"
       },
       {
-        "id": "post-raid-management",
-        "text": "Post-Raid Management"
+        "id": "trading-and-economy",
+        "text": "Trading and Economy"
+      },
+      {
+        "id": "raiding-and-defense",
+        "text": "Raiding and Defense"
+      },
+      {
+        "id": "community-and-social",
+        "text": "Community and Social"
+      },
+      {
+        "id": "account-and-safety",
+        "text": "Account and Safety"
+      },
+      {
+        "id": "still-need-help",
+        "text": "Still Need Help?"
+      },
+      {
+        "id": "recently-updated-questions",
+        "text": "Recently Updated Questions"
       }
     ],
-    "guides:ja:stealing-guide": [
+    "categories:en:gear": [
       {
-        "id": "understanding-the-stealing-mechanics",
-        "text": "Understanding the Stealing Mechanics"
+        "id": "-understanding-gear-systems",
+        "text": "🔧 Understanding Gear Systems"
       },
       {
-        "id": "preparation-and-equipment",
-        "text": "Preparation and Equipment"
+        "id": "️-raiding-equipment",
+        "text": "⚔️ Raiding Equipment"
       },
       {
-        "id": "target-selection-and-intelligence",
-        "text": "Target Selection and Intelligence"
+        "id": "️-defensive-equipment",
+        "text": "🛡️ Defensive Equipment"
       },
       {
-        "id": "advanced-raiding-techniques",
-        "text": "Advanced Raiding Techniques"
+        "id": "-utility-items",
+        "text": "🎒 Utility Items"
       },
       {
-        "id": "post-raid-management",
-        "text": "Post-Raid Management"
+        "id": "-equipment-progression",
+        "text": "📈 Equipment Progression"
+      },
+      {
+        "id": "-loadout-strategy",
+        "text": "🎯 Loadout Strategy"
+      },
+      {
+        "id": "-conclusion-mastering-equipment-for-success",
+        "text": "📊 Conclusion: Mastering Equipment for Success"
+      },
+      {
+        "id": "-related-resources",
+        "text": "📚 Related Resources"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "categories:en:guides": [
+      {
+        "id": "guide-categories",
+        "text": "Guide Categories"
+      },
+      {
+        "id": "featured-guides",
+        "text": "Featured Guides"
+      },
+      {
+        "id": "progression-path",
+        "text": "Progression Path"
+      },
+      {
+        "id": "guide-difficulty-levels",
+        "text": "Guide Difficulty Levels"
+      },
+      {
+        "id": "learning-paths",
+        "text": "Learning Paths"
+      },
+      {
+        "id": "keeping-guides-updated",
+        "text": "Keeping Guides Updated"
+      },
+      {
+        "id": "community-contributions",
+        "text": "Community Contributions"
+      },
+      {
+        "id": "need-help",
+        "text": "Need Help?"
+      },
+      {
+        "id": "contributing",
+        "text": "Contributing"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "categories:en:offline-money": [
+      {
+        "id": "-understanding-offline-income-systems",
+        "text": "💰 Understanding Offline Income Systems"
+      },
+      {
+        "id": "-income-calculation-mechanics",
+        "text": "📊 Income Calculation Mechanics"
+      },
+      {
+        "id": "-optimizing-your-collection-for-income",
+        "text": "🎯 Optimizing Your Collection for Income"
+      },
+      {
+        "id": "-offline-income-strategies",
+        "text": "📈 Offline Income Strategies"
+      },
+      {
+        "id": "-advanced-income-techniques",
+        "text": "🧮 Advanced Income Techniques"
+      },
+      {
+        "id": "️-tools-and-calculators",
+        "text": "🛠️ Tools and Calculators"
+      },
+      {
+        "id": "-common-income-mistakes",
+        "text": "💡 Common Income Mistakes"
+      },
+      {
+        "id": "-advanced-income-concepts",
+        "text": "🎯 Advanced Income Concepts"
+      },
+      {
+        "id": "-future-income-developments",
+        "text": "🔮 Future Income Developments"
+      },
+      {
+        "id": "-measuring-income-success",
+        "text": "📊 Measuring Income Success"
+      },
+      {
+        "id": "-conclusion-mastering-passive-income",
+        "text": "🎓 Conclusion: Mastering Passive Income"
+      },
+      {
+        "id": "-related-resources",
+        "text": "📚 Related Resources"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "categories:en:pet-rolling": [
+      {
+        "id": "-understanding-pet-rolling-mechanics",
+        "text": "🎲 Understanding Pet Rolling Mechanics"
+      },
+      {
+        "id": "-pet-rarity-system-and-drop-rates",
+        "text": "📊 Pet Rarity System and Drop Rates"
+      },
+      {
+        "id": "-budget-management-strategies",
+        "text": "💰 Budget Management Strategies"
+      },
+      {
+        "id": "-timing-and-event-strategies",
+        "text": "⏰ Timing and Event Strategies"
+      },
+      {
+        "id": "-advanced-rolling-techniques",
+        "text": "🧠 Advanced Rolling Techniques"
+      },
+      {
+        "id": "-special-rolling-scenarios",
+        "text": "🎯 Special Rolling Scenarios"
+      },
+      {
+        "id": "-tools-and-calculators",
+        "text": "🔧 Tools and Calculators"
+      },
+      {
+        "id": "️-common-rolling-mistakes-to-avoid",
+        "text": "⚠️ Common Rolling Mistakes to Avoid"
+      },
+      {
+        "id": "-advanced-rolling-strategies",
+        "text": "🎓 Advanced Rolling Strategies"
+      },
+      {
+        "id": "-progression-through-rolling",
+        "text": "📈 Progression Through Rolling"
+      },
+      {
+        "id": "-future-rolling-developments",
+        "text": "🔮 Future Rolling Developments"
+      },
+      {
+        "id": "-troubleshooting-rolling-issues",
+        "text": "🆘 Troubleshooting Rolling Issues"
+      },
+      {
+        "id": "-rolling-statistics-and-data",
+        "text": "📊 Rolling Statistics and Data"
+      },
+      {
+        "id": "-conclusion-mastering-pet-rolling",
+        "text": "🎯 Conclusion: Mastering Pet Rolling"
+      },
+      {
+        "id": "-related-resources",
+        "text": "📚 Related Resources"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "categories:en:pets-list": [
+      {
+        "id": "-pet-overview-and-importance",
+        "text": "🐾 Pet Overview and Importance"
+      },
+      {
+        "id": "-pet-rarity-system",
+        "text": "🏆 Pet Rarity System"
+      },
+      {
+        "id": "-pet-categories-and-types",
+        "text": "📊 Pet Categories and Types"
+      },
+      {
+        "id": "-pet-statistics-and-analysis",
+        "text": "📈 Pet Statistics and Analysis"
+      },
+      {
+        "id": "-pet-tier-list-and-rankings",
+        "text": "🏅 Pet Tier List and Rankings"
+      },
+      {
+        "id": "-pet-acquisition-methods",
+        "text": "🎯 Pet Acquisition Methods"
+      },
+      {
+        "id": "-pet-management-strategies",
+        "text": "🔧 Pet Management Strategies"
+      },
+      {
+        "id": "-advanced-pet-concepts",
+        "text": "💡 Advanced Pet Concepts"
+      },
+      {
+        "id": "-community-pet-economy",
+        "text": "📊 Community Pet Economy"
+      },
+      {
+        "id": "-conclusion-building-your-ultimate-pet-collection",
+        "text": "🎓 Conclusion: Building Your Ultimate Pet Collection"
+      },
+      {
+        "id": "-related-resources",
+        "text": "📚 Related Resources"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "categories:en:raiding": [
+      {
+        "id": "️-understanding-raiding-mechanics",
+        "text": "⚔️ Understanding Raiding Mechanics"
+      },
+      {
+        "id": "-raid-preparation-and-planning",
+        "text": "🎯 Raid Preparation and Planning"
+      },
+      {
+        "id": "-raid-execution-strategies",
+        "text": "🧭 Raid Execution Strategies"
+      },
+      {
+        "id": "-advanced-raiding-techniques",
+        "text": "🎯 Advanced Raiding Techniques"
+      },
+      {
+        "id": "-target-evaluation-and-selection",
+        "text": "🏆 Target Evaluation and Selection"
+      },
+      {
+        "id": "-post-raid-management",
+        "text": "📊 Post-Raid Management"
+      },
+      {
+        "id": "️-common-raiding-mistakes",
+        "text": "⚠️ Common Raiding Mistakes"
+      },
+      {
+        "id": "️-defensive-perspective",
+        "text": "🛡️ Defensive Perspective"
+      },
+      {
+        "id": "-measuring-raiding-success",
+        "text": "📈 Measuring Raiding Success"
+      },
+      {
+        "id": "-advanced-raiding-concepts",
+        "text": "🔮 Advanced Raiding Concepts"
+      },
+      {
+        "id": "-conclusion-mastering-the-art-of-raiding",
+        "text": "🎓 Conclusion: Mastering the Art of Raiding"
+      },
+      {
+        "id": "-related-resources",
+        "text": "📚 Related Resources"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "categories:en:strategies": [
+      {
+        "id": "strategic-foundations",
+        "text": "Strategic Foundations"
+      },
+      {
+        "id": "progressive-strategy",
+        "text": "Progressive Strategy"
+      },
+      {
+        "id": "competitive-strategies",
+        "text": "Competitive Strategies"
+      },
+      {
+        "id": "advanced-tactics",
+        "text": "Advanced Tactics"
+      },
+      {
+        "id": "specialized-strategies",
+        "text": "Specialized Strategies"
+      },
+      {
+        "id": "common-strategic-mistakes",
+        "text": "Common Strategic Mistakes"
+      },
+      {
+        "id": "learning-and-improvement",
+        "text": "Learning and Improvement"
+      },
+      {
+        "id": "related-content",
+        "text": "Related Content"
+      },
+      {
+        "id": "professional-resources",
+        "text": "Professional Resources"
+      },
+      {
+        "id": "strategic-updates",
+        "text": "Strategic Updates"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "categories:en:updates": [
+      {
+        "id": "latest-updates",
+        "text": "Latest Updates"
+      },
+      {
+        "id": "current-version",
+        "text": "Current Version"
+      },
+      {
+        "id": "whats-new",
+        "text": "What's New"
+      },
+      {
+        "id": "balance-changes",
+        "text": "Balance Changes"
+      },
+      {
+        "id": "bug-fixes",
+        "text": "Bug Fixes"
+      },
+      {
+        "id": "upcoming-features",
+        "text": "Upcoming Features"
+      },
+      {
+        "id": "known-issues",
+        "text": "Known Issues"
+      },
+      {
+        "id": "developer-communications",
+        "text": "Developer Communications"
+      },
+      {
+        "id": "how-to-update",
+        "text": "How to Update"
+      },
+      {
+        "id": "update-history",
+        "text": "Update History"
+      },
+      {
+        "id": "community-feedback",
+        "text": "Community Feedback"
+      },
+      {
+        "id": "stay-informed",
+        "text": "Stay Informed"
+      },
+      {
+        "id": "update-schedule",
+        "text": "Update Schedule"
+      },
+      {
+        "id": "related-content",
+        "text": "Related Content"
+      },
+      {
+        "id": "faq",
+        "text": "FAQ"
+      }
+    ],
+    "categories:ko:codes": [
+      {
+        "id": "최신-코드",
+        "text": "최신 코드"
+      }
+    ],
+    "categories:de:codes": [
+      {
+        "id": "aktuelle-codes",
+        "text": "Aktuelle Codes"
       }
     ]
   }

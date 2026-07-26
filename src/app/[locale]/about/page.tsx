@@ -16,21 +16,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const validLocale = routing.locales.includes(locale as Locale) ? (locale as Locale) : routing.defaultLocale;
   setRequestLocale(validLocale);
   const t = await getTranslations();
-  return {
-    title: `${t('nav_about')} | ${t('site_title')}`,
-    description: t('page_about_description'),
-    alternates: {
-      canonical: `${SITE_URL}/about`,
-      languages: {
-        'en': `${SITE_URL}/about`,
-        'ko': `${SITE_URL}/ko/about`,
-        'ja': `${SITE_URL}/ja/about`,
-        'de': `${SITE_URL}/de/about`,
-        'x-default': `${SITE_URL}/about`,
-      },
-    },
-    keywords: ['DragonSword Awakening Wiki', 'DragonSword Awakening about', 'DragonSword Awakening community wiki', 'DragonSword Awakening fan wiki', 'DragonSword Awakening action RPG'],
-  };
+  return getBaseMetadata(
+    '/about',
+    validLocale,
+    `${t('nav_about')} | ${t('site_title')}`,
+    t('page_about_description'),
+    'website',
+    '/og/default.png',
+    ['Build a Base and Steal wiki', 'Build a Base and Steal about', 'Build a Base and Steal community wiki', 'Build a Base and Steal fan wiki', 'Build a Base and Steal Roblox'],
+  );
 }
 
 export default async function AboutPage({ params }: { params: Promise<{ locale: string }> }) {
@@ -62,7 +56,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
           <div className="grid sm:grid-cols-3 gap-4">
             <a href={EXTERNAL_LINKS.roblox} target="_blank" rel="noopener noreferrer" className="card text-center hover:border-[var(--color-accent)] transition-colors">
               <span className="text-2xl mb-2 block">🎮</span>
-              <span className="font-bold text-sm">{t('about_playSteam')}</span>
+              <span className="font-bold text-sm">{t('about_playRoblox')}</span>
               <p className="text-xs text-[var(--color-text-muted)] mt-1">{t('about_officialPage')}</p>
             </a>
             <a href={EXTERNAL_LINKS.discord} target="_blank" rel="noopener noreferrer" className="card text-center hover:border-[var(--color-accent)] transition-colors">

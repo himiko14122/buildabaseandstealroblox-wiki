@@ -5,9 +5,13 @@ import { createRequire } from 'module';
 const require = createRequire(import.meta.url);
 const { slug: githubSlug } = require('github-slugger');
 
-const SLUG_PREFIX = 'DragonSword-Awakening-';
+const SLUG_PREFIX = 'Build-a-Base-and-Steal-';
 const LOCALES = ['en', 'ko', 'ja', 'de'];
-const CONTENT_TYPES = ['heroes', 'tier-list', 'tag-combos', 'guides', 'builds', 'status-ailments', 'exploration', 'familiars', 'updates', 'cooking-crafting', 'story-lore', 'system-requirements', 'buying-guide'];
+const CONTENT_TYPES = [
+  'codes', 'beginner-guide', 'pet-rolling', 'base-defense', 'raiding',
+  'offline-money', 'pets-list', 'gear', 'strategies', 'faq', 'updates',
+  'community', 'guides', 'categories'
+];
 const CONTENT_ROOT = path.join(process.cwd(), 'content');
 
 function fileNameToSlug(fileName) {
