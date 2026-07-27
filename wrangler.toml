@@ -2,8 +2,5 @@ name = "buildabaseandstealroblox-wiki"
 compatibility_date = "2024-09-23"
 pages_build_output_dir = "out"
 
-[build]
-command = "corepack enable && pnpm install --frozen-lockfile && pnpm run build"
-
 [vars]
 NEXT_PUBLIC_SITE_URL = "https://buildabaseandstealroblox.wiki"
