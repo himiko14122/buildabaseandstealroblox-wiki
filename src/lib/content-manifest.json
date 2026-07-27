@@ -1860,8 +1860,8 @@
     ],
     "beginner-guide:en:beginner-guide-pet-storage": [
       {
-        "id": "the-three-t-protected-by-your-strongest-defenses-tier-two-holds-your-mid-rarity-pets-protected-by-standard-defenses-tier-three-holds-your-common-pets-often-placed-as-buffers-in-vulnerable-positions-this-system-works-because-it-matches-the-protection-level-to-the-pet-value-ensuring-that-your-most-valuable-assets-get-the-strongest-protection-while-your-common-pets-absorb-raid-attempts",
-        "text": "The Three-T protected by your strongest defenses. Tier two holds your mid-rarity pets, protected by standard defenses. Tier three holds your common pets, often placed as buffers in vulnerable positions. This system works because it matches the protection level to the pet value, ensuring that your most valuable assets get the strongest protection while your common pets absorb raid attempts."
+        "id": "the-three-tier-system",
+        "text": "The Three-Tier System"
       },
       {
         "id": "placement-geography",
@@ -2930,8 +2930,8 @@
         "text": "What Triggers a \"Reset\""
       },
       {
-        "id": "common-on-resets-the-cap-and-lets-them-double-dip-it-does-not-the-cap-is-calculated-from-the-moment-of-disconnect-and-reconnecting-simply-triggers-the-payout-the-moment-you-reconnect-a-new-offline-clock-starts-and-your-next-payout-will-be-based-on-that-new-clock-there-is-no-way-to-reset-the-cap-mid-window",
-        "text": "Common on resets the cap and lets them double-dip. It does not. The cap is calculated from the moment of disconnect, and reconnecting simply triggers the payout. The moment you reconnect, a new offline clock starts, and your next payout will be based on that new clock. There is no way to reset the cap mid-window."
+        "id": "common-myth-disconnecting-resets-the-cap",
+        "text": "Common Myth: Disconnecting Resets the Cap"
       },
       {
         "id": "maximizing-income-around-the-cap",
@@ -3558,8 +3558,8 @@
         "text": "Blasters: The All-Purpose Weapon"
       },
       {
-        "id": "choosing-the-right-raids-the-hammer-is-the-best-choice-if-you-prefer-combat-focused-raids-the-energy-weapon-or-sniper-is-the-best-choice-if-you-prefer-flexible-solo-play-the-blaster-is-the-best-choice-if-you-prefer-team-play-the-heavy-or-support-weapon-is-the-best-choice",
-        "text": "Choosing the Right raids, the hammer is the best choice. If you prefer combat-focused raids, the energy weapon or sniper is the best choice. If you prefer flexible solo play, the blaster is the best choice. If you prefer team play, the heavy or support weapon is the best choice."
+        "id": "choosing-the-right-weapon-for-your-playstyle",
+        "text": "Choosing the Right Weapon for Your Playstyle"
       },
       {
         "id": "weapon-upgrade-path",
