@@ -1,0 +1,107 @@
+export const metadata = {
+  id: "offline-money-cap-and-resets",
+  slug: "offline-money-cap-and-resets",
+  order: 3,
+  difficulty: "intermediate",
+  title: "Offline-Geldlimit und Reset-Regeln in Build a Base and Steal erklärt",
+  description: "Alles, was du über das Offline-Geldlimit, Server-Resets und den Unterschied zwischen AFK und Offline wissen musst. Vermeide die häufigsten Fehler, die neue Spieler Tausende an Bargeld kosten.",
+  keywords: ["Build a Base and Steal Offline-Limit", "Build a Base and Steal Offline-Reset", "Build a Base and Steal Premium-Limit", "Build a Base and Steal AFK-Regeln", "Build a Base and Steal Server-Reset"],
+  image: "/images/offline-money/cap-and-resets.webp",
+  video: "EOIgixX72o8",
+  category: "Offline Money",
+  date: "2026-07-26",
+  lastModified: "2026-07-26"
+}
+
+Die Regeln für das Offline-Limit und Resets in Build a Base and Steal gehören zu den am meisten missverstandenen Spielmechaniken. Neue Spieler verlieren regelmäßig Stunden an potenziellem Einkommen, weil sie nicht genau verstehen, wann der Timer startet, wann er stoppt und was als „Reset“ zählt. Dieser Leitfaden räumt mit allen gängigen Missverständnissen auf, erläutert das genaue Verhalten des Limits in verschiedenen Szenarien und zeigt dir, wie du die Fallen vermeidest, in die Anfänger tappen.
+
+## Das standardmäßige 8-Stunden-Limit
+
+Jeder Account in Build a Base and Steal beginnt mit einem 8-stündigen Offline-Limit. Dieses Limit bestimmt die maximale Anzahl an Stunden, für die du während einer einzigen Abwesenheit Offline-Einkommen ansammeln kannst. Wenn du dich für 8 Stunden oder weniger ausloggst, erhältst du Einkommen für die gesamte Dauer deiner Abwesenheit. Wenn du dich für mehr als 8 Stunden ausloggst, erhältst du nur für die ersten 8 Stunden Einkommen; jede zusätzliche Zeit generiert kein Bargeld.
+
+Das Limit wird auf Basis der Serverzeit berechnet, nicht der lokalen Zeit. Der Server protokolliert den Moment, in dem dein Client die Verbindung trennt, und den Moment, in dem du dich wieder verbindest. Die Differenz ist die „Offline-Dauer“, auf die das Limit angewendet wird. Netzwerkverzögerungen, kurze Verbindungsabbrüche und Wiederverbindungen werden problemlos gehandhabt: Das System wartet auf eine stabile Wiederverbindung, bevor die nächste Offline-Uhr startet. Ein kurzer Aussetzer verbraucht also nicht versehentlich dein Offline-Zeitfenster.
+
+### Wann die Uhr startet
+
+Die Uhr startet in dem Moment, in dem die Internetverbindung abbricht oder du durch das Anti-Cheat-System gekickt wirst. Das Minimieren des Fensters, das Tabben aus dem Spiel oder das Untätigsein in der Lobby zählen nicht dazu. Spieler, die im Spiel bleiben, sich aber nicht bewegen, werden vom System weiterhin als „online“ betrachtet und verdienen weiterhin den höheren Online-Satz.
+
+Dies ist eine wichtige Unterscheidung. Manche Spieler glauben, dass das Alt-Tabben für eine Stunde als offline zählt, aber das ist nicht der Fall. Solange das Spiel der aktive Prozess auf deinem Client ist, ist die Offline-Uhr pausiert. Der Nachteil ist, dass du auch nicht den maximalen Online-Satz verdienst, da Untätigkeit deinen effektiven Aktivitätswert senkt, was sich auf bestimmte Event-Boni auswirkt. Für die reine Optimierung des Offline-Einkommens ist es am besten, den Client vollständig zu schließen.
+
+## Premium-Limit-Erweiterungen
+
+Der Premium-Pass erhöht das Offline-Limit von 8 auf 16 Stunden. Für die meisten Spieler ist dies das wertvollste Feature des Passes, noch mehr als die kosmetischen Belohnungen oder das tägliche Taschengeld. Eine Verdopplung des Offline-Limits bedeutet, dass du ein ganzes Wochenende weg sein kannst und bei deiner Rückkehr immer noch das volle Einkommen erhältst, anstatt die zweite Hälfte zu verlieren. Wenn du zusätzlich einen „Extended Rest“-Boost aktivierst, steigt das Limit auf 24 Stunden oder mehr, abhängig vom spezifischen Multiplikator des Boosts. Dieses Stacking ist die einzige legitime Methode, das Limit über 16 Stunden hinaus zu erweitern, und einer der wenigen Fälle, in denen sich die Investition von Robux in das Spiel mathematisch wirklich rechtfertigt.
+
+### Regeln für das Stacking von Boosts
+
+Boosts lassen sich nicht unendlich stapeln. Das Limit zusätzlich zum Premium-Pass liegt bei 24 Stunden; alle weiteren Boosts darüber hinaus werden stillschweigend begrenzt. Dies soll verhindern, dass das Einkommenssystem durch langfristige AFK-Skripte ausgenutzt wird, die vom Anti-Cheat-System aktiv überwacht werden. Wenn du einen Boost siehst, der ein 72-Stunden-Limit verspricht, handelt es sich um einen Betrug oder einen Tippfehler; legitime Boosts sind selbst auf Premium-Accounts auf 24 Stunden begrenzt.
+
+Tägliche Login-Boni gewähren gelegentlich kürzere „Extended Rest“-Boosts, typischerweise 1,5x für 24 Stunden. Es lohnt sich, diese zu beanspruchen, aber nicht, sie aufzusparen. Sie sind am wertvollsten, wenn sie unmittelbar vor einer langen Abwesenheit aktiviert werden, anstatt sie im Inventar zu horten.
+
+## Was einen „Reset“ auslöst
+
+Ein Reset ist im Kontext von Offline-Geld jedes Ereignis, das die Offline-Uhr zwingt, bei Null neu zu starten. Bei Wartungsarbeiten werden alle Offline-Timer gelöscht und die Spieler verbinden sich mit einem neuen Server ohne angesammeltes Offline-Bargeld. Wartungsarbeiten finden normalerweise an Sonntagabenden statt, und die Entwickler kündigen das Zeitfenster meist einige Tage im Voraus an. Plane deine längsten Abwesenheiten um Wartungsfenster herum, nicht währenddessen, sonst riskierst du, das gesamte Offline-Zeitfenster zu verlieren.
+
+Der zweite Fall ist eine Server-Zusammenlegung oder -Aufteilung. Wenn ein Server sein Spielerlimit erreicht, kann das Spiel eine neue Instanz starten. Spieler, die während der Aufteilung anwesend sind, bemerken keinen Reset, aber Spieler, die während der Aufteilung offline sind, erhalten ihr Offline-Bargeld auf dem Server, dem sie ursprünglich zugewiesen waren, und das Bargeld bleibt unbeeinflusst. Dies ist eines der wenigen Szenarien, in denen es sicherer ist, offline zu sein als online, da die Zusammenlegung aktive Spieler manchmal in eine andere Instanz verschieben und die Einkommensverfolgung kurzzeitig stören kann.
+
+Der dritte Fall ist ein Wipe auf Account-Ebene, der nur bei bestätigtem Betrug oder Rollbacks vorkommt. Ehrliche Spieler werden dies nie erleben, aber es ist gut zu wissen, dass jede Art von Strafe im Zusammenhang mit Exploits dein Offline-Bargeld zusammen mit deinem Haustier-Speicher und Inventar zurücksetzt.
+
+## Häufiger Mythos: Verbindungsabbruch setzt das Limit zurück
+
+Ein weit verbreitetes Missverständnis ist, dass ein Verbindungsabbruch das Limit zurücksetzt und es Spielern ermöglicht, doppelt zu profitieren. Das stimmt nicht. Das Limit wird ab dem Moment des Verbindungsabbruchs berechnet, und das Wiederverbinden löst lediglich die Auszahlung aus. Sobald du dich wieder verbindest, startet eine neue Offline-Uhr, und deine nächste Auszahlung basiert auf dieser neuen Uhr. Es gibt keine Möglichkeit, das Limit mitten im Zeitfenster zurückzusetzen.
+
+Die zweite Falle ist der „AFK in der Lobby“-Ansatz. Manche Spieler parken ihren Charakter in der Lobby und gehen weg, in der Hoffnung, passives Einkommen ohne den Offline-Malus zu verdienen. Sie verdienen zwar zum Online-Satz, riskieren aber auch, wegen Inaktivität gekickt zu werden, was einen normalen Verbindungsabbruch auslösen und einen Teil ihres Offline-Zeitfensters verbrauchen würde. Es ist besser, den Client zu schließen und den garantierten Offline-Satz zu verdienen, als einen ungewollten Verbindungsabbruch zu riskieren.
+
+Die dritte Falle ist das Ausloggen während eines Server-Events. Einige Events gewähren Bonus-Einkommensmultiplikatoren, die sowohl online als auch offline gelten. Wenn du dich während eines 2x-Events ausloggst, wird dein Offline-Einkommen für dieses Zeitfenster ebenfalls verdoppelt, aber nur, wenn das Event noch läuft, wenn du dich wieder verbindest. Wenn das Event endet, bevor du dich wieder verbindest, wird der Bonus nicht rückwirkend angewendet. Achte auf Event-Timer und plane deine Logouts entsprechend.
+
+## Maximierung des Einkommens rund um das Limit
+
+Der einfachste Weg, das Einkommen rund um das 8-Stunden-Limit zu maximieren, besteht darin, sich für das maximale Zeitfenster auszuloggen. Wer sich mehrmals kurz ausloggt, sammelt weniger Gesamteinkommen als Spieler, die sich für 8 Stunden am Stück ausloggen, da das Limit bei der Wiederverbindung zurückgesetzt wird. Eine einzige lange Sitzung ist immer effizienter als mehrere kurze.
+
+Die zweite Optimierung besteht darin, dein Offline-Bargeld sofort bei der Wiederverbindung zu beanspruchen und es dann sofort auszugeben oder zu reinvestieren. Das Halten von Offline-Bargeld in deiner Brieftasche bringt keine zusätzlichen Zinsen. Die am schnellsten wachsenden Wirtschaftssysteme sind diejenigen, die Bargeld so schnell wie möglich wieder in Rollen, Level-Ups oder Speichererweiterungen stecken. Auf einer großen Brieftasche zu sitzen ist dasselbe, als würde man Haustier-Plätze leer lassen: Das Bargeld arbeitet nicht für dich.
+
+## Siehe auch
+- [Offline Money: Advanced Formulas and Diminishing Returns](/offline-money/offline-money-advanced-formulas)
+- [Offline Money: Complete System Guide](/offline-money/offline-money-how-it-works)
+- [Rebirth and Prestige System: How It Ties Into Offline Money](/offline-money/offline-money-rebirth-prestige-tiein)
+
+### Kurze Statistik-Referenz
+
+| Element | Typischer Wert | Beste Verwendung |
+| --- | --- | --- |
+| **Bargeld pro Minute** | 50 - 500 | Im täglichen Log verfolgen |
+| **Rollen pro Stunde** | 20 - 80 | Budget für Events |
+| **Wände pro Schicht** | 4 - 8 | Defensives Kerndesign |
+| **Haustiere pro Basis** | 12 - 25 | Einkommen + Verteidigungsmix |
+| **Raid-Versuche/Tag** | 3 - 10 | Energie- und Zielrotation |
+
+### Zusätzlicher strategischer Kontext
+
+Das folgende Material untersucht die praktischen Überlegungen, die erfahrene Spieler anwenden, wenn sie die oben genannten Strategien für den Bereich der Offline-Geldlimit- und Reset-Regeln nutzen. Der Inhalt hier basiert auf Community-Tests, beobachteten Mustern im High-Level-Spiel und den dokumentierten Interaktionen zwischen Offline-Geldmechaniken und anderen Spielsystemen. Das Ziel ist es, dir die Art von kontextuellem Bewusstsein zu vermitteln, das aus hunderten von Spielstunden stammt, zusammengefasst in wenigen Absätzen, die du in einer Sitzung aufnehmen kannst.
+
+Der Ausgangspunkt für jeden ernsthaften Spieler ist die Erkenntnis, dass das Spiel bewusste, informierte Entscheidungen mehr belohnt als reine Zeitinvestition. Ein Spieler, der 30 Minuten damit verbringt, seinen nächsten Schritt zu durchdenken, wird schneller vorankommen als ein Spieler, der 3 Stunden lang wahllos klickt. Der Grund dafür ist, dass Build a Base and Steal ein System miteinander verbundener Mechaniken ist und jede Aktion Auswirkungen auf den Rest des Systems hat. Eine Änderung deiner Roll-Strategie beeinflusst deine Basis, was deine Verteidigung beeinflusst, was dein Raid-Einkommen beeinflusst, was wiederum dein nächstes Roll-Budget beeinflusst.
+
+Die Beziehung zwischen Offline-Geld und Handel wird von neueren Spielern oft übersehen. Die Trades, die du tätigst, beeinflussen deine Basis, deine Verteidigung und deine Roll-Optionen. Ein Haustier, das in deiner Basis am besten ist, könnte als Handelsgut mehr wert sein. Ein Haustier, das du für schwach hältst, könnte das fehlende Teil für den Sammlungsbonus eines anderen Spielers sein und daher einen Aufpreis wert sein. Die Handelsmentalität ist eine Portfolio-Denkweise: Jedes Haustier ist sowohl ein persönlicher Vermögenswert als auch ein potenzieller Handelschip, und der Wert hängt vom breiteren Marktkontext ab.
+
+Schließlich belohnt Offline-Geld Beständigkeit mehr als Intensität. Der Spieler, der sich jeden Tag für 30 Minuten einloggt und einem bewussten Plan folgt, wird den Spieler überholen, der sich einmal pro Woche für 5 Stunden einloggt und tut, was ihm gerade in den Sinn kommt. Der Grund ist derselbe wie bei jedem Zinseszinssystem: Kleine, regelmäßige Aktionen summieren sich im Laufe der Zeit zu großen Gewinnen, während sporadische große Aktionen nur sporadische große Ergebnisse ohne Zinseszinseffekt liefern.
+
+## Häufig gestellte Fragen
+
+### Was ist die beste Tageszeit, um sich auf die Offline-Geldlimit- und Reset-Regeln zu konzentrieren?
+
+Abende und Wochenenden haben die aktivsten Spieler, aber die beste Zeit hängt von deinem Zeitplan ab. Patch für Patch bleibt dieses Prinzip wahr, auch wenn sich die spezifischen Zahlen ändern – genau deshalb lohnt es sich, es jetzt zu verinnerlichen, anstatt es später neu entdecken zu müssen.
+
+### Wie viel Bargeld sollte ich pro Sitzung für die Offline-Geldlimit- und Reset-Regeln einplanen?
+
+Plane ein, etwa ein Viertel deines täglichen Bargelds für Aktivitäten rund um die Offline-Geldlimit- und Reset-Regeln auszugeben. Du wirst dieses Prinzip in jeder ernsthaften Diskussion über die Offline-Geldlimit- und Reset-Regeln auf Discord wiederfinden, da alle aktiven Spieler durch ihre eigene Erfahrung zu demselben Schluss gekommen sind.
+
+### Was ist das wichtigste Konzept der Offline-Geldlimit- und Reset-Regeln für neue Spieler?
+
+Der größte Durchbruch ist das Verständnis, dass die Offline-Geldlimit- und Reset-Regeln eine Rückkopplungsschleife mit deiner Basis, deinen Trades und deinen Rollen haben. Wenn du nur eine Sache aus diesem Abschnitt mitnimmst, dann lass es dieses Prinzip sein: Die spezifischen Aktionen ändern sich, aber die zugrunde liegende Logik nicht.
+
+### Wie lange dauert es, bis man Ergebnisse dieser Strategie sieht?
+
+Plane zwei bis drei Wochen konsequente Anstrengung ein, um echte Gewinne durch die Offline-Geldlimit- und Reset-Regeln zu sehen. Diese Erkenntnis unterscheidet Gelegenheitsspieler von der engagierten Grind-Community und zeigt sich deutlich bei den monatlichen Leaderboard-Resets, bei denen dieselben Namen immer wieder an der Spitze erscheinen.
+
+### Funktioniert diese Strategie sowohl für Solospieler als auch für Teams?
+
+Sowohl Solo- als auch Teamspieler können diese Strategie anwenden. Spieler, die lernen, dieses Prinzip automatisch anzuwenden, kommen tendenziell 30-50 Prozent schneller voran als Spieler, die über jede Entscheidung bewusst nachdenken müssen, da das Prinzip die Überlegungsphase jeder Aktion abkürzt.

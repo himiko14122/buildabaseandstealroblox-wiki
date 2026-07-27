@@ -1,0 +1,107 @@
+export const metadata = {
+  id: "offline-money-afk-income-calculator",
+  slug: "offline-money-afk-income-calculator",
+  order: 9,
+  difficulty: "beginner",
+  title: "Build a Base and Steal AFK-Einkommensrechner – Schätze deine Offline-Einnahmen",
+  description: "Nutze dieses Framework für den Build a Base and Steal AFK-Einkommensrechner, um genau zu schätzen, wie viel Geld deine Haustiere generieren, während du weg bist. Enthält die vollständige Formel, Beispielrechnungen und ein Arbeitsblatt zur Planung.",
+  keywords: ["Build a Base and Steal AFK-Einkommen", "Build a Base and Steal Einkommensrechner", "Build a Base and Steal Offline-Einnahmen schätzen", "Build a Base and Steal Ertragsrechner", "Build a Base and Steal passives Einkommen"],
+  image: "/images/offline-money/afk-income-calculator.webp",
+  video: "EOIgixX72o8",
+  category: "Offline Money",
+  date: "2026-07-26",
+  lastModified: "2026-07-26"
+}
+
+## Die Eingabewerte für den Rechner
+
+Der AFK-Rechner für Build a Base and Steal benötigt fünf Eingabewerte. Erstens die gesamte effektive Haustierrate deines Kaders, also die Summe der individuellen Rate-pro-Sekunde jedes Haustiers nach allen Glücks- und Aura-Boni. Zweitens die geplante Dauer deiner Abwesenheit in realen Stunden. Drittens der aktive Event-Bonus, ausgedrückt als Multiplikator (1,0, wenn kein Event aktiv ist). Viertens die Anzahl der Auren in deiner Basis und deren Abdeckungsprozentsatz. Fünftens der Server-Stimmungs-Multiplikator, der auf einem stabilen Server 1,0 beträgt und während eines Einbruchs nach einem Raid bei 0,85–0,95 liegt.
+
+Die meisten dieser Werte sind direkt in den Inspektionsbildschirmen des Spiels sichtbar. Die gesamte Haustierrate ist die Summe der „effektiven Rate“ jedes Haustiers. Die geplante Abwesenheit ist das, was du festlegst. Der Event-Bonus wird auf dem Event-Banner angezeigt. Die Aura-Abdeckung kann geschätzt werden, indem man die Haustiere innerhalb der Reichweite zählt, nachdem gerade ein erfolgreicher Raid durchgeführt wurde.
+
+### Die Hauptformel
+
+Die vereinfachte Formel lautet: `Offline-Einkommen = Gesamte Haustierrate × Abwesenheitssekunden × Event-Bonus × Aura-Abdeckung × Server-Stimmung × (1 - Abnehmender Ertrags-Malus)`. Der Malus für abnehmende Erträge ist der komplexeste Teil der Berechnung, da er von der Anzahl der Haustiere in deinem Kader abhängt. Bei einem Kader mit 20 Haustieren liegt der Malus bei etwa 0,7. Bei einem Kader mit 10 Haustieren liegt er bei etwa 0,85. Bei einem Kader mit 30 Haustieren liegt er bei etwa 0,55. Der Malus wirkt multiplikativ, ein höherer Malus bedeutet also eine stärkere Reduzierung des Endergebnisses.
+
+Für eine schnelle Schätzung kannst du die Abkürzung verwenden: Ein 20-Haustier-Kader mit vollen Auren, einem 2x-Event und stabiler Server-Stimmung produziert etwa 0,7 × 2,0 = 1,4-mal so viel Einkommen wie derselbe Kader ohne Event, ohne Auren und mit neutraler Server-Stimmung. Das Limit begrenzt die Ansammlung zudem auf 24 Stunden effektive Produktionszeit. Eine geplante Abwesenheit von mehr als 24 Stunden erhöht dein Gesamteinkommen also nicht, es sei denn, du besitzt das Premium-72-Stunden-Limit.
+
+## Beispielrechnung: 20-Haustier-Kader
+
+Stell dir einen Build a Base and Steal-Spieler mit einem 20-Haustier-Kader vor, von denen drei legendär sind und der Rest eine Mischung aus selten und episch. Ihre gesamte effektive Haustierrate beträgt 850 Bargeld pro Sekunde nach Glücks- und Aura-Boni. Sie planen, während eines 2x-Bargeld-Events 16 Stunden abwesend zu sein. Unter Verwendung der Formel: `850 × 57.600 × 2,0 × 1,0 × 1,0 × 0,7 = 68.544.000 Bargeld`. Das sind etwa 68 Millionen Bargeld über eine 16-stündige Abwesenheit, was ausreicht, um eine ernsthafte Erweiterung zu finanzieren, wenn sie zurückkehren. Die gleiche Berechnung ohne aktives 2x-Event ergibt etwa 34 Millionen, was immer noch ausreicht, um direkt ein erstklassiges mythisches Haustier zu kaufen. Die Erkenntnis ist, dass selbst ein moderater Kader über ein realistisches Abwesenheitsfenster ein erhebliches Einkommen produziert und Events den Gewinn deutlich vervielfachen.
+
+Zum Vergleich: Derselbe 20-Haustier-Kader ohne Auren und ohne Glücksoptimierung produziert eine effektive Haustierrate von etwa 500 Bargeld pro Sekunde. Das Einkommen über 16 Stunden beträgt dann `500 × 57.600 × 0,7 = 20.160.000 Bargeld`. Der Unterschied zwischen optimiert und nicht optimiert beträgt etwa 14 Millionen Bargeld pro 16-Stunden-Fenster, was sich über Wochen des Spielens zu einer massiven Lücke summiert.
+
+### Beispielrechnung: Neuer Spieler
+
+Ein neuer Build a Base and Steal-Spieler mit einem 10-Haustier-Kader, der hauptsächlich aus gewöhnlichen und ungewöhnlichen Haustieren besteht, hat eine effektive Haustierrate von etwa 50 Bargeld pro Sekunde vor allen Boni. Er ist 8 Stunden abwesend, kein Event ist aktiv, keine Auren sind platziert und der Server ist stabil. Der Malus für abnehmende Erträge für einen 10-Haustier-Kader beträgt 0,85.
+
+Die Berechnung: `50 × 28.800 × 1,0 × 1,0 × 1,0 × 0,85 = 1.224.000 Bargeld`. Etwa 1,2 Millionen Bargeld über eine 8-stündige Abwesenheit. Das ist zu wenig, um ein nennenswertes Einkommen zu generieren. Selbst gewöhnliche Haustiere bei vollem Glück generieren während langer Abwesenheiten nützliches Einkommen.
+
+## Anpassung des Rechners für verschiedene Szenarien
+
+Der obige Rechner ist für stabile, vorhersehbare Abwesenheiten genau. Das echte Leben ist selten so sauber. Ein Spieler, der während eines 2x-Events eine ungeplante 36-stündige Reise unternehmen muss, erreicht das 24-Stunden-Limit, sofern er keine Premium-Erweiterung hat. Ein Spieler, der sich einmal pro Tag einloggt, dessen Server sich aber in einem Raid-Zyklus befindet, wird sehen, wie der Server-Stimmungs-Wert von Tag zu Tag schwankt. Die fortgeschrittene Spielweise besteht darin, eine kleine Tabelle zu erstellen, die dein tägliches Einkommen verfolgt und es dir ermöglicht, Trends zu erkennen, Tage zu identifizieren, an denen das Einkommen niedriger als erwartet war, und diese Einbrüche mit Raid-Aktivitäten oder der Abwesenheitsdauer in Verbindung zu bringen.
+
+Das Verfolgen des täglichen Einkommens hilft dir auch dabei, Schwellenwerte für abnehmende Erträge zu identifizieren. Wenn du deinem Kader Haustiere hinzufügst, sinkt die Effektivität pro Haustier, aber das absolute Einkommen steigt weiter, bis du etwa 25–30 Haustiere überschreitest. Jenseits dieses Punktes beginnt das absolute Einkommen zu stagnieren oder sogar zu sinken, da der Malus für abnehmende Erträge den zusätzlichen Wert der Haustiere übersteigt. Das Framework des Rechners lässt dich dieses Plateau bei zunehmender Menge erkennen.
+
+### Das Arbeitsblatt zur Planung
+
+Für einen praktischen Ansatz ist das folgende Arbeitsblatt das, was die meisten ernsthaften Build a Base and Steal-Spieler zur Planung ihrer Basis verwenden. Schritt eins: Liste jedes Haustier in deinem Kader mit seiner Basisrate auf. Schritt zwei: Multipliziere jedes Haustier mit seinem aktuellen Glückswert, um seine effektive Rate zu erhalten. Schritt drei: Summiere alle effektiven Raten. Schritt vier: Wende den Malus für abnehmende Erträge basierend auf der Gesamtzahl der Haustiere an. Schritt fünf: Multipliziere mit der geplanten Abwesenheit in Sekunden. Schritt sechs: Wende Event-Boni, Aura-Abdeckung und Server-Stimmungs-Multiplikatoren an. Das Ergebnis ist dein prognostiziertes Offline-Einkommen.
+
+Für eine kontinuierliche Optimierung solltest du dieses Arbeitsblatt einmal pro Woche ausführen. Vergleiche dein prognostiziertes Einkommen mit deinem tatsächlich gesammelten Einkommen. Wenn das tatsächliche Einkommen konstant niedriger ist, hast du wahrscheinlich Schwankungen in der Server-Stimmung oder Auren, die nicht optimal platziert sind. Wenn das tatsächliche Einkommen konstant höher ist, profitierst du wahrscheinlich von Event-Boni oder Freundschafts-Boni, die der einfache Rechner nicht erfasst. Das Arbeitsblatt ist ein Ausgangspunkt, keine endgültige Antwort; betrachte es als Werkzeug, um ein Gefühl für deine spezifische Basiskonfiguration zu entwickeln.
+
+## Häufige Fehler beim Rechner
+
+Der häufigste Fehler ist das Vergessen des Malus für abnehmende Erträge. Ein Spieler, der seine effektiven Haustierraten summiert und annimmt, die Summe sei die endgültige Zahl, wird sein Einkommen je nach Kadergröße um 15–50 % überschätzen. Wende den Malus immer an, auch wenn du nicht die falsche Abwesenheitsdauer hast. Reale Stunden sind während Events nicht dasselbe wie effektive Haustier-Produktionsstunden, und das Limit wird in effektiver Zeit berechnet, nicht in realer Zeit. Eine 24-stündige Abwesenheit während eines 2x-Events erreicht das Limit in 12 realen Stunden.
+
+Der dritthäufigste Fehler ist die Annahme, dass die Server-Stimmung immer 1,0 beträgt. Auf einem belebten Server schwankt die Stimmung ständig, und eine lange Abwesenheit während einer raid-intensiven Zeit kann das Einkommen um 10–15 % reduzieren, selbst ohne direktes Zutun deinerseits. Spieler, die die genauesten Schätzungen wünschen, sollten vor dem Ausloggen die Server-Stimmung im Feed der letzten Aktivitäten überprüfen. Wenn die Stimmung unter 1,0 liegt, plane ein, dich früher einzuloggen, als du es sonst tun würdest, da jede zusätzliche Stunde der Ansammlung bei niedriger Stimmung verschwendetes Einkommen ist.
+
+## Vom Rechner zur Tat
+
+Der Rechner ist ein Planungswerkzeug, kein Ziel an sich. Nutze ihn, um zu identifizieren, welche Änderungen an deiner Basis die größten Einkommenszuwächse bringen würden. Wenn deine effektive Haustierrate niedrig ist, weil das Glück niedrig ist, konzentriere dich auf Fütterung und Rotation. Wenn dein Kader zu groß ist, verkleinere ihn. Wenn deine Auren spärlich sind, füge eine hinzu. Wenn Events anstehen, plane deine Käufe so, dass sie damit zusammenfallen. Der Rechner sagt dir, wo du stehst; wähle die Änderung mit der größten Wirkung zuerst aus und handle danach, bevor der nächste Berechnungszyklus beginnt.
+
+## Siehe auch
+- [Einkommensmathematik: Formeln, Multiplikatoren und Berechnungen](/offline-money/offline-money-math-and-formulas)
+- [Offline-Geld: Fortgeschrittene Formeln und abnehmende Erträge](/offline-money/offline-money-advanced-formulas)
+- [Multiplikator-Stacking: Auren, Glück und Boni kombinieren](/offline-money/offline-money-multiplier-stacking)
+
+### Referenz der schnellen Statistiken
+
+| Element | Typischer Wert | Beste Verwendung |
+| --- | --- | --- |
+| **Bargeld pro Minute** | 50 - 500 | Im täglichen Protokoll verfolgen |
+| **Rolls pro Stunde** | 20 - 80 | Budget für Events |
+| **Wände pro Schicht** | 4 - 8 | Design des Verteidigungskerns |
+| **Haustiere pro Basis** | 12 - 25 | Mischung aus Einkommen + Verteidigung |
+| **Raid-Versuche/Tag** | 3 - 10 | Energie- und Zielrotation |
+
+### Zusätzlicher strategischer Kontext
+
+Hier gehen wir auf die praktischen Überlegungen ein, die erfahrene Spieler anwenden, wenn sie die oben beschriebenen Strategien für den Bereich AFK-Einkommensrechner des Offline-Geldes nutzen. Der Inhalt hier stammt aus Community-Tests, beobachteten Spielmustern auf hohem Niveau und den dokumentierten Interaktionen zwischen Offline-Geld-Mechaniken und anderen Spielsystemen. Das Ziel ist es, dir das kontextuelle Bewusstsein zu vermitteln, das aus hunderten von Spielstunden resultiert, zusammengefasst in wenigen Absätzen, die du in einer Sitzung aufnehmen kannst.
+
+Der Ausgangspunkt für jeden ernsthaften Spieler ist die Erkenntnis, dass das Spiel bewusste, informierte Entscheidungen mehr belohnt als reine Zeitinvestition. Ein Spieler, der 30 Minuten damit verbringt, seinen nächsten Schritt zu durchdenken, wird schneller vorankommen als ein Spieler, der 3 Stunden lang zufällig klickt. Der Grund dafür ist, dass Build a Base and Steal ein System miteinander verbundener Mechaniken ist und jede Aktion Auswirkungen auf den Rest des Systems hat. Eine Änderung deiner Roll-Strategie beeinflusst deine Basis, was deine Verteidigung beeinflusst, was dein Raid-Einkommen beeinflusst, was dein nächstes Roll-Budget beeinflusst.
+
+Ein weiterer wichtiger Aspekt ist der Zeithorizont. Entscheidungen über Offline-Geld können auf drei Horizonten bewertet werden: dem Sitzungshorizont (was sollte ich jetzt tun), dem Wochenhorizont (worauf sollte ich mich diese Woche konzentrieren) und dem Monatshorizont (was sollte ich über den nächsten Monat optimieren). Die meisten Anfänger arbeiten nur auf dem Sitzungshorizont und verpassen die langfristige Zinseszinswirkung, die der Wochen- und Monatshorizont bieten. Eine gute Faustregel ist, dass 20 Prozent deiner Zeit für die Sitzungsoptimierung, 30 Prozent für die Wochenplanung und 50 Prozent für die Monatsstrategie aufgewendet werden sollten.
+
+Der Bereich AFK-Einkommensrechner des Spiels ist auch der Ort, an dem der Unterschied zwischen Gelegenheitsspielern und kompetitiven Spielern am deutlichsten wird. Gelegenheitsspieler behandeln den AFK-Einkommensrechner als Nebenaktivität, während kompetitive Spieler ihn als zentralen Bestandteil ihrer Fortschrittsstrategie betrachten. Dieselben Aktivitäten führen bei unterschiedlichem Grad an Intentionalität zu dramatisch unterschiedlichen Ergebnissen. Der Inhalt in diesem Abschnitt soll dir helfen, die Grenze vom Gelegenheitsspieler zum kompetitiven Spieler zu überschreiten, indem er die Art des strategischen Denkens teilt, das erfahrene Spieler auf den AFK-Einkommensrechner anwenden.
+
+## Häufig gestellte Fragen
+
+### Wie interagiert der AFK-Einkommensrechner mit der Handelswirtschaft?
+
+Der AFK-Einkommensrechner und der Handel sind eng miteinander verbunden. Dein Ergebnis aus dem AFK-Einkommensrechner bestimmt deine Handelsoptionen. Betrachte dies als grundlegende Regel und nicht als taktischen Vorschlag, und der Zinseszinseffekt kleiner, konsistenter Aktionen wird innerhalb weniger Wochen in deinem Fortschritt sichtbar werden.
+
+### Was ist die beste Tageszeit, um sich auf den AFK-Einkommensrechner zu konzentrieren?
+
+Die Spitzenzeiten variieren je nach Region, aber an Wochenenden gibt es im Allgemeinen mehr Aktivität rund um den AFK-Einkommensrechner. Die erfahrensten Spieler behandeln dies als grundlegendes Konzept und nicht als taktischen Tipp, und diese Einordnung macht den Unterschied zwischen langfristigem Fortschritt und kurzfristiger Frustration aus.
+
+### Wie viel Bargeld sollte ich pro Sitzung für den AFK-Einkommensrechner einplanen?
+
+Reserviere etwa 20–30 Prozent deines täglichen Einkommens für den AFK-Einkommensrechner. Patch für Patch bleibt dieses Prinzip wahr, auch wenn sich die spezifischen Zahlen ändern, weshalb es sich lohnt, dies jetzt zu verinnerlichen, anstatt es später neu zu entdecken.
+
+### Was ist das wichtigste Konzept des AFK-Einkommensrechners für neue Spieler?
+
+Das wichtigste Konzept ist, dass jede Aktion im AFK-Einkommensrechner Opportunitätskosten hat. Spieler, die lernen, dieses Prinzip automatisch anzuwenden, kommen tendenziell 30–50 Prozent schneller voran als Spieler, die bewusst über jede Entscheidung nachdenken müssen, da das Prinzip die Überlegungsphase jeder Aktion abkürzt.
+
+### Wie lange dauert es, bis man Ergebnisse dieser Strategie sieht?
+
+Erwarte ein Zeitfenster von 7–14 Tagen, bevor du spürbare Verbesserungen bei den Ergebnissen des AFK-Einkommensrechners siehst. Patch für Patch bleibt dieses Prinzip wahr, auch wenn sich die spezifischen Zahlen ändern, weshalb es sich lohnt, dies jetzt zu verinnerlichen, anstatt es später neu zu entdecken.

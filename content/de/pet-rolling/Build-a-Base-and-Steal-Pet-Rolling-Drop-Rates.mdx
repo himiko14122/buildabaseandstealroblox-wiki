@@ -1,0 +1,97 @@
+export const metadata = {
+  id: "pet-rolling-drop-rates",
+  slug: "pet-rolling-drop-rates",
+  order: 2,
+  difficulty: "intermediate",
+  title: "Build a Base and Steal: Haustier-Rollraten – Wahrscheinlichkeit und Pity-System",
+  description: "Verstehe das Rollraten-System für Haustiere in Build a Base and Steal. Lerne die genaue Wahrscheinlichkeit jeder Seltenheitsstufe, wie das Pity-System funktioniert und wie du statistisches Denken nutzt, um dein Roll-Budget zu planen.",
+  keywords: ["Build a Base and Steal Drop-Raten", "Build a Base and Steal Wahrscheinlichkeit", "Build a Base and Steal Pity-System", "Build a Base and Steal Haustier-Chancen", "Build a Base and Steal Roll-Mathematik"],
+  image: "/images/pet-rolling/drop-rates.webp",
+  video: "bBsY4qYq7fs",
+  category: "Pet Rolling",
+  date: "2026-07-26",
+  lastModified: "2026-07-26"
+}
+
+Die Drop-Raten beim Haustier-Rollen in Build a Base and Steal folgen einem gestaffelten Wahrscheinlichkeitssystem, das bestimmt, welche Seltenheit eines Haustiers du bei jedem Roll erhältst. Das Verständnis dieses Systems ist entscheidend für die Planung eines Roll-Budgets, die Bewertung von Event-Boni und die Vermeidung kognitiver Fallen, die zu übermäßigen Ausgaben führen. Dieser Leitfaden erklärt die genaue Wahrscheinlichkeitsstruktur, die Pity-Mechaniken, die unglückliche Spieler schützen, und das statistische Denken, das kluge Roller von denen unterscheidet, die Verlusten hinterherjagen.
+
+## Die Struktur der sechs Seltenheitsstufen
+
+Build a Base and Steal verwendet eine Struktur aus sechs Seltenheitsstufen für seine Haustiere, und jede Stufe hat ihre eigene Wahrscheinlichkeit, bei einem bestimmten Roll zu erscheinen. Die Stufen, von am häufigsten bis am seltensten, sind Gewöhnlich, Ungewöhnlich, Selten, Episch, Legendär und Mythisch. Jede Stufe bietet einen höheren Einkommensmultiplikator und einen höheren Handelswert, weshalb die selteneren Stufen so begehrt sind. Die unten aufgeführten Drop-Raten basieren auf der Standard-Rollmaschine während Nicht-Event-Zeiten.
+
+Gewöhnliche Haustiere machen etwa 50 bis 55 Prozent aller Rolls aus. Sie sind das A und O jeder Sammlung, generieren die Basiseinkommensrate und bilden das Fundament, auf dem jede stärkere Sammlung aufgebaut ist. Ungewöhnliche Haustiere machen etwa 25 bis 28 Prozent der Rolls aus. Sie sind spürbar wertvoller als gewöhnliche und bilden eine sinnvoll seltene, aber nicht unerreichbare Kategorie. Ein Spieler, der in einer Woche 100 Mal rollt, erhält typischerweise 12 bis 15 seltene Haustiere, und einige davon werden am Ende einen echten Handelswert haben. Epische Haustiere droppen zu etwa 5 bis 7 Prozent, was bedeutet, dass ein Spieler etwa 15 bis 20 Mal rollen muss, um eines zu erwarten. Legendäre Haustiere droppen zu etwa 2 bis 3 Prozent, und mythische Haustiere sind mit weniger als 1 Prozent am seltensten. Die genauen Prozentsätze können sich mit Patches verschieben, aber die relative Reihenfolge bleibt stabil.
+
+### Wie das Pity-System funktioniert
+
+Da rein zufällige Rolls zu langen Durststrecken führen können, enthält Build a Base and Steal ein Pity-System, das nach einer bestimmten Anzahl von Rolls ohne Erfolg ein Haustier der Stufe Selten oder besser garantiert. Der Standard-Pity-Schwellenwert liegt bei 50 Rolls, was bedeutet, dass das System dir bei Roll 51 automatisch eines gibt, wenn du 50 aufeinanderfolgende Rolls ohne ein mindestens seltenes Haustier durchgeführt hast. Diese Garantie ist kein verstecktes Feature; es ist eine dokumentierte Mechanik, die dazu dient, Spieler bei der Stange zu halten und das Gefühl zu vermeiden, dass das Spiel unfair ist.
+
+Das Pity-System beinhaltet auch stufenspezifische Garantien. Nach 100 Rolls ohne ein episches Haustier ist dir eines garantiert. Nach 250 Rolls ohne ein legendäres Haustier ist dir eines garantiert. Diese Garantien sind unabhängig; die Pity-Zählung für Selten bringt dich nicht näher an die Pity-Zählung für Episch.
+
+Diese Struktur ist wichtig für die Budgetplanung, da sie bedeutet, dass das Worst-Case-Szenario für eine Roll-Sitzung begrenzt ist. Du kannst nicht 200 Mal rollen und null seltene Haustiere erhalten; das Pity-System garantiert mindestens ein seltenes Haustier innerhalb der ersten 50 Rolls, mindestens ein episches innerhalb der ersten 100 und mindestens ein legendäres innerhalb der ersten 250. Die Kosten für ein garantiertes legendäres Haustier zum Standard-Rollpreis geben dir eine harte Obergrenze dafür, wie viel du möglicherweise ausgeben musst, um eines zu erhalten.
+
+### Erwartungswert und Varianz
+
+Jeder Roll hat einen Erwartungswert, der auf dem durchschnittlichen Haustier basiert, das du über viele Rolls hinweg erhalten würdest. Der Erwartungswert eines einzelnen Rolls in Build a Base and Steal entspricht in etwa einem gewöhnlichen Haustier, mit einer kleinen Chance auf ein Upgrade durch die Seltenheitsstufe, die du gerade triffst. Über 100 Rolls liegt der Erwartungswert bei etwa 55 gewöhnlichen, 27 ungewöhnlichen, 14 seltenen, 6 epischen, 2 bis 3 legendären und weniger als 1 mythischen Haustier. Dies sind Durchschnittswerte, keine Versprechen; das tatsächliche Ergebnis jeder individuellen 100-Roll-Sitzung wird von diesen Zahlen abweichen, manchmal erheblich.
+
+Die Varianz ist das, was das Rollen aufregend und gefährlich macht. Ein Spieler kann 50 Mal rollen und 20 gewöhnliche, 20 ungewöhnliche, 5 seltene, 1 episches und null legendäre Haustiere erhalten, was weit unter dem Durchschnitt liegt. Beide Ergebnisse sind normal, und keines deutet darauf hin, dass das Spiel manipuliert ist. Varianz ist der Eintrittspreis für ein probabilistisches System, und sie zu verstehen ist der Unterschied zwischen einem Spieler, der eine Pechsträhne ruhig aussitzt, und einem Spieler, der Verlusten in den Ruin hinterherjagt.
+
+Die wichtigste statistische Erkenntnis ist, dass die Varianz mit zunehmender Stichprobengröße abnimmt. Über 1.000 Rolls werden deine Ergebnisse sehr nahe an der erwarteten Verteilung liegen. Über 100 Rolls werden sie mäßig nahe liegen. Über 10 Rolls können sie völlig unterschiedlich sein. Deshalb sind Sitzungen, die einem einzigen seltenen Haustier in 5 oder 10 Rolls hinterherjagen, so unzuverlässig, während ein langfristiger Roll-Plan, der Rolls über Wochen und Monate verteilt, so konsistent ist.
+
+### Event-geboostete Drop-Raten
+
+Während spezieller Events erhöht Build a Base and Steal manchmal die Drop-Raten für bestimmte Haustiere oder bestimmte Seltenheitsstufen. Ein typisches Event könnte die Chance, ein episches Haustier zu erhalten, verdoppeln oder die Drop-Rate eines bestimmten vorgestellten Haustiers um das Fünffache erhöhen. Diese Boosts sind normalerweise zeitlich begrenzt und stapeln sich mit dem regulären Pity-System, was bedeutet, dass du für das betroffene Haustier oder die Stufe alles geben kannst. Wenn du für ein legendäres Haustier gespart hast und das aktuelle Event die Drop-Rate für legendäre Haustiere verdoppelt, ist das der Moment, dein Roll-Budget auszugeben. Der Erwartungswert jedes Rolls während eines Boosts ist deutlich höher als während des normalen Spiels, und das gleiche Budget wird spürbar bessere Ergebnisse liefern.
+
+Sei jedoch vorsichtig bei Event-exklusiven Fallen. Einige Events führen ein "vorgestelltes" Haustier ein, das eine viel niedrigere Drop-Rate hat, als der Schlagzeilen-Boost vermuten lässt, oder das eine spezielle Währung erfordert, die nur durch das Event selbst erhalten werden kann. Lies immer die Event-Details, bevor du Geld ausgibst, und berechne den tatsächlichen Erwartungswert eines Event-Rolls, nicht nur den beworbenen Multiplikator. Ein 5-facher Boost auf ein Haustier, das bei 0,1 Prozent beginnt, sind immer noch nur 0,5 Prozent, was kein besonders gutes Geschäft ist.
+
+## Deine eigene Roll-Historie lesen
+
+Die wertvollste Fähigkeit, die ein Build a Base and Steal-Roller entwickeln kann, ist die Fähigkeit, seine eigene Roll-Historie genau zu lesen. Die meisten Spieler überschätzen dramatisch, wie oft sie Glück haben, weil glückliche Rolls einprägsam sind und unglückliche nicht. Nach 200 Rolls erinnerst du dich an das legendäre Haustier bei Roll 7 und vergisst die 30 gewöhnlichen davor. Diese Voreingenommenheit führt zur Jagd, bei der man die Seltenheit jedes Haustiers, das man erhält, überprüft und wöchentlich bewertet. Nach einem Monat wirst du sehen, dass deine tatsächlichen Drop-Raten sehr nahe an den erwarteten Raten liegen und dass deine Gefühle, Glück oder Pech zu haben, meist nur Rauschen waren. Diese Erkenntnis gibt dir einen großen psychologischen Vorteil: Du wirst während Durststrecken nicht in Panik geraten und während Glückssträhnen nicht überreagieren. Beide Arten von Überreaktionen sind Budget-Killer.
+
+Build a Base and Steal belohnt Spieler, die in Wahrscheinlichkeiten denken, nicht in Gefühlen. Die Drop-Raten sind so konzipiert, dass sie einen stetigen Strom moderater Gewinne mit gelegentlichen großen Gewinnen erzeugen. Die Spieler, die dieses Design verinnerlichen und entsprechend rollen, sind die Spieler, die im Laufe der Zeit die stärksten Sammlungen aufbauen. Die Spieler, die Gefühlen hinterherjagen, die glauben, sie seien "dran" oder hätten eine "Glückssträhne", sind die Spieler, die ihre Budgets durchbrennen und das Spiel aufgeben.
+
+## Siehe auch
+- [Rolling-Farm-Strategien: Effiziente Cash-Generierung](/pet-rolling/pet-rolling-farming-strategies)
+- [Legendär vs. Mythisch: Welcher Stufe solltest du hinterherjagen?](/pet-rolling/pet-rolling-legendary-vs-mythic)
+- [Haustier-Rollraten: Wahrscheinlichkeit und Pity-System](/pet-rolling/pet-rolling-drop-rates)
+
+### Kurze Statistik-Referenz
+
+| Element | Typischer Wert | Beste Verwendung |
+| --- | --- | --- |
+| **Cash pro Minute** | 50 - 500 | Im täglichen Log verfolgen |
+| **Rolls pro Stunde** | 20 - 80 | Budget für Events |
+| **Familien-Bonusstufen** | 3 / 5 / 8 Haustiere | Sammlungs-Meilensteine |
+| **Haustier-Lagerkapazität** | 100 - 500 | Mit Cash erweitern |
+| **Pity-Zähler-Reset** | 100 Rolls | Garantierter seltener Drop |
+
+### Zusätzlicher strategischer Kontext
+
+Dieser Abschnitt erweitert die praktischen Überlegungen, die erfahrene Spieler anwenden, wenn sie die oben genannten Strategien für den Bereich der Haustier-Rollraten anwenden. Der Inhalt hier stammt aus Community-Tests, beobachteten Mustern bei hochrangigem Spiel und den dokumentierten Interaktionen zwischen Haustier-Rollmechaniken und anderen Spielsystemen. Das Ziel ist es, dir das kontextuelle Bewusstsein zu vermitteln, das aus hunderten Stunden Spielzeit resultiert, zusammengefasst in ein paar Absätzen, die du in einer Sitzung aufnehmen kannst.
+
+Der Ausgangspunkt für jeden ernsthaften Spieler ist die Erkenntnis, dass das Spiel bewusste, informierte Entscheidungen mehr belohnt als reine Zeitinvestition. Ein Spieler, der 30 Minuten damit verbringt, seinen nächsten Schritt zu durchdenken, wird einen Spieler überholen, der 3 Stunden lang zufällig klickt. Der Grund dafür ist, dass Build a Base and Steal ein System miteinander verbundener Mechaniken ist und jede Aktion Auswirkungen auf den Rest des Systems hat. Eine Änderung deiner Roll-Strategie beeinflusst deine Basis, was deine Verteidigung beeinflusst, was dein Raid-Einkommen beeinflusst, was dein nächstes Roll-Budget beeinflusst.
+
+Die Beziehung zwischen Haustier-Rollen und Handeln wird von neueren Spielern oft übersehen. Die Trades, die du tätigst, beeinflussen deine Basis, deine Verteidigung und deine Roll-Optionen. Ein Haustier, das in deiner Basis am besten ist, könnte als Handelsgut mehr wert sein. Ein Haustier, das du für schwach hältst, könnte das fehlende Teil für den Sammlungsbonus eines anderen Spielers sein und daher einen Aufpreis wert sein. Die Handelsmentalität ist ein Portfolio-Denken: Jedes Haustier ist sowohl ein persönliches Vermögenswert als auch ein potenzieller Handelschip, und der Wert hängt vom breiteren Marktkontext ab.
+
+Schließlich belohnt das Haustier-Rollen Konsistenz gegenüber Intensität. Der Spieler, der sich jeden Tag für 30 Minuten einloggt und einem bewussten Plan folgt, wird den Spieler überholen, der sich einmal pro Woche für 5 Stunden einloggt und tut, was auch immer seine Aufmerksamkeit erregt. Der Grund ist derselbe wie bei jedem Zinseszinssystem: kleine, regelmäßige Aktionen summieren sich im Laufe der Zeit zu großen Gewinnen, während sporadische große Aktionen sporadische große Ergebnisse ohne Zinseszinseffekt produzieren.
+
+## Häufig gestellte Fragen
+
+### Wo finde ich detailliertere Informationen zu diesem Thema?
+
+Überprüfe das Community-Wiki, den offiziellen Discord und den Entwickler-Blog auf Updates zu den Haustier-Rollraten. Dies ist die Art von Einblick, die nicht in den Patch-Notes erscheint, aber bestimmt, wer am Ende auf der monatlichen Bestenliste steht und wer nicht.
+
+### Wie interagieren die Haustier-Rollraten mit der Handelswirtschaft?
+
+Handel und Haustier-Rollraten verstärken sich gegenseitig. Haustier-Rollraten generieren handelbare Vermögenswerte. Spieler, die lernen, dieses Prinzip automatisch anzuwenden, tendieren dazu, 30-50 Prozent schneller voranzukommen als Spieler, die bewusst über jede Entscheidung nachdenken müssen, da das Prinzip die Überlegungsphase jeder Aktion abkürzt.
+
+### Was ist die beste Tageszeit, um sich auf Haustier-Rollraten zu konzentrieren?
+
+Die beste Zeit hängt von deiner Zeitzone und dem aktiven Event-Zeitplan ab. Wende dieses Konzept konsequent an und du wirst Spieler überholen, die der neuesten Meta-Beratung hinterherjagen, da das Fundament stabil bleibt, während sich die Meta darunter verschiebt.
+
+### Wie viel Cash sollte ich pro Sitzung für Haustier-Rollraten einplanen?
+
+Ein vernünftiges Budget für Haustier-Rollraten liegt bei 20-30 Prozent deines täglichen Cash-Einkommens. Die Meister der Haustier-Rollraten in der Community teilen alle dieses mentale Modell, und es zu übernehmen ist einer der schnellsten Wege, deine persönliche Fortschrittskurve zu beschleunigen.
+
+### Was ist das wichtigste Konzept für Haustier-Rollraten für neue Spieler?
+
+Das Schlüsselprinzip ist, dass Haustier-Rollraten sich summieren: kleine, konsistente Aktionen schlagen gelegentliche große. Nutze dieses Prinzip, um deine Entscheidungen zu leiten, und du wirst feststellen, dass du dich schneller an Patches anpasst als Spieler, die jeden Patch als einen kompletten Neustart behandeln.
