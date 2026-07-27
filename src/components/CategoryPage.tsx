@@ -76,8 +76,8 @@ export default function CategoryPage({ catKey, showHero = true, showOnThisPage =
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-6">
               {Array.from({ length: statCount }, (_, i) => (
                 <div key={i} className="category-card rounded-xl p-4 border border-[var(--color-border)]">
-                  <div className="text-2xl font-bold font-[var(--font-heading)] text-[var(--color-accent)]">{t(`category_stat_${catKey}_${i}_value`)}</div>
-                  <div className="text-sm text-[var(--color-text-muted)] mt-1">{t(`category_stat_${catKey}_${i}_label`)}</div>
+                  <div className="text-3xl font-extrabold font-[var(--font-heading)] gradient-text leading-none">{t(`category_stat_${catKey}_${i}_value`)}</div>
+                  <div className="text-sm text-[var(--color-text-muted)] mt-2">{t(`category_stat_${catKey}_${i}_label`)}</div>
                 </div>
               ))}
             </div>

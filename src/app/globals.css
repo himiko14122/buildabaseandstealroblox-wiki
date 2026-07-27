@@ -485,9 +485,9 @@
     overflow: hidden;
     background:
       linear-gradient(180deg, rgba(13, 27, 42, 0.3) 0%, rgba(13, 27, 42, 1) 100%),
-      url('/images/hero.webp');
+      url('/images/hero-bg.webp');
     background-size: cover;
-    background-position: center top;
+    background-position: center center;
     background-repeat: no-repeat;
   }
 

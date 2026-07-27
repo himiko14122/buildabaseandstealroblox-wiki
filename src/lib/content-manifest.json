@@ -1283,16 +1283,6 @@
     {
       "locale": "en",
       "contentType": "strategies",
-      "slug": "strategies-solo-vs-team-forks",
-      "segments": [
-        "strategies-solo-vs-team-forks"
-      ],
-      "importPath": "Build-a-Base-and-Steal-Solo-vs-Team",
-      "title": "Build a Base and Steal Solo vs Team Forks - Choosing Your Path"
-    },
-    {
-      "locale": "en",
-      "contentType": "strategies",
       "slug": "strategies-speedrun",
       "segments": [
         "strategies-speedrun"
@@ -1309,16 +1299,6 @@
       ],
       "importPath": "Build-a-Base-and-Steal-Strategies-Trader-Playstyle",
       "title": "Build a Base and Steal Trader Playstyle - Master the Market"
-    },
-    {
-      "locale": "en",
-      "contentType": "strategies",
-      "slug": "strategies-trader-playstyle-economy",
-      "segments": [
-        "strategies-trader-playstyle-economy"
-      ],
-      "importPath": "Build-a-Base-and-Steal-Trader-Playstyle",
-      "title": "Build a Base and Steal Trader Playstyle - Master the Economy"
     },
     {
       "locale": "en",
@@ -1406,8 +1386,8 @@
         "text": "What Rewards Are Typically Offered"
       },
       {
-        "id": "the-refresh-and-creator-partnerships-and-we-verify-any-new-code-in-a-public-server-before-adding-it-to-the-list-verification-takes-5-to-15-minutes-because-we-confirm-both-that-the-code-redeems-successfully-and-that-the-reward-matches-what-the-source-claimed-codes-that-fail-verification-are-not-added-and-codes-that-work-but-grant-a-different-reward-than-advertised-are-added-with-a-corrected-reward-description",
-        "text": "The Refresh, and creator partnerships, and we verify any new code in a public server before adding it to the list. Verification takes 5 to 15 minutes because we confirm both that the code redeems successfully and that the reward matches what the source claimed. Codes that fail verification are not added, and codes that work but grant a different reward than advertised are added with a corrected reward description."
+        "id": "the-refresh-process",
+        "text": "The Refresh Process"
       },
       {
         "id": "avoiding-fake-codes",
@@ -3696,40 +3676,6 @@
         "text": "FAQ"
       }
     ],
-    "strategies:en:strategies-solo-vs-team-forks": [
-      {
-        "id": "solo-play-maximum-flexibility",
-        "text": "Solo Play: Maximum Flexibility"
-      },
-      {
-        "id": "team-play-synergy-and-scale",
-        "text": "Team Play: Synergy and Scale"
-      },
-      {
-        "id": "choosing-the-right-playstyle",
-        "text": "Choosing the Right Playstyle"
-      },
-      {
-        "id": "hybrid-strategies",
-        "text": "Hybrid Strategies"
-      },
-      {
-        "id": "common-solo-and-team-mistakes",
-        "text": "Common Solo and Team Mistakes"
-      },
-      {
-        "id": "the-solo-vs-team-decision",
-        "text": "The Solo vs Team Decision"
-      },
-      {
-        "id": "see-also",
-        "text": "See Also"
-      },
-      {
-        "id": "faq",
-        "text": "FAQ"
-      }
-    ],
     "strategies:en:strategies-speedrun": [
       {
         "id": "the-speedrun-mindset",
@@ -3864,40 +3810,6 @@
       {
         "id": "long-term-trader-goals",
         "text": "Long-Term Trader Goals"
-      },
-      {
-        "id": "see-also",
-        "text": "See Also"
-      },
-      {
-        "id": "faq",
-        "text": "FAQ"
-      }
-    ],
-    "strategies:en:strategies-trader-playstyle-economy": [
-      {
-        "id": "the-trader-mindset",
-        "text": "The Trader Mindset"
-      },
-      {
-        "id": "understanding-market-prices",
-        "text": "Understanding Market Prices"
-      },
-      {
-        "id": "trading-strategies",
-        "text": "Trading Strategies"
-      },
-      {
-        "id": "building-a-trading-operation",
-        "text": "Building a Trading Operation"
-      },
-      {
-        "id": "the-trader-endgame",
-        "text": "The Trader Endgame"
-      },
-      {
-        "id": "common-trader-mistakes",
-        "text": "Common Trader Mistakes"
       },
       {
         "id": "see-also",
